@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+    <linearGradient id="blue6" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="green6" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#22c55e"/>
+      <stop offset="100%" style="stop-color:#16a34a"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="1080" height="1080" fill="url(#bg6)"/>
+  
+  <!-- Lifestyle Hero style - clean, aspirational -->
+  
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="1080" height="6" fill="url(#blue6)"/>
+  
+  <!-- Location badge -->
+  <text x="540" y="80" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#64748b" text-anchor="middle">MOBILE CONVENIENCE</text>
+  
+  <!-- Main lifestyle icon - oil drop -->
+  <circle cx="540" cy="280" r="130" fill="#1e293b" stroke="url(#blue6)" stroke-width="4"/>
+  <text x="540" y="320" font-family="system-ui, -apple-system, sans-serif" font-size="120">🛢️</text>
+  
+  <!-- Main headline -->
+  <text x="540" y="480" font-family="system-ui, -apple-system, sans-serif" font-size="64" font-weight="800" fill="white" text-anchor="middle">OIL CHANGES</text>
+  <text x="540" y="550" font-family="system-ui, -apple-system, sans-serif" font-size="64" font-weight="800" fill="url(#blue6)" text-anchor="middle">&amp; MORE</text>
+  
+  <!-- Services in a row -->
+  <g font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#cbd5e1" text-anchor="middle">
+    <text x="220" y="670">🛢️ Oil</text>
+    <text x="440" y="670">🔲 Filters</text>
+    <text x="640" y="670">💨 Wipers</text>
+    <text x="860" y="670">💧 Fluids</text>
+  </g>
+  
+  <!-- Divider -->
+  <rect x="290" y="720" width="500" height="2" fill="url(#blue6)" fill-opacity="0.5"/>
+  
+  <!-- Key benefits -->
+  <g font-family="system-ui, -apple-system, sans-serif" font-size="32" fill="#94a3b8" text-anchor="middle">
+    <text x="540" y="790">No waiting rooms 🏠</text>
+    <text x="540" y="850">We come to you 🚐</text>
+  </g>
+  
+  <!-- CTA -->
+  <rect x="290" y="910" width="500" height="90" rx="45" fill="url(#green6)"/>
+  <text x="540" y="970" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="700" fill="white" text-anchor="middle">📞 306-992-2827</text>
+  
+  <!-- Bottom tagline -->
+  <text x="540" y="1040" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#475569" text-anchor="middle">Saskatoon • Warman • Martensville</text>
+</svg>

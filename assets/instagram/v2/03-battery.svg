@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+    <linearGradient id="yellow3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fbbf24"/>
+      <stop offset="100%" style="stop-color:#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="blue3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#1d4ed8"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="1080" height="1080" fill="url(#bg3)"/>
+  
+  <!-- Large stat callout style -->
+  <text x="540" y="200" font-family="system-ui, -apple-system, sans-serif" font-size="180" font-weight="800" fill="url(#yellow3)" text-anchor="middle">🔋</text>
+  
+  <!-- Main headline -->
+  <text x="540" y="340" font-family="system-ui, -apple-system, sans-serif" font-size="68" font-weight="800" fill="white" text-anchor="middle">BATTERY</text>
+  <text x="540" y="420" font-family="system-ui, -apple-system, sans-serif" font-size="68" font-weight="800" fill="url(#blue3)" text-anchor="middle">PROBLEMS?</text>
+  
+  <!-- Warning divider -->
+  <rect x="290" y="470" width="500" height="4" rx="2" fill="url(#yellow3)"/>
+  
+  <!-- Checklist of symptoms -->
+  <g font-family="system-ui, -apple-system, sans-serif" font-size="32" fill="#e2e8f0">
+    <text x="540" y="560">⚠️ Slow crank when starting?</text>
+    <text x="540" y="640">⚠️ Electrical issues at idle?</text>
+    <text x="540" y="720">⚠️ Battery older than 4 years?</text>
+  </g>
+  
+  <!-- Solution box -->
+  <rect x="190" y="780" width="700" height="120" rx="20" fill="#1e3a5f" stroke="url(#blue3)" stroke-width="2"/>
+  <text x="540" y="840" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="white" text-anchor="middle">✓ Mobile Testing • Replacement</text>
+  <text x="540" y="880" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="white" text-anchor="middle">✓ Charging System Checks</text>
+  
+  <!-- CTA -->
+  <rect x="290" y="940" width="500" height="80" rx="40" fill="url(#blue3)"/>
+  <text x="540" y="995" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="700" fill="white" text-anchor="middle">📞 306-992-2827</text>
+</svg>

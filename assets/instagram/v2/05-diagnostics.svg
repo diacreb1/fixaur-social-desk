@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+    <linearGradient id="green5" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#22c55e"/>
+      <stop offset="100%" style="stop-color:#16a34a"/>
+    </linearGradient>
+    <linearGradient id="blue5" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#1d4ed8"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="1080" height="1080" fill="url(#bg5)"/>
+  
+  <!-- Check engine light - large stat style -->
+  <circle cx="540" cy="200" r="120" fill="#dc2626"/>
+  <text x="540" y="240" font-family="system-ui, -apple-system, sans-serif" font-size="140">⚠️</text>
+  
+  <!-- Problem headline -->
+  <text x="540" y="400" font-family="system-ui, -apple-system, sans-serif" font-size="56" font-weight="800" fill="white" text-anchor="middle">CHECK ENGINE LIGHT?</text>
+  
+  <!-- Or these problems -->
+  <text x="540" y="470" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#94a3b8" text-anchor="middle">Electrical issue? Strange noise? Drivability concern?</text>
+  
+  <!-- Divider -->
+  <rect x="290" y="520" width="500" height="3" rx="2" fill="url(#blue5)"/>
+  
+  <!-- Solution section - Feature Spotlight style -->
+  <text x="540" y="600" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="700" fill="url(#green5)" text-anchor="middle">MOBILE DIAGNOSTICS</text>
+  
+  <!-- Feature callouts -->
+  <rect x="140" y="650" width="240" height="100" rx="15" fill="#1e293b" stroke="#3b82f6" stroke-width="2"/>
+  <text x="260" y="700" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#93c5fd" text-anchor="middle">✓ We come to you</text>
+  <text x="260" y="730" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#93c5fd" text-anchor="middle"></text>
+  
+  <rect x="420" y="650" width="240" height="100" rx="15" fill="#1e293b" stroke="#3b82f6" stroke-width="2"/>
+  <text x="540" y="700" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#93c5fd" text-anchor="middle">✓ Clear next steps</text>
+  <text x="540" y="730" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#93c5fd" text-anchor="middle"></text>
+  
+  <rect x="700" y="650" width="240" height="100" rx="15" fill="#1e293b" stroke="#3b82f6" stroke-width="2"/>
+  <text x="820" y="700" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#93c5fd" text-anchor="middle">✓ No surprises</text>
+  <text x="820" y="730" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#93c5fd" text-anchor="middle"></text>
+  
+  <!-- Promise -->
+  <text x="540" y="830" font-family="system-ui, -apple-system, sans-serif" font-size="32" fill="#22c55e" text-anchor="middle">Before any work begins — you know the plan</text>
+  
+  <!-- CTA -->
+  <rect x="290" y="890" width="500" height="90" rx="45" fill="url(#green5)"/>
+  <text x="540" y="950" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="700" fill="white" text-anchor="middle">📞 306-992-2827</text>
+  
+  <!-- Location -->
+  <text x="540" y="1030" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#64748b" text-anchor="middle">Saskatoon • Warman • Martensville</text>
+</svg>

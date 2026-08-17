@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2563eb"/>
+      <stop offset="100%" style="stop-color:#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f97316"/>
+      <stop offset="100%" style="stop-color:#fb923c"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  
+  <!-- Decorative circles -->
+  <circle cx="100" cy="900" r="200" fill="#f97316" opacity="0.1"/>
+  <circle cx="980" cy="180" r="250" fill="#2563eb" opacity="0.1"/>
+  
+  <!-- Top badge -->
+  <rect x="340" y="80" width="400" height="50" rx="25" fill="url(#orange)"/>
+  <text x="540" y="115" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">🔋 BATTERY PROBLEMS?</text>
+  
+  <!-- Main icon - battery -->
+  <circle cx="540" cy="360" r="120" fill="#0f3460" stroke="#f97316" stroke-width="4"/>
+  <text x="540" y="385" font-family="Arial, sans-serif" font-size="100" text-anchor="middle">🔋</text>
+  
+  <!-- Warning signs -->
+  <text x="540" y="530" font-family="Arial, sans-serif" font-size="32" fill="#f97316" text-anchor="middle">⚠️ SLOW CRANK • DIM LIGHTS • 4+ YEARS OLD</text>
+  
+  <!-- Divider -->
+  <rect x="290" y="570" width="500" height="3" rx="2" fill="#333333"/>
+  
+  <!-- Solution -->
+  <text x="540" y="650" font-family="Arial Black, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle">FIXAUR CAN HELP</text>
+  
+  <!-- Services -->
+  <text x="540" y="720" font-family="Arial, sans-serif" font-size="28" fill="#2563eb" text-anchor="middle">✓ Mobile Testing • ✓ Replacement</text>
+  <text x="540" y="770" font-family="Arial, sans-serif" font-size="28" fill="#2563eb" text-anchor="middle">✓ Charging System Checks</text>
+  
+  <!-- CTA -->
+  <text x="540" y="880" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="white" text-anchor="middle">📞 306-992-2827</text>
+  
+  <!-- Bottom text -->
+  <text x="540" y="950" font-family="Arial, sans-serif" font-size="24" fill="#888888" text-anchor="middle">Saskatoon • Warman • Martensville</text>
+</svg>

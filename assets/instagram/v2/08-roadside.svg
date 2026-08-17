@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg8" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1c1917"/>
+    </linearGradient>
+    <linearGradient id="red8" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ef4444"/>
+      <stop offset="100%" style="stop-color:#dc2626"/>
+    </linearGradient>
+    <linearGradient id="blue8" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#1d4ed8"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="1080" height="1080" fill="url(#bg8)"/>
+  
+  <!-- Problem/Solution split -->
+  
+  <!-- Top problem section -->
+  <rect x="0" y="0" width="1080" height="350" fill="#991b1b" fill-opacity="0.3"/>
+  
+  <!-- Stranded icon -->
+  <circle cx="540" cy="130" r="90" fill="#7f1d1d" stroke="#ef4444" stroke-width="4"/>
+  <text x="540" y="155" font-family="system-ui, -apple-system, sans-serif" font-size="80">🚗</text>
+  
+  <!-- Problem text -->
+  <text x="540" y="280" font-family="system-ui, -apple-system, sans-serif" font-size="56" font-weight="800" fill="white" text-anchor="middle">STUCK IN A PINCH?</text>
+  
+  <!-- Divider -->
+  <rect x="0" y="350" width="1080" height="8" fill="url(#blue8)"/>
+  
+  <!-- Solution section -->
+  <rect x="0" y="358" width="1080" height="722" fill="#1e3a5f"/>
+  
+  <!-- Help icon -->
+  <circle cx="540" cy="480" r="80" fill="#1e3a5f" stroke="#3b82f6" stroke-width="4"/>
+  <text x="540" y="515" font-family="system-ui, -apple-system, sans-serif" font-size="80">📍</text>
+  
+  <!-- Solution headline -->
+  <text x="540" y="620" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="800" fill="white" text-anchor="middle">WE COME TO YOU</text>
+  
+  <!-- Location options -->
+  <g font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#93c5fd" text-anchor="middle">
+    <text x="540" y="700">🏠 Driveway</text>
+    <text x="540" y="760">🅿️ Parking Lot</text>
+    <text x="540" y="820">🛣️ Safe Roadside</text>
+  </g>
+  
+  <!-- Promise -->
+  <rect x="290" y="870" width="500" height="60" rx="30" fill="#166534"/>
+  <text x="540" y="912" font-family="system-ui, -apple-system, sans-serif" font-size="26" font-weight="600" fill="#4ade80" text-anchor="middle">✓ We assess on-site • Confirm right next step</text>
+  
+  <!-- CTA -->
+  <rect x="290" y="960" width="500" height="80" rx="40" fill="url(#red8)"/>
+  <text x="540" y="1015" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="700" fill="white" text-anchor="middle">📞 306-992-2827</text>
+</svg>

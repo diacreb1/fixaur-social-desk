@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg9" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+    <linearGradient id="gold9" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#eab308"/>
+      <stop offset="100%" style="stop-color:#ca8a04"/>
+    </linearGradient>
+    <linearGradient id="blue9" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#1d4ed8"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="1080" height="1080" fill="url(#bg9)"/>
+  
+  <!-- Business focus header -->
+  <rect x="0" y="0" width="1080" height="100" fill="url(#gold9)"/>
+  <text x="540" y="65" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="700" fill="#1c1917" text-anchor="middle">💼 FLEET SERVICES</text>
+  
+  <!-- Problem statement -->
+  <text x="540" y="200" font-family="system-ui, -apple-system, sans-serif" font-size="44" font-weight="700" fill="white" text-anchor="middle">Vehicle downtime = Lost money</text>
+  
+  <!-- Truck icons -->
+  <g font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">
+    <text x="270" y="350" font-size="120">🚛</text>
+    <text x="540" y="350" font-size="120">🚚</text>
+    <text x="810" y="350" font-size="120">🚐</text>
+  </g>
+  
+  <!-- Main headline -->
+  <text x="540" y="460" font-family="system-ui, -apple-system, sans-serif" font-size="64" font-weight="800" fill="url(#blue9)" text-anchor="middle">WE COME TO YOUR</text>
+  <text x="540" y="540" font-family="system-ui, -apple-system, sans-serif" font-size="64" font-weight="800" fill="white" text-anchor="middle">BUSINESS</text>
+  
+  <!-- Benefits grid -->
+  <rect x="140" y="590" width="380" height="120" rx="20" fill="#1e293b" stroke="#3b82f6" stroke-width="2"/>
+  <text x="330" y="650" font-family="system-ui, -apple-system, sans-serif" font-size="26" fill="white" text-anchor="middle">✓ Less downtime</text>
+  <text x="330" y="690" font-family="system-ui, -apple-system, sans-serif" font-size="26" fill="white" text-anchor="middle">✓ On-site service</text>
+  
+  <rect x="560" y="590" width="380" height="120" rx="20" fill="#1e293b" stroke="#3b82f6" stroke-width="2"/>
+  <text x="750" y="650" font-family="system-ui, -apple-system, sans-serif" font-size="26" fill="white" text-anchor="middle">✓ Flexible scheduling</text>
+  <text x="750" y="690" font-family="system-ui, -apple-system, sans-serif" font-size="26" fill="white" text-anchor="middle">✓ Multiple vehicles</text>
+  
+  <!-- CTA -->
+  <rect x="290" y="780" width="500" height="90" rx="45" fill="url(#gold9)"/>
+  <text x="540" y="843" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="700" fill="#1c1917" text-anchor="middle">📞 306-992-2827</text>
+  
+  <!-- Business types -->
+  <text x="540" y="940" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#64748b" text-anchor="middle">Small Fleets • Work Vehicles • Commercial</text>
+  
+  <!-- Bottom location -->
+  <text x="540" y="1020" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#475569" text-anchor="middle">Saskatoon • Warman • Martensville</text>
+</svg>

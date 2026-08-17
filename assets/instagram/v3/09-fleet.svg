@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2563eb"/>
+      <stop offset="100%" style="stop-color:#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#eab308"/>
+      <stop offset="100%" style="stop-color:#facc15"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  
+  <!-- Decorative circles -->
+  <circle cx="100" cy="900" r="200" fill="#eab308" opacity="0.1"/>
+  <circle cx="980" cy="180" r="250" fill="#2563eb" opacity="0.1"/>
+  
+  <!-- Gold business header -->
+  <rect x="0" y="0" width="1080" height="100" fill="url(#gold)"/>
+  <text x="540" y="65" font-family="Arial Black, sans-serif" font-size="42" font-weight="bold" fill="#1c1917" text-anchor="middle">💼 FLEET SERVICES</text>
+  
+  <!-- Main headline -->
+  <text x="540" y="180" font-family="Arial Black, sans-serif" font-size="44" font-weight="bold" fill="white" text-anchor="middle">Vehicle Downtime = Lost Money</text>
+  
+  <!-- Truck icons -->
+  <g font-family="Arial, sans-serif" font-size="80" text-anchor="middle">
+    <text x="270" y="290">🚛</text>
+    <text x="540" y="290">🚚</text>
+    <text x="810" y="290">🚐</text>
+  </g>
+  
+  <!-- Solution -->
+  <text x="540" y="400" font-family="Arial Black, sans-serif" font-size="48" font-weight="bold" fill="#eab308" text-anchor="middle">FIXAUR COMES TO YOU</text>
+  
+  <!-- Benefits row 1 -->
+  <g font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle">
+    <rect x="100" y="460" width="380" height="100" rx="15" fill="#0f3460" stroke="#2563eb" stroke-width="2"/>
+    <text x="290" y="505">✓ Less Downtime</text>
+    <text x="290" y="540" font-size="18" fill="#cccccc">We come to you</text>
+    
+    <rect x="520" y="460" width="380" height="100" rx="15" fill="#0f3460" stroke="#2563eb" stroke-width="2"/>
+    <text x="710" y="505">✓ Flexible Scheduling</text>
+    <text x="710" y="540" font-size="18" fill="#cccccc">Around your operations</text>
+  </g>
+  
+  <!-- Benefits row 2 -->
+  <g font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle">
+    <rect x="100" y="590" width="380" height="100" rx="15" fill="#0f3460" stroke="#2563eb" stroke-width="2"/>
+    <text x="290" y="635">✓ Multiple Vehicles</text>
+    <text x="290" y="670" font-size="18" fill="#cccccc">Fleet discounts available</text>
+    
+    <rect x="520" y="590" width="380" height="100" rx="15" fill="#0f3460" stroke="#2563eb" stroke-width="2"/>
+    <text x="710" y="635">✓ Licensed &amp; Insured</text>
+    <text x="710" y="670" font-size="18" fill="#cccccc">Professional service</text>
+  </g>
+  
+  <!-- CTA -->
+  <text x="540" y="780" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="white" text-anchor="middle">📞 306-992-2827</text>
+  
+  <!-- Types -->
+  <text x="540" y="860" font-family="Arial, sans-serif" font-size="22" fill="#888888" text-anchor="middle">Small Fleets • Work Vehicles • Commercial • Construction</text>
+  
+  <!-- Bottom text -->
+  <text x="540" y="950" font-family="Arial, sans-serif" font-size="24" fill="#888888" text-anchor="middle">Saskatoon • Warman • Martensville</text>
+</svg>

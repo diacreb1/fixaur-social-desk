@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg10" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+    <linearGradient id="blue10" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="cities10" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a5f"/>
+      <stop offset="100%" style="stop-color:#172554"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="1080" height="1080" fill="url(#bg10)"/>
+  
+  <!-- Top accent -->
+  <rect x="0" y="0" width="1080" height="6" fill="url(#blue10)"/>
+  
+  <!-- Map pin icon -->
+  <text x="540" y="180" font-family="system-ui, -apple-system, sans-serif" font-size="160">📍</text>
+  
+  <!-- Brand name -->
+  <text x="540" y="280" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="800" fill="white" text-anchor="middle">FIXAUR</text>
+  <text x="540" y="330" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="url(#blue10)" text-anchor="middle">MOBILE MECHANIC</text>
+  
+  <!-- Service Area header -->
+  <rect x="340" y="380" width="400" height="50" rx="25" fill="url(#blue10)"/>
+  <text x="540" y="415" font-family="system-ui, -apple-system, sans-serif" font-size="26" font-weight="700" fill="white" text-anchor="middle">🇨🇦 SERVICE AREA</text>
+  
+  <!-- Three city cards -->
+  <!-- Saskatoon -->
+  <rect x="100" y="480" width="280" height="180" rx="20" fill="url(#cities10)" stroke="#3b82f6" stroke-width="3"/>
+  <text x="240" y="560" font-family="system-ui, -apple-system, sans-serif" font-size="44" font-weight="700" fill="white" text-anchor="middle">SASKATOON</text>
+  <text x="240" y="610" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#64748b" text-anchor="middle">Primary Service</text>
+  
+  <!-- Warman -->
+  <rect x="400" y="480" width="280" height="180" rx="20" fill="url(#cities10)" stroke="#3b82f6" stroke-width="2"/>
+  <text x="540" y="560" font-family="system-ui, -apple-system, sans-serif" font-size="44" font-weight="700" fill="white" text-anchor="middle">WARMAN</text>
+  <text x="540" y="610" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#64748b" text-anchor="middle">North</text>
+  
+  <!-- Martensville -->
+  <rect x="700" y="480" width="280" height="180" rx="20" fill="url(#cities10)" stroke="#3b82f6" stroke-width="2"/>
+  <text x="840" y="560" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="700" fill="white" text-anchor="middle">MARTENSVILLE</text>
+  <text x="840" y="610" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#64748b" text-anchor="middle">North</text>
+  
+  <!-- Service types -->
+  <g font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#94a3b8" text-anchor="middle">
+    <text x="540" y="730">🏠 Homes • Workplaces • Driveways</text>
+    <text x="540" y="770">🅿️ Parking Lots • Safe Roadside</text>
+  </g>
+  
+  <!-- CTA -->
+  <rect x="290" y="830" width="500" height="90" rx="45" fill="url(#blue10)"/>
+  <text x="540" y="893" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="700" fill="white" text-anchor="middle">📞 306-992-2827</text>
+  
+  <!-- Bottom tagline -->
+  <rect x="0" y="970" width="1080" height="110" fill="#0f172a"/>
+  <text x="540" y="1020" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="600" fill="white" text-anchor="middle">WE COME TO YOU</text>
+  <text x="540" y="1060" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#64748b" text-anchor="middle">Mobile Mechanic Service • Saskatoon Area</text>
+</svg>

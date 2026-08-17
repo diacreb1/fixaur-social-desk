@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  
+  <!-- Location pin -->
+  <text x="540" y="280" font-family="Arial, sans-serif" font-size="160" text-anchor="middle">📍</text>
+  
+  <!-- Car breakdown -->
+  <text x="540" y="450" font-family="Arial, sans-serif" font-size="140" text-anchor="middle">🚗</text>
+  <text x="540" y="540" font-family="Arial, sans-serif" font-size="60" fill="#e94560" text-anchor="middle">💢</text>
+  
+  <!-- Main text -->
+  <text x="540" y="640" font-family="Arial Black, sans-serif" font-size="60" font-weight="bold" fill="white" text-anchor="middle">STUCK IN A PINCH?</text>
+  
+  <!-- Subtext -->
+  <text x="540" y="720" font-family="Arial, sans-serif" font-size="32" fill="#cccccc" text-anchor="middle">Safe parking lot • Driveway</text>
+  <text x="540" y="770" font-family="Arial, sans-serif" font-size="32" fill="#cccccc" text-anchor="middle">Roadside spot</text>
+  
+  <!-- Help text -->
+  <text x="540" y="860" font-family="Arial, sans-serif" font-size="28" fill="#4ade80" text-anchor="middle">✓ We assess on-site</text>
+  <text x="540" y="900" font-family="Arial, sans-serif" font-size="28" fill="#4ade80" text-anchor="middle">✓ Help confirm next step</text>
+  
+  <!-- CTA -->
+  <rect x="290" y="950" width="500" height="70" rx="35" fill="#e94560"/>
+  <text x="540" y="1000" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle">📞 306-992-2827</text>
+</svg>
