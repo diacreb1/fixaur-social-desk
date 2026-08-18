@@ -5,6 +5,7 @@ on:
   workflow_dispatch: {}
 permissions:
   contents: write
+  issues: write
 concurrency:
   group: daily-social
   cancel-in-progress: false
@@ -25,5 +26,13 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add src/data/daily-posts.json public/generated/daily
-          git commit -m "chore: generate daily social content" || exit 0
-          git push
+          git commit -m "chore: generate daily social content" || echo "No content changes"
+          git push || true
+      - name: Create approval notification
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          date=$(date -u +%F)
+          if gh issue list --repo "$GITHUB_REPOSITORY" --state open --search "Fixaur social approval $date" --json number --jq 'length' | grep -q '^0$'; then
+            gh issue create --repo "$GITHUB_REPOSITORY" --title "Fixaur social approval $date" --assignee diacreb1 --body "Review the five draft posts and generated images in src/data/daily-posts.json and public/generated/daily/$date before sending approved posts to GHL."
+          fi

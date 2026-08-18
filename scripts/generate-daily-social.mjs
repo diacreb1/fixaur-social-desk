@@ -26,6 +26,7 @@ async function minimax(messages, json = false) {
       authorization: `Bearer ${API_KEY}`,
     },
     body: JSON.stringify(body),
+    signal: AbortSignal.timeout(120000),
   });
   if (!res.ok) throw new Error(`MiniMax ${res.status}: ${await res.text()}`);
   const data = await res.json();
@@ -48,7 +49,27 @@ const raw = await minimax(
   ],
   true,
 );
-const parsed = JSON.parse(raw.slice(raw.indexOf("{")));
+function extractJson(text) {
+  const start = text.indexOf("{");
+  if (start < 0) throw new Error("MiniMax did not return a JSON object");
+  let depth = 0;
+  let quoted = false;
+  let escaped = false;
+  for (let i = start; i < text.length; i++) {
+    const ch = text[i];
+    if (quoted) {
+      if (escaped) escaped = false;
+      else if (ch === "\\") escaped = true;
+      else if (ch === '"') quoted = false;
+      continue;
+    }
+    if (ch === '"') quoted = true;
+    else if (ch === "{") depth++;
+    else if (ch === "}" && --depth === 0) return text.slice(start, i + 1);
+  }
+  throw new Error("MiniMax returned incomplete JSON");
+}
+const parsed = JSON.parse(extractJson(raw));
 const posts = [];
 await fs.mkdir(IMAGE_DIR, { recursive: true });
 for (let i = 0; i < pillars.length; i++) {
@@ -67,6 +88,7 @@ for (let i = 0; i < pillars.length; i++) {
       aspect_ratio: "1:1",
       response_format: "base64",
     }),
+    signal: AbortSignal.timeout(120000),
   });
   if (!imageRes.ok)
     throw new Error(
