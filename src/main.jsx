@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { createRoot } from "react-dom/client";
 import {
   CalendarDays,
@@ -101,16 +101,33 @@ function App() {
     ]),
     [agentInput, setAgentInput] = useState(""),
     [ghlState, setGhlState] = useState({});
+  const [dailyPosts, setDailyPosts] = useState(null);
+  useEffect(() => {
+    fetch("/data/daily-posts.json", { cache: "no-store" })
+      .then((res) => (res.ok ? res.json() : null))
+      .then(
+        (data) =>
+          Array.isArray(data) && data.length === 5 && setDailyPosts(data),
+      )
+      .catch(() => {});
+  }, []);
+  const activePosts = (dailyPosts || posts).map((p, i) => ({
+    ...p,
+    dayIndex: p.dayIndex ?? 0,
+    day: p.day ?? "Monday",
+    copy: p.copy ?? p.caption,
+    asset: p.asset ?? p.image,
+  }));
   const filtered = useMemo(
     () =>
-      posts.filter(
+      activePosts.filter(
         (p) =>
           p.dayIndex === selectedDay &&
           (pillar === "All" || p.pillar === pillar) &&
           (platform === "All" || p.platforms.includes(platform)) &&
           (p.title + " " + p.copy).toLowerCase().includes(query.toLowerCase()),
       ),
-    [selectedDay, pillar, platform, query],
+    [activePosts, selectedDay, pillar, platform, query],
   );
   const toggle = (id) =>
     setStatus((x) => ({
@@ -248,7 +265,7 @@ function App() {
           <Stat
             label="Ready to review"
             value={String(
-              posts.filter((p) => (status[p.id] || p.status) === "Draft")
+              activePosts.filter((p) => (status[p.id] || p.status) === "Draft")
                 .length,
             )}
             detail="need your sign-off"
@@ -368,7 +385,8 @@ function App() {
           </form>
           <p className="agent-foot">
             Local controls work now. Live replies use MiniMax. Approved posts
-            can be sent to GHL after its private integration token is configured.
+            can be sent to GHL after its private integration token is
+            configured.
           </p>
         </section>
       )}
