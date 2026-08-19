@@ -1,0 +1,82 @@
+[
+  {
+    "id": "2026-08-19-1",
+    "date": "2026-08-19",
+    "time": "07:30",
+    "pillar": "Educational",
+    "title": "Why Regular Oil Changes Matter",
+    "caption": "Keeping your engine happy starts with clean oil. Check your dipstick monthly, look for dark or gritty oil, and watch for a burning smell. A quick mobile oil change can fit into your lunch break—no need to drive to a shop.",
+    "image_prompt": "A mechanic holding a clean oil dipstick beside an open engine bay, Saskatoon skyline softly in the background, bright daylight.",
+    "image": "/generated/daily/2026-08-19/2026-08-19-1-educational.png",
+    "status": "Draft",
+    "platforms": [
+      "Facebook",
+      "Instagram",
+      "Google Business"
+    ]
+  },
+  {
+    "id": "2026-08-19-2",
+    "date": "2026-08-19",
+    "time": "10:15",
+    "pillar": "Meme",
+    "title": "When You Think You Can DIY but Your Car Says Nope",
+    "caption": "That moment when your car throws a warning light right before the weekend adventure. Cue the ‘call a pro’ meme. 😎",
+    "image_prompt": "A cartoon car with a speech bubble that reads 'I need a pro!' in bold, playful font, set against a bright, comic‑style background.",
+    "image": "/generated/daily/2026-08-19/2026-08-19-2-meme.png",
+    "status": "Draft",
+    "platforms": [
+      "Facebook",
+      "Instagram",
+      "Google Business"
+    ]
+  },
+  {
+    "id": "2026-08-19-3",
+    "date": "2026-08-19",
+    "time": "12:45",
+    "pillar": "Entertaining",
+    "title": "Road Trip Readiness: A Quick Guide",
+    "caption": "Before you hit the highway to the lake or the cabin, give your ride a once‑over: tires, brakes, fluid levels, and a quick battery check. Think of it as a friendly chat with your car—listen to what it’s telling you, and you’ll avoid surprises on the scenic route.",
+    "image_prompt": "A friendly mobile mechanic in a Saskatoon park, checking a car’s tire pressure with a laugh, a suitcase and a scenic lake in the distance.",
+    "image": "/generated/daily/2026-08-19/2026-08-19-3-entertaining.png",
+    "status": "Draft",
+    "platforms": [
+      "Facebook",
+      "Instagram",
+      "Google Business"
+    ]
+  },
+  {
+    "id": "2026-08-19-4",
+    "date": "2026-08-19",
+    "time": "16:30",
+    "pillar": "Serious",
+    "title": "Stay Safe: Recognizing Brake Issues",
+    "caption": "If you hear squealing, feel a pulsating pedal, or notice the car pulling to one side, it’s time to have your brakes inspected. Delaying repairs can turn a simple fix into a costly problem. Our mobile team can come to you for a fast, professional assessment.",
+    "image_prompt": "Close‑up of a car’s brake disc with a subtle warning icon overlay, clean garage setting, soft lighting to emphasize focus on safety.",
+    "image": "/generated/daily/2026-08-19/2026-08-19-4-serious.png",
+    "status": "Draft",
+    "platforms": [
+      "Facebook",
+      "Instagram",
+      "Google Business"
+    ]
+  },
+  {
+    "id": "2026-08-19-5",
+    "date": "2026-08-19",
+    "time": "19:00",
+    "pillar": "Competitive",
+    "title": "Skip the Tow, Save Time",
+    "caption": "No need to arrange a tow or wait at a shop for an opening. We bring the service to your driveway, so you can keep your day moving. Quick response, convenient scheduling, and the peace of mind that your vehicle gets expert care right where it sits.",
+    "image_prompt": "A mobile mechanic van parked in a Saskatoon driveway, a car receiving service, morning light, suburban street with a hint of downtown in the distance.",
+    "image": "/generated/daily/2026-08-19/2026-08-19-5-competitive.png",
+    "status": "Draft",
+    "platforms": [
+      "Facebook",
+      "Instagram",
+      "Google Business"
+    ]
+  }
+]
