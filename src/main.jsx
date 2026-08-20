@@ -123,7 +123,11 @@ function App() {
     fetch("/api/ghl/accounts", { cache: "no-store" })
       .then((res) => (res.ok ? res.json() : null))
       .then((data) => {
-        const accounts = data?.accounts ?? data?.data?.accounts ?? data?.data;
+        const accounts =
+          data?.accounts ??
+          data?.data?.accounts ??
+          data?.results?.accounts ??
+          data?.data;
         if (Array.isArray(accounts)) {
           setGhlAccounts(accounts.map((account) => account.id ?? account._id).filter(Boolean));
         }
