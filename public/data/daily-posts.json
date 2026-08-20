@@ -1,0 +1,62 @@
+[
+  {
+    "id": "2026-08-20-1",
+    "date": "2026-08-20",
+    "time": "07:30",
+    "pillar": "Educational",
+    "title": "Why Brake Checks Matter in Saskatoon",
+    "caption": "With cold mornings and icy streets, making sure your brakes are in top shape helps keep you safe and can spare you an unexpected shop visit. Look out for squeaking, a soft pedal, or longer stopping distances—signs that it’s time for a quick inspection.",
+    "image_prompt": "A mechanic inspecting brake pads on a car in a Saskatoon garage, daylight streaming through the shop door, friendly and professional atmosphere",
+    "image": "/generated/daily/2026-08-20/2026-08-20-1-educational.png",
+    "status": "Draft",
+    "platforms": ["Facebook", "Instagram", "Google Business"]
+  },
+  {
+    "id": "2026-08-20-2",
+    "date": "2026-08-20",
+    "time": "10:15",
+    "pillar": "Meme",
+    "title": "When the Oil Light Pops Up",
+    "caption": "That little amber warning can appear at the worst times—right before you hit the highway. Stay prepared and keep an eye on your oil level to avoid a surprise breakdown. #SaskatoonMech #CarLife",
+    "image_prompt": "A humorous meme of a confused dog behind the wheel of a car, an oil can spilling, bright colors, playful style",
+    "image": "/generated/daily/2026-08-20/2026-08-20-2-meme.png",
+    "status": "Draft",
+    "platforms": ["Facebook", "Instagram", "Google Business"]
+  },
+  {
+    "id": "2026-08-20-3",
+    "date": "2026-08-20",
+    "time": "12:45",
+    "pillar": "Entertaining",
+    "title": "Road Trip Ready: Hit the Road, Saskatoon!",
+    "caption": "From topping off washer fluid to checking coolant levels, a few quick checks can set the tone for a smooth weekend adventure. Get your vehicle prepped and enjoy the open Saskatchewan highways without a hitch.",
+    "image_prompt": "A sunny Saskatchewan highway, a car loaded with camping gear, a smiling driver waving, scenic prairie landscape",
+    "image": "/generated/daily/2026-08-20/2026-08-20-3-entertaining.png",
+    "status": "Draft",
+    "platforms": ["Facebook", "Instagram", "Google Business"]
+  },
+  {
+    "id": "2026-08-20-4",
+    "date": "2026-08-20",
+    "time": "16:30",
+    "pillar": "Serious",
+    "title": "Don’t Get Stranded: Spot a Failing Battery",
+    "caption": "Saskatoon winters are tough on car batteries. Slow engine starts, dim headlights, or a clicking sound when you turn the key are red flags. A simple battery test can help you avoid a tow and keep you moving.",
+    "image_prompt": "A mechanic testing a car battery with a multimeter in a snowy Saskatoon driveway, frost on the ground, professional and alert",
+    "image": "/generated/daily/2026-08-20/2026-08-20-4-serious.png",
+    "status": "Draft",
+    "platforms": ["Facebook", "Instagram", "Google Business"]
+  },
+  {
+    "id": "2026-08-20-5",
+    "date": "2026-08-20",
+    "time": "19:00",
+    "pillar": "Competitive",
+    "title": "Mobile Mechanic Convenience at Your Door",
+    "caption": "Skip the drive to a shop and the waiting room. Our mobile mechanic comes to you in Saskatoon, so you can get back to work or family faster—no extra tow needed.",
+    "image_prompt": "A branded mobile mechanic van pulling into a Saskatoon driveway, a friendly mechanic greeting the car owner, car being serviced on the spot",
+    "image": "/generated/daily/2026-08-20/2026-08-20-5-competitive.png",
+    "status": "Draft",
+    "platforms": ["Facebook", "Instagram", "Google Business"]
+  }
+]

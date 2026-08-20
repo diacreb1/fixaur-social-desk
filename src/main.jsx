@@ -15,7 +15,6 @@ import {
 } from "lucide-react";
 import "./styles.css";
 
-const brand = "/assets/instagram/";
 const days = [
   "Monday",
   "Tuesday",
@@ -87,7 +86,9 @@ const posts = days.flatMap((day, di) =>
 );
 
 function App() {
-  const [selectedDay, setSelectedDay] = useState(0),
+  const [selectedDay, setSelectedDay] = useState(
+    (new Date().getDay() + 6) % 7,
+  ),
     [pillar, setPillar] = useState("All"),
     [platform, setPlatform] = useState("All"),
     [query, setQuery] = useState(""),
@@ -101,20 +102,38 @@ function App() {
     ]),
     [agentInput, setAgentInput] = useState(""),
     [ghlState, setGhlState] = useState({});
+  const [ghlAccounts, setGhlAccounts] = useState([]);
   const [dailyPosts, setDailyPosts] = useState(null);
   useEffect(() => {
     fetch("/data/daily-posts.json", { cache: "no-store" })
       .then((res) => (res.ok ? res.json() : null))
-      .then(
-        (data) =>
-          Array.isArray(data) && data.length === 5 && setDailyPosts(data),
-      )
+      .then((data) => {
+        if (Array.isArray(data) && data.length === 5) {
+          setDailyPosts(data);
+          if (data[0]?.date) {
+            setSelectedDay(
+              (new Date(`${data[0].date}T12:00:00`).getDay() + 6) % 7,
+            );
+          }
+        }
+      })
       .catch(() => {});
   }, []);
-  const activePosts = (dailyPosts || posts).map((p, i) => ({
+  useEffect(() => {
+    fetch("/api/ghl/accounts", { cache: "no-store" })
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data) => {
+        const accounts = data?.accounts ?? data?.data?.accounts ?? data?.data;
+        if (Array.isArray(accounts)) {
+          setGhlAccounts(accounts.map((account) => account.id ?? account._id).filter(Boolean));
+        }
+      })
+      .catch(() => {});
+  }, []);
+  const activePosts = (dailyPosts || posts).map((p) => ({
     ...p,
-    dayIndex: p.dayIndex ?? 0,
-    day: p.day ?? "Monday",
+    dayIndex: p.dayIndex ?? (p.date ? (new Date(`${p.date}T12:00:00`).getDay() + 6) % 7 : 0),
+    day: p.day ?? days[p.dayIndex ?? (p.date ? (new Date(`${p.date}T12:00:00`).getDay() + 6) % 7 : 0)],
     copy: p.copy ?? p.caption,
     asset: p.asset ?? p.image,
   }));
@@ -135,20 +154,23 @@ function App() {
       [id]: x[id] === "Approved" ? "Draft" : "Approved",
     }));
   const sendToGhl = async (p) => {
+    if (!ghlAccounts.length) {
+      setGhlState((x) => ({ ...x, [p.id]: "Connect GHL accounts first" }));
+      return;
+    }
     setGhlState((x) => ({ ...x, [p.id]: "Sending…" }));
     try {
       const res = await fetch("/api/ghl/posts", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          title: p.title,
-          caption: p.copy,
-          platforms: p.platforms,
-          scheduledAt: `${new Date().toISOString().slice(0, 10)}T${p.time}:00-05:00`,
-          status: "draft",
+          summary: p.copy,
+          accountIds: ghlAccounts,
+          mediaUrl: new URL(p.asset, window.location.origin).toString(),
+          altText: `${p.title}: ${p.pillar} social post for Fixaur Mobile Mechanic.`,
         }),
       });
-      const data = await res.json();
+      const data = await res.json().catch(() => ({}));
       setGhlState((x) => ({
         ...x,
         [p.id]: res.ok ? "Sent to GHL" : data.error || "GHL failed",
@@ -168,7 +190,7 @@ function App() {
       "I can help with captions, filters, and approvals. Try “approve today” or “show competitive posts”.";
     if (lower.includes("approve")) {
       const next = { ...status };
-      posts
+      activePosts
         .filter((p) => p.dayIndex === selectedDay)
         .forEach((p) => (next[p.id] = "Approved"));
       setStatus(next);
@@ -224,7 +246,7 @@ function App() {
           </button>
           <button>
             <CheckCircle2 size={18} />
-            Approvals <b>3</b>
+            Approvals <b>{activePosts.filter((p) => (status[p.id] || p.status) === "Draft").length}</b>
           </button>
           <button>
             <Settings size={18} />
@@ -257,9 +279,9 @@ function App() {
         </header>
         <section className="stats">
           <Stat
-            label="This week"
-            value="35"
-            detail="posts planned"
+            label="Today"
+            value={String(activePosts.length)}
+            detail="posts prepared"
             icon={<CalendarDays />}
           />
           <Stat
@@ -423,7 +445,7 @@ function PostCard({ p, state, toggle, sendToGhl, ghlState }) {
         <small>CDT</small>
       </div>
       <div className="thumb">
-        <img src={brand + p.asset} />
+        <img src={p.asset} alt={`${p.title} social post`} />
       </div>
       <div className="post-body">
         <div className="post-top">
