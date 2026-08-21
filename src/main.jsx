@@ -167,10 +167,6 @@ function App() {
     asset: p.asset ?? p.image,
   }));
   const draftCount = activePosts.filter((p) => (status[p.id] || p.status) === "Draft").length;
-  const selectedVisible = filtered.filter((p) => selectedIds.includes(p.id));
-  const toggleSelected = (id) => setSelectedIds((ids) => ids.includes(id) ? ids.filter((x) => x !== id) : [...ids, id]);
-  const selectAllVisible = () => setSelectedIds((ids) => ids.length === filtered.length ? [] : filtered.map((p) => p.id));
-  const approveSelected = () => setStatus((current) => ({ ...current, ...Object.fromEntries(selectedVisible.map((p) => [p.id, "Approved"])) }));
   const renderWorkspace = () => {
     if (activeView === "overview") return <Overview activePosts={activePosts} draftCount={draftCount} />;
     if (activeView === "blogs") return <BlogWorkspace />;
@@ -188,6 +184,10 @@ function App() {
       ),
     [activePosts, selectedDay, pillar, platform, query],
   );
+  const selectedVisible = filtered.filter((p) => selectedIds.includes(p.id));
+  const toggleSelected = (id) => setSelectedIds((ids) => ids.includes(id) ? ids.filter((x) => x !== id) : [...ids, id]);
+  const selectAllVisible = () => setSelectedIds((ids) => ids.length === filtered.length ? [] : filtered.map((p) => p.id));
+  const approveSelected = () => setStatus((current) => ({ ...current, ...Object.fromEntries(selectedVisible.map((p) => [p.id, "Approved"])) }));
   const toggle = (id) =>
     setStatus((x) => ({
       ...x,
