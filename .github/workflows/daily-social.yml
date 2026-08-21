@@ -21,11 +21,15 @@ jobs:
         env:
           MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
         run: node scripts/generate-daily-social.mjs
+      - name: Generate five blogs and images
+        env:
+          MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
+        run: node scripts/generate-daily-blogs.mjs
       - name: Commit daily content
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/data/daily-posts.json public/generated/daily
+          git add public/data/daily-posts.json public/data/daily-blogs.json public/generated/daily public/generated/blogs
           git commit -m "chore: generate daily social content" || echo "No content changes"
           git push || true
       - name: Create approval notification
