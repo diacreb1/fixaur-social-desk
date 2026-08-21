@@ -116,6 +116,7 @@ function App() {
     [query, setQuery] = useState(""),
     [status, setStatus] = useState({}),
     [agentOpen, setAgentOpen] = useState(false),
+    [selectedIds, setSelectedIds] = useState([]),
     [messages, setMessages] = useState([
       {
         role: "agent",
@@ -166,6 +167,10 @@ function App() {
     asset: p.asset ?? p.image,
   }));
   const draftCount = activePosts.filter((p) => (status[p.id] || p.status) === "Draft").length;
+  const selectedVisible = filtered.filter((p) => selectedIds.includes(p.id));
+  const toggleSelected = (id) => setSelectedIds((ids) => ids.includes(id) ? ids.filter((x) => x !== id) : [...ids, id]);
+  const selectAllVisible = () => setSelectedIds((ids) => ids.length === filtered.length ? [] : filtered.map((p) => p.id));
+  const approveSelected = () => setStatus((current) => ({ ...current, ...Object.fromEntries(selectedVisible.map((p) => [p.id, "Approved"])) }));
   const renderWorkspace = () => {
     if (activeView === "overview") return <Overview activePosts={activePosts} draftCount={draftCount} />;
     if (activeView === "blogs") return <BlogWorkspace />;
@@ -410,6 +415,12 @@ function App() {
             </span>
           </div>
         </div>
+        <div className="bulk-actions">
+          <label><input type="checkbox" checked={filtered.length > 0 && selectedVisible.length === filtered.length} onChange={selectAllVisible} /> Select all for {days[selectedDay]}</label>
+          <span>{selectedVisible.length} selected</span>
+          <button className="approve-btn" disabled={!selectedVisible.length} onClick={approveSelected}>Approve selected</button>
+          <button className="approve-btn" disabled={!selectedVisible.length || selectedVisible.some((p) => (status[p.id] || p.status) !== "Approved")} onClick={() => selectedVisible.forEach((p) => sendToGhl(p))}>Send approved to GHL</button>
+        </div>
         <div className="queue">
           {filtered.map((p) => (
             <PostCard
@@ -419,6 +430,8 @@ function App() {
               toggle={toggle}
               sendToGhl={sendToGhl}
               ghlState={ghlState[p.id]}
+              selected={selectedIds.includes(p.id)}
+              toggleSelected={toggleSelected}
             />
           ))}
           {!filtered.length && (
@@ -504,7 +517,7 @@ function Stat({ label, value, detail, icon }) {
     </div>
   );
 }
-function PostCard({ p, state, toggle, sendToGhl, ghlState }) {
+function PostCard({ p, state, toggle, sendToGhl, ghlState, selected, toggleSelected }) {
   const [copied, setCopied] = useState(false);
   const copy = () => {
     navigator.clipboard?.writeText(p.copy);
@@ -513,6 +526,7 @@ function PostCard({ p, state, toggle, sendToGhl, ghlState }) {
   };
   return (
     <article className="post">
+      <div className="select-post"><input type="checkbox" aria-label={`Select ${p.title}`} checked={selected} onChange={() => toggleSelected(p.id)} /></div>
       <div className="time">
         <strong>{p.time}</strong>
         <small>CDT</small>
