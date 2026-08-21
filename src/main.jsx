@@ -134,6 +134,8 @@ function App() {
   const [ghlAccounts, setGhlAccounts] = useState([]);
   const [dailyPosts, setDailyPosts] = useState(null);
   const [generationStatus, setGenerationStatus] = useState("Using the saved queue");
+  const [overviewBlogItems, setOverviewBlogItems] = useState([]);
+  const [overviewOutreachItems, setOverviewOutreachItems] = useState([]);
   useEffect(() => {
     fetch("/data/daily-posts.json", { cache: "no-store" })
       .then((res) => (res.ok ? res.json() : null))
@@ -148,6 +150,11 @@ function App() {
           }
         }
       })
+      .catch(() => {});
+  }, []);
+  useEffect(() => {
+    Promise.all([fetch("/api/state?key=blog", { cache: "no-store" }).then((r) => r.ok ? r.json() : null), fetch("/api/state?key=outreach", { cache: "no-store" }).then((r) => r.ok ? r.json() : null)])
+      .then(([blog, outreach]) => { if (Array.isArray(blog?.value)) setOverviewBlogItems(blog.value); if (Array.isArray(outreach?.value)) setOverviewOutreachItems(outreach.value); })
       .catch(() => {});
   }, []);
   useEffect(() => {
@@ -174,7 +181,7 @@ function App() {
   }));
   const draftCount = activePosts.filter((p) => (status[p.id] || p.status) === "Draft").length;
   const renderWorkspace = () => {
-    if (activeView === "overview") return <Overview activePosts={activePosts} draftCount={draftCount} />;
+    if (activeView === "overview") return <Overview activePosts={activePosts} draftCount={draftCount} blogItems={overviewBlogItems} outreachItems={overviewOutreachItems} />;
     if (activeView === "blogs") return <BlogWorkspace />;
     if (activeView === "outreach") return <OutreachWorkspace />;
     return <SocialWorkspace />;
@@ -494,13 +501,17 @@ function WorkspaceHeader({ eyebrow, title, sub }) {
   return <header><div><p className="eyebrow">{eyebrow}</p><h1>{title}</h1><p className="sub">{sub}</p></div></header>;
 }
 
-function Overview({ activePosts, draftCount }) {
+function Overview({ activePosts, draftCount, blogItems, outreachItems }) {
+  const blogTotal = blogItems.length || 5;
+  const blogReview = blogItems.filter((x) => x.status !== "Published" && x.status !== "Approved").length || 4;
+  const emailSent = outreachItems.filter((x) => x.status === "Sent" || x.status === "Delivered").length;
+  const emailReview = outreachItems.filter((x) => x.status === "Draft" || x.status === "Approved").length;
   return <><WorkspaceHeader eyebrow="FIXAUR OPERATIONS" title="One view of the work." sub="Social, blog and outreach activity in one approval-first workspace." />
     <section className="stats">
       <Stat label="Social" value={String(activePosts.length)} detail="posts in queue" icon={<Sparkles />} />
-      <Stat label="Blogs" value="5" detail="ideas and drafts" icon={<BookOpen />} />
-      <Stat label="Email" value="0" detail="sent without approval" icon={<Mail />} />
-      <Stat label="Needs review" value={String(draftCount + 2)} detail="items awaiting sign-off" icon={<CheckCircle2 />} />
+      <Stat label="Blogs" value={String(blogTotal)} detail={`${blogReview} awaiting review`} icon={<BookOpen />} />
+      <Stat label="Email" value={String(emailSent)} detail={`${emailReview} in approval queue`} icon={<Mail />} />
+      <Stat label="Needs review" value={String(draftCount + blogReview + emailReview)} detail="items awaiting sign-off" icon={<CheckCircle2 />} />
     </section>
     <div className="workspace-grid"><div className="workspace-card"><p className="eyebrow">TODAY</p><h2>Approval queue</h2><p>Social drafts, blog drafts and outreach messages stay in review until you approve them.</p><span className="status-chip">Approval guardrail on</span></div><div className="workspace-card"><p className="eyebrow">OUTREACH</p><h2>Fleet prospecting</h2><p>Use public business contact details, keep a clear source, and track every approved message and reply.</p><span className="status-chip">Draft-only mode</span></div></div>
   </>;
