@@ -16,7 +16,7 @@ const topics = [
   "pre-trip inspection for local delivery and landscaping fleets",
 ];
 async function chat(prompt) {
-  const res = await fetch("https://api.minimax.io/v1/chat/completions", { method: "POST", headers: { "content-type": "application/json", authorization: `Bearer ${API_KEY}` }, body: JSON.stringify({ model: "MiniMax-M2.7", messages: [{ role: "system", content: "You write useful, accurate local-service blog drafts for Fixaur Mobile Mechanic in Saskatoon. Return JSON only. Never invent prices, guarantees, certifications, competitor claims, or unsafe advice." }, { role: "user", content: prompt }], max_completion_tokens: 5000, response_format: { type: "json_object" } }), signal: AbortSignal.timeout(60000) });
+  const res = await fetch("https://api.minimax.io/v1/chat/completions", { method: "POST", headers: { "content-type": "application/json", authorization: `Bearer ${API_KEY}` }, body: JSON.stringify({ model: "MiniMax-M2.7", messages: [{ role: "system", content: "You write useful, accurate local-service blog drafts for Fixaur Mobile Mechanic in Saskatoon. Return JSON only. Never invent prices, guarantees, certifications, competitor claims, or unsafe advice." }, { role: "user", content: prompt }], max_completion_tokens: 5000, response_format: { type: "json_object" } }), signal: AbortSignal.timeout(45000) });
   if (!res.ok) throw new Error(`MiniMax ${res.status}: ${await res.text()}`);
   const data = await res.json();
   return (data.choices?.[0]?.message?.content || "").replace(/<think>[\s\S]*?<\/think>/gi, "").trim();
@@ -31,7 +31,7 @@ await fs.mkdir(IMAGE_DIR, { recursive: true });
 const blogs = [];
 for (let i = 0; i < topics.length; i++) {
   let b;
-  for (let attempt = 1; attempt <= 3 && !b; attempt++) {
+  for (let attempt = 1; attempt <= 1 && !b; attempt++) {
     try {
       const result = json(await chat(`Write one publish-ready blog draft for ${DATE} about: ${topics[i]}. Return exactly one JSON object under the key blog. Include title, slug, body (500-750 words), seoTitle (under 60 characters), metaDescription (150-160 characters), focusKeyword, geoAnswer (a direct answer mentioning Saskatoon naturally), faqQuestion, faqAnswer, imagePrompt, imageAlt, internalLink. No markdown fences.`));
       b = result.blog || result;

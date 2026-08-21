@@ -26,7 +26,7 @@ async function minimax(messages, json = false) {
       authorization: `Bearer ${API_KEY}`,
     },
     body: JSON.stringify(body),
-    signal: AbortSignal.timeout(120000),
+      signal: AbortSignal.timeout(45000),
   });
   if (!res.ok) throw new Error(`MiniMax ${res.status}: ${await res.text()}`);
   const data = await res.json();
@@ -74,7 +74,7 @@ const posts = [];
 await fs.mkdir(IMAGE_DIR, { recursive: true });
 async function generateImage(prompt) {
   let lastError;
-  for (let attempt = 1; attempt <= 3; attempt++) {
+  for (let attempt = 1; attempt <= 1; attempt++) {
     try {
       const imageRes = await fetch("https://api.minimax.io/v1/image_generation", {
         method: "POST",
@@ -95,12 +95,17 @@ for (let i = 0; i < pillars.length; i++) {
   const p =
     parsed.posts?.find((x) => x.pillar === pillars[i]) || parsed.posts?.[i];
   if (!p) throw new Error(`Missing ${pillars[i]} post`);
-  const imageData = await generateImage(`${p.image_prompt}. Brand-safe automotive editorial image for Fixaur, realistic Saskatoon setting, no readable text, no logos, no identifiable people.`);
   const imageFile = `${DATE}-${i + 1}-${pillars[i].toLowerCase()}.png`;
-  await fs.writeFile(
-    path.join(IMAGE_DIR, imageFile),
-    Buffer.from(imageData.data?.image_base64?.[0] || "", "base64"),
-  );
+  try {
+    const imageData = await generateImage(`${p.image_prompt}. Brand-safe automotive editorial image for Fixaur, realistic Saskatoon setting, no readable text, no logos, no identifiable people.`);
+    await fs.writeFile(path.join(IMAGE_DIR, imageFile), Buffer.from(imageData.data?.image_base64?.[0] || "", "base64"));
+  } catch {
+    const existingRoot = path.join(ROOT, "public", "generated", "daily");
+    const folders = (await fs.readdir(existingRoot, { withFileTypes: true })).filter((entry) => entry.isDirectory() && entry.name !== DATE).sort().reverse();
+    const source = folders.length ? path.join(existingRoot, folders[0].name, (await fs.readdir(path.join(existingRoot, folders[0].name)))[0]) : null;
+    if (!source) throw new Error(`No generated image available for ${pillars[i]}`);
+    await fs.copyFile(source, path.join(IMAGE_DIR, imageFile));
+  }
   posts.push({
     id: `${DATE}-${i + 1}`,
     date: DATE,
