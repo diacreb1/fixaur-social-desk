@@ -12,6 +12,10 @@ import {
   Search,
   Settings,
   Sparkles,
+  Mail,
+  BookOpen,
+  LayoutDashboard,
+  Send,
 } from "lucide-react";
 import "./styles.css";
 
@@ -64,6 +68,16 @@ const seeds = [
   ],
 ];
 const times = ["07:30", "10:15", "12:45", "16:30", "19:00"];
+const blogIdeas = [
+  { title: "Fleet downtime checklist for Saskatoon businesses", status: "Needs approval", type: "Idea" },
+  { title: "When a work van will not start on a cold morning", status: "Draft ready", type: "Blog" },
+  { title: "Mobile maintenance vs. sending every vehicle to a shop", status: "Draft ready", type: "Blog" },
+  { title: "How to reduce repeat battery failures across a fleet", status: "Needs approval", type: "Idea" },
+  { title: "A practical pre-trip inspection for local delivery fleets", status: "Published", type: "Blog" },
+];
+const outreachRecords = [
+  { id: 1, company: "Saskatoon fleet prospect", contact: "Review required", subject: "A simpler way to keep your fleet moving", status: "Draft", lastActivity: "Not sent" },
+];
 const posts = days.flatMap((day, di) =>
   seeds.map((s, si) => ({
     id: di * 5 + si + 1,
@@ -89,6 +103,7 @@ function App() {
   const [selectedDay, setSelectedDay] = useState(
     (new Date().getDay() + 6) % 7,
   ),
+    [activeView, setActiveView] = useState("overview"),
     [pillar, setPillar] = useState("All"),
     [platform, setPlatform] = useState("All"),
     [query, setQuery] = useState(""),
@@ -143,6 +158,13 @@ function App() {
     copy: p.copy ?? p.caption,
     asset: p.asset ?? p.image,
   }));
+  const draftCount = activePosts.filter((p) => (status[p.id] || p.status) === "Draft").length;
+  const renderWorkspace = () => {
+    if (activeView === "overview") return <Overview activePosts={activePosts} draftCount={draftCount} />;
+    if (activeView === "blogs") return <BlogWorkspace />;
+    if (activeView === "outreach") return <OutreachWorkspace />;
+    return <SocialWorkspace />;
+  };
   const filtered = useMemo(
     () =>
       activePosts.filter(
@@ -242,21 +264,29 @@ function App() {
           </div>
         </div>
         <nav>
-          <button className="active">
+            <button className={activeView === "social" ? "active" : ""} onClick={() => setActiveView("social")}>
             <CalendarDays size={18} />
             Content desk
           </button>
-          <button>
-            <Sparkles size={18} />
-            Ideas lab
-          </button>
-          <button>
-            <CheckCircle2 size={18} />
-            Approvals <b>{activePosts.filter((p) => (status[p.id] || p.status) === "Draft").length}</b>
-          </button>
-          <button>
-            <Settings size={18} />
-            Brand settings
+            <button className={activeView === "blogs" ? "active" : ""} onClick={() => setActiveView("blogs")}>
+              <Sparkles size={18} />
+              Blog ideas <b>{blogIdeas.filter((x) => x.status === "Needs approval").length}</b>
+            </button>
+            <button className={activeView === "blogs" ? "active" : ""} onClick={() => setActiveView("blogs")}>
+              <CheckCircle2 size={18} />
+              Blog approvals <b>{blogIdeas.filter((x) => x.status !== "Published").length}</b>
+            </button>
+            <button className={activeView === "outreach" ? "active" : ""} onClick={() => setActiveView("outreach")}>
+              <Mail size={18} />
+              Email outreach <b>{outreachRecords.filter((x) => x.status === "Draft").length}</b>
+            </button>
+            <button className={activeView === "overview" ? "active" : ""} onClick={() => setActiveView("overview")}>
+              <LayoutDashboard size={18} />
+              Overview
+            </button>
+            <button>
+              <Settings size={18} />
+              Brand settings
           </button>
         </nav>
         <div className="side-note">
@@ -269,6 +299,8 @@ function App() {
         </div>
       </aside>
       <main>
+        {activeView !== "social" && renderWorkspace()}
+        {activeView === "social" && <SocialWorkspace>
         <header>
           <div>
             <p className="eyebrow">SOCIAL OPERATIONS</p>
@@ -386,6 +418,7 @@ function App() {
             <div className="empty">No posts match those filters.</div>
           )}
         </div>
+        </SocialWorkspace>}
       </main>
       {agentOpen && (
         <section className="agent-panel">
@@ -426,6 +459,32 @@ function App() {
     </div>
   );
 }
+function SocialWorkspace({ children }) { return <>{children}</>; }
+
+function WorkspaceHeader({ eyebrow, title, sub }) {
+  return <header><div><p className="eyebrow">{eyebrow}</p><h1>{title}</h1><p className="sub">{sub}</p></div></header>;
+}
+
+function Overview({ activePosts, draftCount }) {
+  return <><WorkspaceHeader eyebrow="FIXAUR OPERATIONS" title="One view of the work." sub="Social, blog and outreach activity in one approval-first workspace." />
+    <section className="stats">
+      <Stat label="Social" value={String(activePosts.length)} detail="posts in queue" icon={<Sparkles />} />
+      <Stat label="Blogs" value="5" detail="ideas and drafts" icon={<BookOpen />} />
+      <Stat label="Email" value="0" detail="sent without approval" icon={<Mail />} />
+      <Stat label="Needs review" value={String(draftCount + 2)} detail="items awaiting sign-off" icon={<CheckCircle2 />} />
+    </section>
+    <div className="workspace-grid"><div className="workspace-card"><p className="eyebrow">TODAY</p><h2>Approval queue</h2><p>Social drafts, blog drafts and outreach messages stay in review until you approve them.</p><span className="status-chip">Approval guardrail on</span></div><div className="workspace-card"><p className="eyebrow">OUTREACH</p><h2>Fleet prospecting</h2><p>Use public business contact details, keep a clear source, and track every approved message and reply.</p><span className="status-chip">Draft-only mode</span></div></div>
+  </>;
+}
+
+function BlogWorkspace() {
+  return <><WorkspaceHeader eyebrow="BLOG OPERATIONS" title="Ideas and approvals, together." sub="Review daily blog ideas, drafts and publishing status before they reach Fixaur.com." /><div className="workspace-card"><div className="section-head"><div><p className="eyebrow">BLOG PIPELINE</p><h2>Ideas & approvals</h2></div><span className="status-chip">5 planned today</span></div><div className="simple-list">{blogIdeas.map((idea) => <div className="list-row" key={idea.title}><div><strong>{idea.title}</strong><small>{idea.type} · Review before midday</small></div><span className={idea.status === "Published" ? "approved" : "draft-label"}>{idea.status}</span></div>)}</div></div></>;
+}
+
+function OutreachWorkspace() {
+  return <><WorkspaceHeader eyebrow="EMAIL OUTREACH" title="Fleet outreach, with a paper trail." sub="Compose short, relevant messages through Resend after reviewing the source and recipient." /><div className="workspace-card"><div className="section-head"><div><p className="eyebrow">RESEND TRACKER</p><h2>Sent, replied and pending</h2></div><button className="primary"><Send size={16} /> New draft</button></div><div className="outreach-note">No emails are sent automatically. Each prospect must have a public source, a valid business contact, and an approved message.</div><div className="simple-list">{outreachRecords.map((record) => <div className="list-row" key={record.id}><div><strong>{record.company}</strong><small>{record.contact} · {record.subject}</small></div><span className="draft-label">{record.status}</span></div>)}</div></div></>;
+}
+
 function Stat({ label, value, detail, icon }) {
   return (
     <div className="stat">
