@@ -35,6 +35,7 @@ for (let i = 0; i < topics.length; i++) {
     try {
       const result = json(await chat(`Write one publish-ready blog draft for ${DATE} about: ${topics[i]}. Return exactly one JSON object under the key blog. Include title, slug, body (500-750 words), seoTitle (under 60 characters), metaDescription (150-160 characters), focusKeyword, geoAnswer (a direct answer mentioning Saskatoon naturally), faqQuestion, faqAnswer, imagePrompt, imageAlt, internalLink. No markdown fences.`));
       b = result.blog || result;
+      if (!b?.title || !b?.body || b.body.split(/\s+/).length < 150 || !b.slug || !b.seoTitle || !b.metaDescription || !b.focusKeyword || !b.geoAnswer || !b.faqAnswer || !b.imagePrompt || !b.imageAlt) throw new Error("MiniMax returned an incomplete blog object");
     } catch (error) {
       if (attempt === 3) b = fallbackBlog(topics[i], i);
       await new Promise((resolve) => setTimeout(resolve, attempt * 2000));
