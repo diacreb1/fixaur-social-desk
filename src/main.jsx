@@ -76,7 +76,14 @@ const blogIdeas = [
   { title: "A practical pre-trip inspection for local delivery fleets", status: "Published", type: "Blog" },
 ];
 const outreachRecords = [
-  { id: 1, company: "Saskatoon fleet prospect", contact: "Review required", subject: "A simpler way to keep your fleet moving", status: "Draft", lastActivity: "Not sent" },
+  { id: "5b84bdd8324d4471896e3a94", company: "Custom Courier Co. Ltd", contact: "Company prospect · customcourier.com", subject: "A simpler way to keep your fleet moving", status: "Draft", lastActivity: "Not sent" },
+  { id: "556cfced73696411f4bd7300", company: "Q-Line Trucking", contact: "Company prospect · qlinetrucking.com", subject: "A simpler way to keep your fleet moving", status: "Draft", lastActivity: "Not sent" },
+  { id: "55edfec2f3e5bb16320001b7", company: "Ghost Transportation Services", contact: "Company prospect · ghosttrans.com", subject: "A simpler way to keep your fleet moving", status: "Draft", lastActivity: "Not sent" },
+  { id: "6049b954df6ac00001116d48", company: "Aero Delivery and Storage", contact: "Company prospect · aerodelivery.ca", subject: "A simpler way to keep your fleet moving", status: "Draft", lastActivity: "Not sent" },
+  { id: "5e57a755f017340001612c5c", company: "SST Trucking", contact: "Company prospect · ssttrucking.com", subject: "A simpler way to keep your fleet moving", status: "Draft", lastActivity: "Not sent" },
+  { id: "5e55d8e871bea9000159a119", company: "Northern Resource Trucking", contact: "Company prospect · nrtlp.com", subject: "A simpler way to keep your fleet moving", status: "Draft", lastActivity: "Not sent" },
+  { id: "5e56750f18a6380001d02775", company: "Hawk Logistics Ltd.", contact: "Company prospect · hawklogistics.ca", subject: "A simpler way to keep your fleet moving", status: "Draft", lastActivity: "Not sent" },
+  { id: "556973db73696425c4fa2f00", company: "Wright Construction Western Inc.", contact: "Company prospect · wrightconstruction.ca", subject: "A simpler way to keep your fleet moving", status: "Draft", lastActivity: "Not sent" },
 ];
 const posts = days.flatMap((day, di) =>
   seeds.map((s, si) => ({
