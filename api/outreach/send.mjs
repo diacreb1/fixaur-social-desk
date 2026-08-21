@@ -1,12 +1,10 @@
-const json = (body, status = 200) => ({ status, headers: { "content-type": "application/json" }, body: JSON.stringify(body) });
-
-export default async function handler(request) {
-  if (request.method !== "POST") return json({ error: "Method not allowed" }, 405);
+export default async function handler(req, res) {
+  const json = (body, status = 200) => res.status(status).json(body);
+  if (req.method !== "POST") return json({ error: "Method not allowed" }, 405);
   const key = process.env.RESEND_API_KEY;
   const from = process.env.RESEND_FROM_EMAIL || "notifications@mail.fixaur.com";
   if (!key) return json({ error: "Resend is not configured" }, 503);
-  let input;
-  try { input = await request.json(); } catch { return json({ error: "Invalid JSON" }, 400); }
+  const input = req.body || {};
   const { to, subject, html, text, sourceUrl, approved } = input || {};
   if (!approved) return json({ error: "Approval is required before sending" }, 400);
   if (!to || !subject || (!html && !text) || !sourceUrl) return json({ error: "to, subject, content, and sourceUrl are required" }, 400);
