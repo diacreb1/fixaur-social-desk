@@ -72,29 +72,30 @@ function extractJson(text) {
 const parsed = JSON.parse(extractJson(raw));
 const posts = [];
 await fs.mkdir(IMAGE_DIR, { recursive: true });
+async function generateImage(prompt) {
+  let lastError;
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      const imageRes = await fetch("https://api.minimax.io/v1/image_generation", {
+        method: "POST",
+        headers: { "content-type": "application/json", authorization: `Bearer ${API_KEY}` },
+        body: JSON.stringify({ model: "image-01", prompt, aspect_ratio: "1:1", response_format: "base64" }),
+        signal: AbortSignal.timeout(120000),
+      });
+      if (!imageRes.ok) throw new Error(`MiniMax image ${imageRes.status}: ${await imageRes.text()}`);
+      return await imageRes.json();
+    } catch (error) {
+      lastError = error;
+      if (attempt < 3) await new Promise((resolve) => setTimeout(resolve, attempt * 1500));
+    }
+  }
+  throw lastError;
+}
 for (let i = 0; i < pillars.length; i++) {
   const p =
     parsed.posts?.find((x) => x.pillar === pillars[i]) || parsed.posts?.[i];
   if (!p) throw new Error(`Missing ${pillars[i]} post`);
-  const imageRes = await fetch("https://api.minimax.io/v1/image_generation", {
-    method: "POST",
-    headers: {
-      "content-type": "application/json",
-      authorization: `Bearer ${API_KEY}`,
-    },
-    body: JSON.stringify({
-      model: "image-01",
-      prompt: `${p.image_prompt}. Brand-safe automotive editorial image for Fixaur, realistic Saskatoon setting, no readable text, no logos, no identifiable people.`,
-      aspect_ratio: "1:1",
-      response_format: "base64",
-    }),
-    signal: AbortSignal.timeout(120000),
-  });
-  if (!imageRes.ok)
-    throw new Error(
-      `MiniMax image ${imageRes.status}: ${await imageRes.text()}`,
-    );
-  const imageData = await imageRes.json();
+  const imageData = await generateImage(`${p.image_prompt}. Brand-safe automotive editorial image for Fixaur, realistic Saskatoon setting, no readable text, no logos, no identifiable people.`);
   const imageFile = `${DATE}-${i + 1}-${pillars[i].toLowerCase()}.png`;
   await fs.writeFile(
     path.join(IMAGE_DIR, imageFile),

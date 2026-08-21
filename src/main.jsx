@@ -104,12 +104,14 @@ function App() {
     [ghlState, setGhlState] = useState({});
   const [ghlAccounts, setGhlAccounts] = useState([]);
   const [dailyPosts, setDailyPosts] = useState(null);
+  const [generationStatus, setGenerationStatus] = useState("Using the saved queue");
   useEffect(() => {
     fetch("/data/daily-posts.json", { cache: "no-store" })
       .then((res) => (res.ok ? res.json() : null))
       .then((data) => {
         if (Array.isArray(data) && data.length === 5) {
           setDailyPosts(data);
+          setGenerationStatus(data[0]?.date ? `Generated ${data[0].date}` : "Daily queue loaded");
           if (data[0]?.date) {
             setSelectedDay(
               (new Date(`${data[0].date}T12:00:00`).getDay() + 6) % 7,
@@ -310,6 +312,7 @@ function App() {
             icon={<Sparkles />}
           />
         </section>
+        <p className="generation-status" role="status">{generationStatus} · Images included · Approval required before GHL scheduling</p>
         <div className="toolbar">
           <div className="days">
             {days.map((d, i) => (
