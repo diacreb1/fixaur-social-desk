@@ -286,6 +286,10 @@ function App() {
           </div>
         </div>
         <nav>
+            <button className={activeView === "overview" ? "active" : ""} onClick={() => setActiveView("overview")}>
+              <LayoutDashboard size={18} />
+              Overview
+            </button>
             <button className={activeView === "social" ? "active" : ""} onClick={() => setActiveView("social")}>
             <CalendarDays size={18} />
             Content desk
@@ -301,10 +305,6 @@ function App() {
             <button className={activeView === "outreach" ? "active" : ""} onClick={() => setActiveView("outreach")}>
               <Mail size={18} />
               Email outreach <b>{outreachRecords.filter((x) => x.status === "Draft").length}</b>
-            </button>
-            <button className={activeView === "overview" ? "active" : ""} onClick={() => setActiveView("overview")}>
-              <LayoutDashboard size={18} />
-              Overview
             </button>
             <button>
               <Settings size={18} />
