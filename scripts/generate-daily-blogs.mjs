@@ -16,7 +16,7 @@ const topics = [
   "pre-trip inspection for local delivery and landscaping fleets",
 ];
 async function chat(prompt) {
-  const res = await fetch("https://api.minimax.io/v1/chat/completions", { method: "POST", headers: { "content-type": "application/json", authorization: `Bearer ${API_KEY}` }, body: JSON.stringify({ model: "MiniMax-M2.7", messages: [{ role: "system", content: "You write useful, accurate local-service blog drafts for Fixaur Mobile Mechanic in Saskatoon. Return JSON only. Never invent prices, guarantees, certifications, competitor claims, or unsafe advice." }, { role: "user", content: prompt }], max_completion_tokens: 12000, response_format: { type: "json_object" } }), signal: AbortSignal.timeout(120000) });
+  const res = await fetch("https://api.minimax.io/v1/chat/completions", { method: "POST", headers: { "content-type": "application/json", authorization: `Bearer ${API_KEY}` }, body: JSON.stringify({ model: "MiniMax-M2.7", messages: [{ role: "system", content: "You write useful, accurate local-service blog drafts for Fixaur Mobile Mechanic in Saskatoon. Return JSON only. Never invent prices, guarantees, certifications, competitor claims, or unsafe advice." }, { role: "user", content: prompt }], max_completion_tokens: 8000, response_format: { type: "json_object" } }), signal: AbortSignal.timeout(300000) });
   if (!res.ok) throw new Error(`MiniMax ${res.status}: ${await res.text()}`);
   const data = await res.json();
   return (data.choices?.[0]?.message?.content || "").replace(/<think>[\s\S]*?<\/think>/gi, "").trim();
