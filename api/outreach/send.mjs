@@ -1,3 +1,5 @@
+import { db, ensureSchema } from "../_db.mjs";
+
 export default async function handler(req, res) {
   const json = (body, status = 200) => res.status(status).json(body);
   if (req.method !== "POST") return json({ error: "Method not allowed" }, 405);
@@ -15,5 +17,15 @@ export default async function handler(req, res) {
   });
   const data = await response.json().catch(() => ({}));
   if (!response.ok) return json({ error: data.message || "Resend failed" }, response.status);
-  return json({ id: data.id, status: "sent", to, sourceUrl, sentAt: new Date().toISOString(), replyStatus: "Awaiting reply" });
+  const sentAt = new Date().toISOString();
+  if (process.env.DATABASE_URL) {
+    try {
+      await ensureSchema();
+      const sql = db();
+      await sql`UPDATE fixaur_state SET value = (SELECT jsonb_agg(CASE WHEN item->>'email'=${to} THEN item || jsonb_build_object('status','Sent','resendId',${data.id},'lastActivity',${sentAt},'replyStatus','Awaiting reply') ELSE item END) FROM jsonb_array_elements(value) item), updated_at=now() WHERE key='outreach'`;
+    } catch (error) {
+      return json({ error: "Email sent, but delivery record could not be saved", id: data.id, detail: error.message }, 502);
+    }
+  }
+  return json({ id: data.id, status: "sent", to, sourceUrl, sentAt, replyStatus: "Awaiting reply" });
 }
