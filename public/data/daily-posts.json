@@ -1,62 +1,82 @@
 [
   {
-    "id": "2026-08-20-1",
-    "date": "2026-08-20",
+    "id": "2026-08-21-1",
+    "date": "2026-08-21",
     "time": "07:30",
     "pillar": "Educational",
-    "title": "Why Brake Checks Matter in Saskatoon",
-    "caption": "With cold mornings and icy streets, making sure your brakes are in top shape helps keep you safe and can spare you an unexpected shop visit. Look out for squeaking, a soft pedal, or longer stopping distances—signs that it’s time for a quick inspection.",
-    "image_prompt": "A mechanic inspecting brake pads on a car in a Saskatoon garage, daylight streaming through the shop door, friendly and professional atmosphere",
-    "image": "/generated/daily/2026-08-20/2026-08-20-1-educational.png",
+    "title": "5‑Minute Pre‑Trip Checklist You Can Do Yourself",
+    "caption": "A quick walk‑around can catch small issues before they become big headaches. In Saskatoon, our mobile team can swing by after your check‑up to top off fluids or replace a filter. Keep your car safe and ready for the road.",
+    "image_prompt": "A mechanic in a Saskatoon driveway checking a car under a clear sky, a smartphone displaying a checklist",
+    "image": "/generated/daily/2026-08-21/2026-08-21-1-educational.png",
     "status": "Draft",
-    "platforms": ["Facebook", "Instagram", "Google Business"]
+    "platforms": [
+      "Facebook",
+      "Instagram",
+      "Google Business"
+    ]
   },
   {
-    "id": "2026-08-20-2",
-    "date": "2026-08-20",
+    "id": "2026-08-21-2",
+    "date": "2026-08-21",
     "time": "10:15",
     "pillar": "Meme",
-    "title": "When the Oil Light Pops Up",
-    "caption": "That little amber warning can appear at the worst times—right before you hit the highway. Stay prepared and keep an eye on your oil level to avoid a surprise breakdown. #SaskatoonMech #CarLife",
-    "image_prompt": "A humorous meme of a confused dog behind the wheel of a car, an oil can spilling, bright colors, playful style",
-    "image": "/generated/daily/2026-08-20/2026-08-20-2-meme.png",
+    "title": "When your car says 'I need a coffee break'",
+    "caption": "We've all been there – the engine light flickers and your ride decides to take a coffee break. If that coffee break turns into a full‑blown stop, call Fixaur. We come to you in Saskatoon.",
+    "image_prompt": "A cartoon car with sunglasses leaning against a coffee cup in a Saskatoon alley",
+    "image": "/generated/daily/2026-08-21/2026-08-21-2-meme.png",
     "status": "Draft",
-    "platforms": ["Facebook", "Instagram", "Google Business"]
+    "platforms": [
+      "Facebook",
+      "Instagram",
+      "Google Business"
+    ]
   },
   {
-    "id": "2026-08-20-3",
-    "date": "2026-08-20",
+    "id": "2026-08-21-3",
+    "date": "2026-08-21",
     "time": "12:45",
     "pillar": "Entertaining",
-    "title": "Road Trip Ready: Hit the Road, Saskatoon!",
-    "caption": "From topping off washer fluid to checking coolant levels, a few quick checks can set the tone for a smooth weekend adventure. Get your vehicle prepped and enjoy the open Saskatchewan highways without a hitch.",
-    "image_prompt": "A sunny Saskatchewan highway, a car loaded with camping gear, a smiling driver waving, scenic prairie landscape",
-    "image": "/generated/daily/2026-08-20/2026-08-20-3-entertaining.png",
+    "title": "Road‑Trip Ready: Top Saskatoon Stops for a Snack Break",
+    "caption": "Heading out of the city? Make sure your vehicle’s up for the journey. Our mobile mechanics can check brakes, tires, and more before you hit the open road. Then enjoy a butter tart at one of the local bakeries.",
+    "image_prompt": "A scenic view of Saskatoon’s riverfront with a car parked at a picnic area, snacks on a blanket",
+    "image": "/generated/daily/2026-08-21/2026-08-21-3-entertaining.png",
     "status": "Draft",
-    "platforms": ["Facebook", "Instagram", "Google Business"]
+    "platforms": [
+      "Facebook",
+      "Instagram",
+      "Google Business"
+    ]
   },
   {
-    "id": "2026-08-20-4",
-    "date": "2026-08-20",
+    "id": "2026-08-21-4",
+    "date": "2026-08-21",
     "time": "16:30",
     "pillar": "Serious",
-    "title": "Don’t Get Stranded: Spot a Failing Battery",
-    "caption": "Saskatoon winters are tough on car batteries. Slow engine starts, dim headlights, or a clicking sound when you turn the key are red flags. A simple battery test can help you avoid a tow and keep you moving.",
-    "image_prompt": "A mechanic testing a car battery with a multimeter in a snowy Saskatoon driveway, frost on the ground, professional and alert",
-    "image": "/generated/daily/2026-08-20/2026-08-20-4-serious.png",
+    "title": "Cold‑Weather Battery Checks: Why You Shouldn’t Wait",
+    "caption": "Saskatoon winters can be harsh on your car’s battery. If you notice slow cranking, get it tested now. Our mobile team can drop by your home or office, test the battery, and replace it if needed, so you’re not left stranded.",
+    "image_prompt": "A mechanic testing a car battery in a frosty Saskatoon driveway, with snow falling",
+    "image": "/generated/daily/2026-08-21/2026-08-21-4-serious.png",
     "status": "Draft",
-    "platforms": ["Facebook", "Instagram", "Google Business"]
+    "platforms": [
+      "Facebook",
+      "Instagram",
+      "Google Business"
+    ]
   },
   {
-    "id": "2026-08-20-5",
-    "date": "2026-08-20",
+    "id": "2026-08-21-5",
+    "date": "2026-08-21",
     "time": "19:00",
     "pillar": "Competitive",
-    "title": "Mobile Mechanic Convenience at Your Door",
-    "caption": "Skip the drive to a shop and the waiting room. Our mobile mechanic comes to you in Saskatoon, so you can get back to work or family faster—no extra tow needed.",
-    "image_prompt": "A branded mobile mechanic van pulling into a Saskatoon driveway, a friendly mechanic greeting the car owner, car being serviced on the spot",
-    "image": "/generated/daily/2026-08-20/2026-08-20-5-competitive.png",
+    "title": "Save Time, Skip the Tow: Mobile Mechanic Comes to You",
+    "caption": "Why wait at a shop when we can be at your doorstep in Saskatoon? Our mobile service means no extra tow fees, quick turnaround, and you stay on schedule. Book online or call us today.",
+    "image_prompt": "A sleek mobile service van parked in front of a Saskatoon home, mechanic shaking hands with the homeowner",
+    "image": "/generated/daily/2026-08-21/2026-08-21-5-competitive.png",
     "status": "Draft",
-    "platforms": ["Facebook", "Instagram", "Google Business"]
+    "platforms": [
+      "Facebook",
+      "Instagram",
+      "Google Business"
+    ]
   }
 ]
