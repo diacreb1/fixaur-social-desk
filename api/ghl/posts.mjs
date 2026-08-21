@@ -9,7 +9,9 @@ export default async function handler(req,res){
  const body={accountIds,summary,type:'post',status:scheduleDate?'scheduled':'draft',...(scheduleDate?{scheduleDate}:{}),...(mediaUrl?{media:[{url:mediaUrl,type:mediaType,altText:altText||summary.slice(0,120)}]}:{})};
  try {
   const response=await fetch(`https://services.leadconnectorhq.com/social-media-posting/${location}/posts`,{method:'POST',headers:{Authorization:`Bearer ${token}`,Accept:'application/json','Content-Type':'application/json','Version':'v3'},body:JSON.stringify(body)});
-  return res.status(response.status).json(await response.json());
+  const data=await response.json().catch(()=>({}));
+  if (!response.ok) return res.status(response.status).json({error:data.message||data.error||data.details||`GHL rejected the post (${response.status})`,details:data});
+  return res.status(response.status).json(data);
  } catch {
   return res.status(502).json({error:'Unable to reach GHL'});
  }

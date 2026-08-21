@@ -188,6 +188,10 @@ function App() {
   const toggleSelected = (id) => setSelectedIds((ids) => ids.includes(id) ? ids.filter((x) => x !== id) : [...ids, id]);
   const selectAllVisible = () => setSelectedIds((ids) => ids.length === filtered.length ? [] : filtered.map((p) => p.id));
   const approveSelected = () => setStatus((current) => ({ ...current, ...Object.fromEntries(selectedVisible.map((p) => [p.id, "Approved"])) }));
+  const approveAndScheduleSelected = () => {
+    approveSelected();
+    selectedVisible.forEach((p) => sendToGhl(p));
+  };
   const toggle = (id) =>
     setStatus((x) => ({
       ...x,
@@ -418,8 +422,7 @@ function App() {
         <div className="bulk-actions">
           <label><input type="checkbox" checked={filtered.length > 0 && selectedVisible.length === filtered.length} onChange={selectAllVisible} /> Select all for {days[selectedDay]}</label>
           <span>{selectedVisible.length} selected</span>
-          <button className="approve-btn" disabled={!selectedVisible.length} onClick={approveSelected}>Approve selected</button>
-          <button className="approve-btn" disabled={!selectedVisible.length || selectedVisible.some((p) => (status[p.id] || p.status) !== "Approved")} onClick={() => selectedVisible.forEach((p) => sendToGhl(p))}>Send approved to GHL</button>
+          <button className="approve-btn" disabled={!selectedVisible.length} onClick={approveAndScheduleSelected}>Approve &amp; schedule in GHL</button>
         </div>
         <div className="queue">
           {filtered.map((p) => (
