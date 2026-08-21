@@ -1,11 +1,30 @@
 import { db, ensureSchema } from "../_db.mjs";
+import { Webhook } from "svix";
+
+export const config = { api: { bodyParser: false } };
+
+async function rawBody(req) {
+  if (Buffer.isBuffer(req.body)) return req.body.toString("utf8");
+  if (typeof req.body === "string") return req.body;
+  const chunks = [];
+  for await (const chunk of req) chunks.push(Buffer.from(chunk));
+  return Buffer.concat(chunks).toString("utf8");
+}
 
 export default async function handler(req, res) {
   if (req.method !== "POST") return res.status(405).json({ error: "Method not allowed" });
   if (!process.env.DATABASE_URL) return res.status(503).json({ error: "Database is not configured" });
   try {
+    const payload = await rawBody(req);
+    if (process.env.RESEND_WEBHOOK_SECRET) {
+      new Webhook(process.env.RESEND_WEBHOOK_SECRET).verify(payload, {
+        "svix-id": req.headers["svix-id"],
+        "svix-timestamp": req.headers["svix-timestamp"],
+        "svix-signature": req.headers["svix-signature"],
+      });
+    }
     await ensureSchema();
-    const event = req.body || {};
+    const event = JSON.parse(payload || "{}");
     const type = event.type || "unknown";
     const data = event.data || event;
     const emailId = String(data.email_id || data.id || "");
