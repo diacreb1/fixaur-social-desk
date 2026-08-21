@@ -6,12 +6,16 @@ export default async function handler(req,res){
  const {summary,mediaUrl,accountIds,scheduleDate,altText}=req.body||{};
  if(!summary||!Array.isArray(accountIds)||!accountIds.length) return res.status(400).json({error:'summary and accountIds are required'});
  const mediaType = /\.png(?:\?|$)/i.test(mediaUrl || '') ? 'image/png' : /\.gif(?:\?|$)/i.test(mediaUrl || '') ? 'image/gif' : 'image/jpeg';
- const body={accountIds,summary,type:'post',status:scheduleDate?'scheduled':'draft',...(scheduleDate?{scheduleDate}:{}),...(mediaUrl?{media:[{url:mediaUrl,type:mediaType,altText:altText||summary.slice(0,120)}]}:{})};
+ const baseBody={summary,type:'post',status:scheduleDate?'scheduled':'draft',...(scheduleDate?{scheduleDate}:{}),...(mediaUrl?{media:[{url:mediaUrl,type:mediaType,altText:altText||summary.slice(0,120)}]}:{})};
  try {
-  const response=await fetch(`https://services.leadconnectorhq.com/social-media-posting/${location}/posts`,{method:'POST',headers:{Authorization:`Bearer ${token}`,Accept:'application/json','Content-Type':'application/json','Version':'v3'},body:JSON.stringify(body)});
-  const data=await response.json().catch(()=>({}));
-  if (!response.ok) return res.status(response.status).json({error:data.message||data.error||data.details||`GHL rejected the post (${response.status})`,details:data});
-  return res.status(response.status).json(data);
+  const results=await Promise.all(accountIds.map(async (accountId)=>{
+   const response=await fetch(`https://services.leadconnectorhq.com/social-media-posting/${location}/posts`,{method:'POST',headers:{Authorization:`Bearer ${token}`,Accept:'application/json','Content-Type':'application/json','Version':'v3'},body:JSON.stringify({...baseBody,accountIds:[accountId]})});
+   const data=await response.json().catch(()=>({}));
+   return {accountId,ok:response.ok,status:response.status,data};
+  }));
+  const failed=results.filter((x)=>!x.ok);
+  if (failed.length) return res.status(failed.length===results.length?422:207).json({error:`GHL rejected ${failed.length} of ${results.length} connected accounts`,results});
+  return res.status(201).json({success:true,message:'Created draft for all connected accounts',results});
  } catch {
   return res.status(502).json({error:'Unable to reach GHL'});
  }
