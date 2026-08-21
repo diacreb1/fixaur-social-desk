@@ -17,11 +17,15 @@ export default async function handler(req, res) {
   try {
     const payload = await rawBody(req);
     if (process.env.RESEND_WEBHOOK_SECRET) {
-      new Webhook(process.env.RESEND_WEBHOOK_SECRET).verify(payload, {
-        "svix-id": req.headers["svix-id"],
-        "svix-timestamp": req.headers["svix-timestamp"],
-        "svix-signature": req.headers["svix-signature"],
-      });
+      try {
+        new Webhook(process.env.RESEND_WEBHOOK_SECRET).verify(payload, {
+          "svix-id": req.headers["svix-id"],
+          "svix-timestamp": req.headers["svix-timestamp"],
+          "svix-signature": req.headers["svix-signature"],
+        });
+      } catch {
+        return res.status(400).json({ error: "Invalid Resend webhook signature" });
+      }
     }
     await ensureSchema();
     const event = JSON.parse(payload || "{}");
