@@ -8,8 +8,8 @@ export default async function handler(req, res) {
     const event = req.body || {};
     const type = event.type || "unknown";
     const data = event.data || event;
-    const emailId = data.email_id || data.id || null;
-    const to = Array.isArray(data.to) ? data.to[0] : data.to || null;
+    const emailId = String(data.email_id || data.id || "");
+    const to = String(Array.isArray(data.to) ? (data.to[0] || "") : (data.to || ""));
     const status = type.includes("delivered") ? "Delivered" : type.includes("bounced") ? "Bounced" : type.includes("complained") ? "Complained" : type.includes("received") ? "Replied" : null;
     const sql = db();
     await sql`CREATE TABLE IF NOT EXISTS fixaur_outreach_events (id bigserial PRIMARY KEY, event_type text NOT NULL, email_id text, recipient text, payload jsonb NOT NULL, created_at timestamptz NOT NULL DEFAULT now())`;
