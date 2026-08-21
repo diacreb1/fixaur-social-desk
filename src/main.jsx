@@ -449,7 +449,7 @@ function PostCard({ p, state, toggle, sendToGhl, ghlState }) {
         <small>CDT</small>
       </div>
       <div className="thumb">
-        <img src={p.asset} alt={`${p.title} social post`} />
+        <img src={p.asset} alt={`${p.title} social post`} loading="lazy" />
       </div>
       <div className="post-body">
         <div className="post-top">
@@ -475,10 +475,10 @@ function PostCard({ p, state, toggle, sendToGhl, ghlState }) {
         </div>
       </div>
       <div className="actions">
-        <button title="Copy caption" onClick={copy}>
+        <button title="Copy caption" aria-label="Copy caption" onClick={copy}>
           {copied ? <CheckCircle2 size={17} /> : <Copy size={17} />}
         </button>
-        <button title="More">
+        <button title="More" aria-label={`More options for ${p.title}`}>
           <MoreHorizontal size={18} />
         </button>
         <button
