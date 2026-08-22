@@ -1,42 +1,117 @@
-name: Daily social content
+name: Daily Fixaur content
+
 on:
   schedule:
     - cron: "0 13 * * *"
   workflow_dispatch: {}
+
 permissions:
   contents: write
   issues: write
+
 concurrency:
-  group: daily-social
+  group: daily-fixaur-content
   cancel-in-progress: false
+
 jobs:
-  generate:
+  social:
     runs-on: ubuntu-latest
+    timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
-        with: { node-version: 20, cache: npm }
+        with:
+          node-version: 20
+          cache: npm
       - run: npm ci
       - name: Generate five posts and images
         env:
           MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
         run: node scripts/generate-daily-social.mjs
+      - name: Validate social output
+        env:
+          CONTENT_KIND: social
+        run: node scripts/validate-daily-content.mjs
+      - uses: actions/upload-artifact@v4
+        if: success()
+        with:
+          name: social-output
+          path: |
+            public/data/daily-posts.json
+            public/generated/daily
+          if-no-files-found: ignore
+
+  blogs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
       - name: Generate five blogs and images
         env:
           MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
         run: node scripts/generate-daily-blogs.mjs
-      - name: Commit daily content
+      - name: Validate blog output
+        env:
+          CONTENT_KIND: blogs
+        run: node scripts/validate-daily-content.mjs
+      - uses: actions/upload-artifact@v4
+        if: success()
+        with:
+          name: blog-output
+          path: |
+            public/data/daily-blogs.json
+            public/generated/blogs
+          if-no-files-found: ignore
+
+  publish:
+    if: always()
+    needs: [social, blogs]
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: social-output
+          path: .
+      - uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: blog-output
+          path: .
+      - name: Preserve and publish available output
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add public/data/daily-posts.json public/data/daily-blogs.json public/generated/daily public/generated/blogs
           git commit -m "chore: generate daily social content" || echo "No content changes"
-          git push || true
+          git pull --rebase origin main
+          git push
       - name: Create approval notification
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           date=$(date -u +%F)
-          if gh issue list --repo "$GITHUB_REPOSITORY" --state open --search "Fixaur social approval $date" --json number --jq 'length' | grep -q '^0$'; then
-            gh issue create --repo "$GITHUB_REPOSITORY" --title "Fixaur social approval $date" --assignee diacreb1 --body "Review the five draft posts and generated images in src/data/daily-posts.json and public/generated/daily/$date before sending approved posts to GHL."
+          if gh issue list --repo "$GITHUB_REPOSITORY" --state open --search "Fixaur content approval $date" --json number --jq 'length' | grep -q '^0$'; then
+            gh issue create --repo "$GITHUB_REPOSITORY" --title "Fixaur content approval $date" --assignee diacreb1 --body "Review today's draft social posts and blogs before approval. Social job: ${{ needs.social.result }}. Blog job: ${{ needs.blogs.result }}. The publish step preserves the previous valid file whenever a generator fails."
           fi
+      - name: Write run report
+        if: always()
+        run: |
+          mkdir -p .run-report
+          cat > .run-report/daily-content.txt <<EOF
+          date=$(date -u +%F)
+          social=${{ needs.social.result }}
+          blogs=${{ needs.blogs.result }}
+          EOF
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: daily-content-report
+          path: .run-report/daily-content.txt

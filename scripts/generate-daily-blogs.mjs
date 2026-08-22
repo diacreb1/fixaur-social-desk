@@ -26,7 +26,7 @@ function fallbackBlog(topic, i) {
   const title = topic[0].toUpperCase() + topic.slice(1);
   return { title, slug: topic.replace(/[^a-z0-9]+/gi, "-").replace(/^-|-$/g, ""), body: `${title} is a practical concern for local operators who need dependable vehicles. Start with a simple written checklist and record what happened, when it happened and which vehicle was affected. That history helps a technician see patterns instead of treating every visit as an isolated problem.\n\nFor Saskatoon businesses, seasonal conditions and daily stop-and-go work can expose weak batteries, tire concerns, warning lights and maintenance gaps quickly. Before a vehicle leaves, check the items that affect safety and reliability. If something looks unsafe, park the vehicle and arrange an appropriate assessment.\n\nMobile service can be convenient when the vehicle is safely accessible and the work is appropriate for an on-site visit. More complex repairs may still belong in a shop. Fixaur helps local businesses understand the next practical step without making promises about a problem that has not been inspected.\n\nKeep the checklist consistent across the fleet, review repeat issues and ask for help when the symptoms are unclear. A small amount of documentation can make the next decision faster and give your team a clearer maintenance process.`, seoTitle: `${title.slice(0, 56)} | Fixaur`, metaDescription: `A practical Saskatoon guide to ${topic}, with safe checks, fleet context and when mobile mechanic support may help.`, focusKeyword: topic, geoAnswer: `Fixaur serves Saskatoon, Warman and Martensville with mobile mechanic support for eligible, safely accessible vehicle issues.`, faqQuestion: `What should a Saskatoon business do about ${topic}?`, faqAnswer: `Use a consistent checklist, document the symptoms and arrange an assessment when the vehicle is not safe or reliable to operate.`, imagePrompt: `A mobile mechanic inspecting a work vehicle related to ${topic}`, imageAlt: `Mobile mechanic inspection for ${topic} in Saskatoon`, internalLink: "/fleet-service" };
 }
-async function image(prompt) { const res = await fetch("https://api.minimax.io/v1/image_generation", { method: "POST", headers: { "content-type": "application/json", authorization: `Bearer ${API_KEY}` }, body: JSON.stringify({ model: "image-01", prompt: `${prompt}. Brand-safe Fixaur automotive editorial image, realistic Saskatoon setting, no readable text, no logos, no identifiable people.`, aspect_ratio: "16:9", response_format: "base64" }), signal: AbortSignal.timeout(120000) }); if (!res.ok) throw new Error(`MiniMax image ${res.status}: ${await res.text()}`); return res.json(); }
+async function image(prompt) { const res = await fetch("https://api.minimax.io/v1/image_generation", { method: "POST", headers: { "content-type": "application/json", authorization: `Bearer ${API_KEY}` }, body: JSON.stringify({ model: "image-01", prompt: `${prompt}. Brand-safe Fixaur automotive editorial image, realistic Saskatoon setting, no readable text, no logos, no identifiable people.`, aspect_ratio: "16:9", response_format: "base64" }), signal: AbortSignal.timeout(45000) }); if (!res.ok) throw new Error(`MiniMax image ${res.status}: ${await res.text()}`); return res.json(); }
 await fs.mkdir(IMAGE_DIR, { recursive: true });
 const blogs = [];
 for (let i = 0; i < topics.length; i++) {
@@ -37,8 +37,7 @@ for (let i = 0; i < topics.length; i++) {
       b = result.blog || result;
       if (!b?.title || !b?.body || b.body.split(/\s+/).length < 150 || !b.slug || !b.seoTitle || !b.metaDescription || !b.focusKeyword || !b.geoAnswer || !b.faqAnswer || !b.imagePrompt || !b.imageAlt) throw new Error("MiniMax returned an incomplete blog object");
     } catch (error) {
-      if (attempt === 3) b = fallbackBlog(topics[i], i);
-      await new Promise((resolve) => setTimeout(resolve, attempt * 2000));
+      b = fallbackBlog(topics[i], i);
     }
   }
   const file = `${DATE}-${i + 1}.png`;
@@ -46,8 +45,19 @@ for (let i = 0; i < topics.length; i++) {
     const imageData = await image(b.imagePrompt);
     await fs.writeFile(path.join(IMAGE_DIR, file), Buffer.from(imageData.data?.image_base64?.[0] || "", "base64"));
   } catch {
-    const fallback = path.join(ROOT, "public", "generated", "daily", DATE, `${DATE}-${Math.min(i + 1, 5)}-${["educational", "meme", "entertaining", "serious", "competitive"][i]}.png`);
-    await fs.copyFile(fallback, path.join(IMAGE_DIR, file));
+    const dailyRoot = path.join(ROOT, "public", "generated", "daily");
+    const folders = (await fs.readdir(dailyRoot, { withFileTypes: true }).catch(() => []))
+      .filter((entry) => entry.isDirectory() && entry.name !== DATE)
+      .map((entry) => entry.name)
+      .sort()
+      .reverse();
+    const sourceFolder = folders[0] || DATE;
+    const sourceDir = path.join(dailyRoot, sourceFolder);
+    const sourceFiles = (await fs.readdir(sourceDir).catch(() => []))
+      .filter((name) => name.endsWith(".png"))
+      .sort();
+    if (!sourceFiles.length) throw new Error("No prior generated image is available for blog fallback");
+    await fs.copyFile(path.join(sourceDir, sourceFiles[i % sourceFiles.length]), path.join(IMAGE_DIR, file));
   }
   blogs.push({ id: `${DATE}-blog-${i + 1}`, date: DATE, type: "Blog", status: "Draft ready", ...b, image: `/generated/blogs/${DATE}/${file}` });
 }
