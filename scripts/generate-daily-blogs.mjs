@@ -4,7 +4,7 @@ import path from "node:path";
 
 const ROOT = path.resolve(process.cwd());
 const API_KEY = process.env.MINIMAX_API_KEY;
-const DATE = process.env.POST_DATE || new Date().toISOString().slice(0, 10);
+const DATE = new Date(process.env.POST_DATE || Date.now()).toISOString().slice(0, 10);
 const OUT = path.join(ROOT, "public", "data", "daily-blogs.json");
 const IMAGE_DIR = path.join(ROOT, "public", "generated", "blogs", DATE);
 if (!API_KEY) throw new Error("MINIMAX_API_KEY is required");

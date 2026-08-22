@@ -27,10 +27,12 @@ jobs:
       - name: Generate five posts and images
         env:
           MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
+          POST_DATE: ${{ github.run_started_at }}
         run: node scripts/generate-daily-social.mjs
       - name: Validate social output
         env:
           CONTENT_KIND: social
+          POST_DATE: ${{ github.run_started_at }}
         run: node scripts/validate-daily-content.mjs
       - uses: actions/upload-artifact@v4
         if: success()
@@ -54,10 +56,12 @@ jobs:
       - name: Generate five blogs and images
         env:
           MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
+          POST_DATE: ${{ github.run_started_at }}
         run: node scripts/generate-daily-blogs.mjs
       - name: Validate blog output
         env:
           CONTENT_KIND: blogs
+          POST_DATE: ${{ github.run_started_at }}
         run: node scripts/validate-daily-content.mjs
       - uses: actions/upload-artifact@v4
         if: success()
