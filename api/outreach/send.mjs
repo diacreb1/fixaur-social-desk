@@ -36,6 +36,5 @@ export default async function handler(req, res) {
     } catch (error) {
       return json({ error: "Email sent, but delivery record could not be saved", id: data.id, detail: error.message }, 502);
     }
-  }
   return json({ id: data.id, status: "sent", to, sourceUrl, sentAt, replyStatus: "Awaiting reply" });
 }
