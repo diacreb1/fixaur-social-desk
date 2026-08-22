@@ -217,6 +217,9 @@ function App() {
     }
     setGhlState((x) => ({ ...x, [p.id]: "Sending…" }));
     try {
+      const scheduleDate = p.date && p.time
+        ? new Date(`${p.date}T${p.time}:00-06:00`).toISOString()
+        : undefined;
       const res = await fetch("/api/ghl/posts", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -224,6 +227,7 @@ function App() {
           summary: p.copy,
           accountIds: ghlAccounts,
           mediaUrl: new URL(p.asset, window.location.origin).toString(),
+          ...(scheduleDate ? { scheduleDate } : {}),
           altText: `${p.title}: ${p.pillar} social post for Fixaur Mobile Mechanic.`,
         }),
       });
