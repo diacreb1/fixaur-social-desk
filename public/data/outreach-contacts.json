@@ -6,5 +6,8 @@
   {"id":"apollo-dutch-growers","company":"Dutch Growers","firstName":"Nikki","email":"nikki@dutchgrowers.com","emailStatus":"verified","source":"Apollo","verifiedAt":"2026-08-21"},
   {"id":"54a1bdea74686949e7290d0d","company":"Mobile Fleet Services","firstName":"Breanne","email":"bree@mobilefleetservices.ca","emailStatus":"verified","source":"Apollo","verifiedAt":"2026-08-21"},
   {"id":"61d7bdc2c456320001618812","company":"Kindersley Transport Ltd.","firstName":"Shawn","email":"shawn.henschel@kindersleytransport.com","emailStatus":"verified","source":"Apollo","verifiedAt":"2026-08-21"},
-  {"id":"690343c5025b290001d43fa9","company":"City of Swift Current","firstName":"Tim","email":"t.mckay@swiftcurrent.ca","emailStatus":"verified","source":"Apollo","verifiedAt":"2026-08-21"}
+  {"id":"690343c5025b290001d43fa9","company":"City of Swift Current","firstName":"Tim","email":"t.mckay@swiftcurrent.ca","emailStatus":"verified","source":"Apollo","verifiedAt":"2026-08-21"},
+  {"id":"66a704709dd0cc00015ed215","company":"Virtue Construction","firstName":"Josh","email":"josh@virtueconstruction.ca","emailStatus":"verified","source":"Apollo","verifiedAt":"2026-08-21"},
+  {"id":"63903a18fa9ad600010d8487","company":"Quorex Construction","firstName":"Brent","email":"b.mareschal@quorex.ca","emailStatus":"verified","source":"Apollo","verifiedAt":"2026-08-21"},
+  {"id":"60fa8996e2d525000100ad66","company":"Peters Excavating","firstName":"Matt","email":"mcameron@petersexcavating.com","emailStatus":"verified","source":"Apollo","verifiedAt":"2026-08-21"}
 ]

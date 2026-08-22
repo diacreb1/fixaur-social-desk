@@ -141,3 +141,5 @@ jobs:
           if gh issue list --repo "$GITHUB_REPOSITORY" --state open --search "Fixaur outreach approval $date" --json number --jq 'length' | grep -q '^0$'; then
             gh issue create --repo "$GITHUB_REPOSITORY" --title "Fixaur outreach approval $date" --assignee diacreb1 --body "Daily target: $OUTREACH_DAILY_TARGET approval-gated emails. Review today's drafts in the app.\n\nVerified business-email drafts:\n$verified\n\nBlocked until Apollo returns a verified email:\n$blocked\n\nNo email is sent automatically by this job."
           fi
+      - name: Enforce exactly ten unique verified contacts
+        run: node scripts/validate-outreach-daily.mjs
