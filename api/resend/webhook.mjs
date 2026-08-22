@@ -37,6 +37,9 @@ export default async function handler(req, res) {
     const sql = db();
     await sql`CREATE TABLE IF NOT EXISTS fixaur_outreach_events (id bigserial PRIMARY KEY, event_type text NOT NULL, email_id text, recipient text, payload jsonb NOT NULL, created_at timestamptz NOT NULL DEFAULT now())`;
     await sql`INSERT INTO fixaur_outreach_events (event_type,email_id,recipient,payload) VALUES (CAST(${type} AS text),CAST(${emailId} AS text),CAST(${to} AS text),${JSON.stringify(event)}::jsonb)`;
+    if ((status === "Bounced" || status === "Complained") && to) {
+      await sql`INSERT INTO fixaur_outreach_suppressions (recipient,reason,source) VALUES (lower(${to}),${status},'resend-webhook') ON CONFLICT (recipient) DO UPDATE SET reason=EXCLUDED.reason,source=EXCLUDED.source`;
+    }
     if (status && (emailId || to)) {
       await sql`UPDATE fixaur_state SET value = (SELECT jsonb_agg(CASE WHEN (item->>'resendId'=CAST(${emailId} AS text) OR item->>'email'=CAST(${to} AS text)) THEN item || jsonb_build_object('replyStatus',CAST(${status} AS text),'lastActivity',now()::text) ELSE item END) FROM jsonb_array_elements(value) item), updated_at=now() WHERE key='outreach'`;
     }

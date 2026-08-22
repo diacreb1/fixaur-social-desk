@@ -16,6 +16,8 @@ export default async function handler(req, res) {
   await ensureSchema();
   const sql = db();
   const recipient = String(to).trim().toLowerCase();
+  const suppressed = await sql`SELECT recipient,reason FROM fixaur_outreach_suppressions WHERE recipient=${recipient}`;
+  if (suppressed.length) return json({ error: `Send blocked: recipient is suppressed (${suppressed[0].reason})` }, 409);
   const contentHash = crypto.createHash("sha256").update(`${subject}\n${html || text}`).digest("hex");
   const dedupeKey = `${campaignKey}:${recipient}`;
   const claim = await sql`INSERT INTO fixaur_outreach_sends (dedupe_key,recipient,campaign_key,content_hash,status) VALUES (${dedupeKey},${recipient},${campaignKey},${contentHash},'sending') ON CONFLICT (dedupe_key) DO NOTHING RETURNING id`;
@@ -34,6 +36,7 @@ export default async function handler(req, res) {
   try {
       await sql`UPDATE fixaur_outreach_sends SET status='sent',resend_id=${data.id},sent_at=${sentAt} WHERE id=${claim[0].id}`;
       await sql`UPDATE fixaur_state SET value = (SELECT jsonb_agg(CASE WHEN lower(item->>'email')=CAST(${recipient} AS text) THEN item || jsonb_build_object('status','Sent','resendId',CAST(${data.id} AS text),'lastActivity',CAST(${sentAt} AS text),'replyStatus','Awaiting reply') ELSE item END) FROM jsonb_array_elements(value) item), updated_at=now() WHERE key='outreach'`;
+      await sql`INSERT INTO fixaur_outreach_followups (recipient,parent_resend_id,step,due_at) VALUES (${recipient},${data.id},1,now()+interval '3 days'),(${recipient},${data.id},2,now()+interval '7 days'),(${recipient},${data.id},3,now()+interval '14 days')`;
     } catch (error) {
       return json({ error: "Email sent, but delivery record could not be saved", id: data.id, detail: error.message }, 502);
     }
