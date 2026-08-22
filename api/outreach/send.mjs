@@ -9,6 +9,7 @@ export default async function handler(req, res) {
   if (!key) return json({ error: "Resend is not configured" }, 503);
   const input = req.body || {};
   const { to, subject, html, text, sourceUrl, approved, campaignKey = "fixaur-fleet-outreach-v1" } = input || {};
+  const cc = "diacre@fixaur.com";
   if (!approved) return json({ error: "Approval is required before sending" }, 400);
   if (!to || !subject || (!html && !text) || !sourceUrl) return json({ error: "to, subject, content, and sourceUrl are required" }, 400);
   if (!process.env.DATABASE_URL) return json({ error: "Database is required for duplicate protection" }, 503);
@@ -22,7 +23,7 @@ export default async function handler(req, res) {
   const response = await fetch("https://api.resend.com/emails", {
     method: "POST",
     headers: { "content-type": "application/json", authorization: `Bearer ${key}` },
-    body: JSON.stringify({ from, to: [to], subject, html: html || `<p>${text}</p>`, text }),
+    body: JSON.stringify({ from, to: [to], cc: [cc], subject, html: html || `<p>${text}</p>`, text }),
   });
   const data = await response.json().catch(() => ({}));
   if (!response.ok) {
@@ -36,5 +37,5 @@ export default async function handler(req, res) {
     } catch (error) {
       return json({ error: "Email sent, but delivery record could not be saved", id: data.id, detail: error.message }, 502);
     }
-  return json({ id: data.id, status: "sent", to, sourceUrl, sentAt, replyStatus: "Awaiting reply" });
+  return json({ id: data.id, status: "sent", to, cc, sourceUrl, sentAt, replyStatus: "Awaiting reply" });
 }
