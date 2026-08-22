@@ -535,8 +535,19 @@ function Overview({ activePosts, draftCount, blogItems, outreachItems }) {
       <Stat label="Email" value={String(emailSent)} detail={`${emailReview} in approval queue`} icon={<Mail />} />
       <Stat label="Needs review" value={String(draftCount + blogReview + emailReview)} detail="items awaiting sign-off" icon={<CheckCircle2 />} />
     </section>
-    <div className="workspace-grid"><div className="workspace-card"><p className="eyebrow">TODAY</p><h2>Approval queue</h2><p>Social drafts, blog drafts and outreach messages stay in review until you approve them.</p><span className="status-chip">Approval guardrail on</span></div><div className="workspace-card"><p className="eyebrow">OUTREACH</p><h2>Fleet prospecting</h2><p>Use public business contact details, keep a clear source, and track every approved message and reply.</p><span className="status-chip">Draft-only mode</span></div></div>
+    <div className="workspace-grid"><div className="workspace-card"><p className="eyebrow">TODAY</p><h2>Approval queue</h2><p>Social drafts, blog drafts and outreach messages stay in review until you approve them.</p><span className="status-chip">Approval guardrail on</span></div><div className="workspace-card"><p className="eyebrow">OUTREACH</p><h2>Fleet prospecting</h2><p>Use public business contact details, keep a clear source, and track every approved message and reply.</p><span className="status-chip">Draft-only mode</span></div></div><CampaignControlPanel />
   </>;
+}
+
+function CampaignControlPanel() {
+  const [metrics, setMetrics] = useState(null);
+  const [recipient, setRecipient] = useState("");
+  const [notice, setNotice] = useState("");
+  useEffect(() => { fetch("/api/outreach/analytics").then((r) => r.ok ? r.json() : null).then(setMetrics).catch(() => {}); }, []);
+  const suppress = async (e) => { e.preventDefault(); const res = await fetch("/api/outreach/suppress", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ recipient, reason: "manual suppression from overview" }) }); setNotice(res.ok ? "Recipient suppressed." : "Enter a valid email address."); if (res.ok) setRecipient(""); };
+  const sent = metrics?.sends?.find((x) => x.status === "sent")?.count || 0;
+  const followups = metrics?.followups?.reduce((n, x) => n + Number(x.count || 0), 0) || 0;
+  return <div className="workspace-card"><div className="section-head"><div><p className="eyebrow">CAMPAIGN CONTROL</p><h2>Outreach health</h2></div><span className="status-chip">10 daily drafts</span></div><div className="stats"><Stat label="Sent" value={String(sent)} detail="confirmed Resend sends" icon={<Send />} /><Stat label="Suppressed" value={String(metrics?.suppressions || 0)} detail="blocked recipients" icon={<CheckCircle2 />} /><Stat label="Follow-ups" value={String(followups)} detail="queued sequence steps" icon={<Clock3 />} /></div><form className="inline-form" onSubmit={suppress}><input type="email" value={recipient} onChange={(e) => setRecipient(e.target.value)} placeholder="Suppress an email address" aria-label="Email to suppress" /><button className="approve-btn" type="submit">Suppress</button></form>{notice && <p className="saved-note">{notice}</p>}</div>;
 }
 
 function BlogWorkspace() {
