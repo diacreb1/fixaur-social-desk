@@ -1,0 +1,10 @@
+import fs from "node:fs/promises";
+const date = new Date(process.env.POST_DATE || Date.now()).toISOString().slice(0, 10);
+const target = Number(process.env.OUTREACH_DAILY_TARGET || 10);
+const contacts = JSON.parse(await fs.readFile("public/data/outreach-contacts.json", "utf8"));
+const eligible = contacts.filter((x) => x.emailStatus === "verified" && x.email).slice(0, target);
+if (eligible.length !== target) throw new Error(`Expected exactly ${target} verified contacts, found ${eligible.length}`);
+const angles = [["Keep your fleet moving", "keeping vehicles available between jobs"], ["A practical fleet support option", "reducing avoidable trips to a repair shop"], ["Support when a work vehicle is stuck", "getting a safe next step when a vehicle will not cooperate"], ["A simpler maintenance conversation", "making maintenance easier to coordinate for a busy team"], ["Mobile support for local operators", "keeping crews focused on the work instead of vehicle downtime"]];
+const rows = eligible.map((x, i) => { const [subject, hook] = angles[(i + Number(date.slice(-2))) % angles.length]; return { ...x, id: `${date}-outreach-${i + 1}`, date, campaignKey: `fixaur-fleet-${date}`, subject, body: `Hi ${x.firstName},\n\nI wanted to introduce Fixaur to ${x.company}. We provide mobile mechanic support for local teams in Saskatoon and nearby communities, with a focus on ${hook}.\n\nWould it be useful to compare notes on keeping your vehicles on the road?\n\nBest,\nDiacre\nFixaur Mobile Mechanic\ndiacre@fixaur.com\n306-992-2827` }; });
+await fs.writeFile("public/data/daily-outreach.json", `${JSON.stringify(rows, null, 2)}\n`);
+console.log(`Generated exactly ${rows.length} unique daily outreach drafts for ${date}`);

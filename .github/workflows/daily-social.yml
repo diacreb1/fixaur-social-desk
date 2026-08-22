@@ -131,6 +131,27 @@ jobs:
       OUTREACH_DAILY_TARGET: 10
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Generate exactly ten unique outreach drafts
+        env:
+          OUTREACH_DAILY_TARGET: 10
+          POST_DATE: ${{ github.run_started_at }}
+        run: node scripts/generate-daily-outreach.mjs
+      - name: Validate daily outreach
+        env:
+          OUTREACH_DAILY_TARGET: 10
+          POST_DATE: ${{ github.run_started_at }}
+        run: node scripts/validate-daily-outreach.mjs
+      - name: Publish daily outreach drafts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/daily-outreach.json
+          git commit -m "chore: generate daily outreach drafts" || echo "No outreach changes"
+          git pull --rebase origin main
+          git push
       - name: Create daily outreach approval issue
         env:
           GH_TOKEN: ${{ github.token }}
