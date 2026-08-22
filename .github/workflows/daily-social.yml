@@ -123,3 +123,19 @@ jobs:
         with:
           name: daily-content-report
           path: .run-report/daily-content.txt
+
+  outreach-review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create daily outreach approval issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          date=$(date -u +%F)
+          verified=$(node -e 'const x=require("./public/data/outreach-contacts.json"); console.log(x.filter(r=>r.emailStatus==="verified" && r.email).map(r=>`- ${r.firstName} at ${r.company} (${r.email})`).join("\n") || "- None")')
+          blocked=$(node -e 'const x=require("./public/data/outreach-contacts.json"); console.log(x.filter(r=>!r.email || r.emailStatus!=="verified").map(r=>`- ${r.firstName || "Contact"} at ${r.company}`).join("\n") || "- None")')
+          if gh issue list --repo "$GITHUB_REPOSITORY" --state open --search "Fixaur outreach approval $date" --json number --jq 'length' | grep -q '^0$'; then
+            gh issue create --repo "$GITHUB_REPOSITORY" --title "Fixaur outreach approval $date" --assignee diacreb1 --body "Review and approve outreach drafts in the app.\n\nVerified business-email drafts:\n$verified\n\nBlocked until Apollo returns a verified email:\n$blocked\n\nNo email is sent automatically by this job."
+          fi

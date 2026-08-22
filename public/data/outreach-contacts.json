@@ -1,0 +1,7 @@
+[
+  {"id":"5b84bdd8324d4471896e3a94","company":"Custom Courier Co. Ltd","firstName":"Chintan","email":"","emailStatus":"unavailable","source":"Apollo","verifiedAt":"2026-08-21"},
+  {"id":"556cfced73696411f4bd7300","company":"Q-Line Trucking","firstName":"Jeff","email":"j.jepsen@qline-logistics.com","emailStatus":"verified","source":"Apollo","verifiedAt":"2026-08-21"},
+  {"id":"55edfec2f3e5bb16320001b7","company":"Ghost Transportation Services","firstName":"Pat","email":"pato@ghosttrans.com","emailStatus":"verified","source":"Apollo","verifiedAt":"2026-08-21"},
+  {"id":"5e56750f18a6380001d02775","company":"Hawk Logistics Ltd.","firstName":"Barry","email":"barry@hawklogistics.ca","emailStatus":"verified","source":"Apollo","verifiedAt":"2026-08-21"},
+  {"id":"apollo-dutch-growers","company":"Dutch Growers","firstName":"Nikki","email":"nikki@dutchgrowers.com","emailStatus":"verified","source":"Apollo","verifiedAt":"2026-08-21"}
+]
