@@ -32,7 +32,7 @@ export default async function handler(req, res) {
   const sentAt = new Date().toISOString();
   try {
       await sql`UPDATE fixaur_outreach_sends SET status='sent',resend_id=${data.id},sent_at=${sentAt} WHERE id=${claim[0].id}`;
-      await sql`UPDATE fixaur_state SET value = (SELECT jsonb_agg(CASE WHEN item->>'email'=${to} THEN item || jsonb_build_object('status','Sent','resendId',${data.id},'lastActivity',${sentAt},'replyStatus','Awaiting reply') ELSE item END) FROM jsonb_array_elements(value) item), updated_at=now() WHERE key='outreach'`;
+      await sql`UPDATE fixaur_state SET value = (SELECT jsonb_agg(CASE WHEN lower(item->>'email')=CAST(${recipient} AS text) THEN item || jsonb_build_object('status','Sent','resendId',CAST(${data.id} AS text),'lastActivity',CAST(${sentAt} AS text),'replyStatus','Awaiting reply') ELSE item END) FROM jsonb_array_elements(value) item), updated_at=now() WHERE key='outreach'`;
     } catch (error) {
       return json({ error: "Email sent, but delivery record could not be saved", id: data.id, detail: error.message }, 502);
     }
