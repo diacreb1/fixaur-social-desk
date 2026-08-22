@@ -13,7 +13,11 @@ export function db() {
 
 export async function ensureSchema() {
   if (!ready) {
-    ready = db()`CREATE TABLE IF NOT EXISTS fixaur_state (key text PRIMARY KEY, value jsonb NOT NULL, updated_at timestamptz NOT NULL DEFAULT now())`;
+    ready = (async () => {
+      const query = db();
+      await query`CREATE TABLE IF NOT EXISTS fixaur_state (key text PRIMARY KEY, value jsonb NOT NULL, updated_at timestamptz NOT NULL DEFAULT now())`;
+      await query`CREATE TABLE IF NOT EXISTS fixaur_outreach_sends (id bigserial PRIMARY KEY, dedupe_key text NOT NULL UNIQUE, recipient text NOT NULL, campaign_key text NOT NULL, content_hash text NOT NULL, resend_id text, status text NOT NULL, created_at timestamptz NOT NULL DEFAULT now(), sent_at timestamptz)`;
+    })();
   }
   await ready;
 }
