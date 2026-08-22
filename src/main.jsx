@@ -153,7 +153,7 @@ function App() {
   const [dailyPosts, setDailyPosts] = useState(null);
   const [generationStatus, setGenerationStatus] = useState("Using the saved queue");
   const [overviewBlogItems, setOverviewBlogItems] = useState([]);
-  const [overviewOutreachItems, setOverviewOutreachItems] = useState([]);
+  const [overviewOutreachItems, setOverviewOutreachItems] = useState(outreachRecords.filter((x) => x.emailStatus === "verified"));
   useEffect(() => {
     fetch("/data/daily-posts.json", { cache: "no-store" })
       .then((res) => (res.ok ? res.json() : null))
@@ -333,7 +333,7 @@ function App() {
             </button>
             <button className={activeView === "outreach" ? "active" : ""} onClick={() => setActiveView("outreach")}>
               <Mail size={18} />
-              Email outreach <b>{outreachRecords.filter((x) => x.status === "Draft").length}</b>
+              Email outreach <b>{outreachRecords.filter((x) => x.emailStatus === "verified").length}</b>
             </button>
             <button>
               <Settings size={18} />
