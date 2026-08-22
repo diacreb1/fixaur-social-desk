@@ -3,5 +3,8 @@
   {"id":"556cfced73696411f4bd7300","company":"Q-Line Trucking","firstName":"Jeff","email":"j.jepsen@qline-logistics.com","emailStatus":"verified","source":"Apollo","verifiedAt":"2026-08-21"},
   {"id":"55edfec2f3e5bb16320001b7","company":"Ghost Transportation Services","firstName":"Pat","email":"pato@ghosttrans.com","emailStatus":"verified","source":"Apollo","verifiedAt":"2026-08-21"},
   {"id":"5e56750f18a6380001d02775","company":"Hawk Logistics Ltd.","firstName":"Barry","email":"barry@hawklogistics.ca","emailStatus":"verified","source":"Apollo","verifiedAt":"2026-08-21"},
-  {"id":"apollo-dutch-growers","company":"Dutch Growers","firstName":"Nikki","email":"nikki@dutchgrowers.com","emailStatus":"verified","source":"Apollo","verifiedAt":"2026-08-21"}
+  {"id":"apollo-dutch-growers","company":"Dutch Growers","firstName":"Nikki","email":"nikki@dutchgrowers.com","emailStatus":"verified","source":"Apollo","verifiedAt":"2026-08-21"},
+  {"id":"54a1bdea74686949e7290d0d","company":"Mobile Fleet Services","firstName":"Breanne","email":"bree@mobilefleetservices.ca","emailStatus":"verified","source":"Apollo","verifiedAt":"2026-08-21"},
+  {"id":"61d7bdc2c456320001618812","company":"Kindersley Transport Ltd.","firstName":"Shawn","email":"shawn.henschel@kindersleytransport.com","emailStatus":"verified","source":"Apollo","verifiedAt":"2026-08-21"},
+  {"id":"690343c5025b290001d43fa9","company":"City of Swift Current","firstName":"Tim","email":"t.mckay@swiftcurrent.ca","emailStatus":"verified","source":"Apollo","verifiedAt":"2026-08-21"}
 ]

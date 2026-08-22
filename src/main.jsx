@@ -90,6 +90,9 @@ const outreachRecords = [
   { id: "apollo-runnr", company: "RUNNR", contact: "Apollo prospect · Saskatoon", subject: "Mobile support for your delivery vehicles", status: "Draft", lastActivity: "Not sent" },
   { id: "apollo-peters", company: "Peters Excavating", contact: "Apollo prospect · Saskatoon", subject: "Keep your equipment and trucks working", status: "Draft", lastActivity: "Not sent" },
   { id: "apollo-dutch-growers", company: "Dutch Growers", contact: "Nikki Van Duyvendyk · dutchgrowers.com", subject: "Keep your service vehicles ready for the season", status: "Draft", lastActivity: "Not sent", firstName: "Nikki", email: "nikki@dutchgrowers.com", emailStatus: "verified", apolloVerifiedAt: "2026-08-21" },
+  { id: "54a1bdea74686949e7290d0d", company: "Mobile Fleet Services", contact: "Breanne Lishchynsky · mobilefleetservices.ca", subject: "Support for your mobile fleet operations", status: "Draft", lastActivity: "Not sent", firstName: "Breanne", email: "bree@mobilefleetservices.ca", emailStatus: "verified", apolloVerifiedAt: "2026-08-21" },
+  { id: "61d7bdc2c456320001618812", company: "Kindersley Transport Ltd.", contact: "Shawn Henschel · kindersleytransport.com", subject: "A simpler way to keep your fleet moving", status: "Draft", lastActivity: "Not sent", firstName: "Shawn", email: "shawn.henschel@kindersleytransport.com", emailStatus: "verified", apolloVerifiedAt: "2026-08-21" },
+  { id: "690343c5025b290001d43fa9", company: "City of Swift Current", contact: "Tim McKay · swiftcurrent.ca", subject: "Mobile support for fleet vehicles", status: "Draft", lastActivity: "Not sent", firstName: "Tim", email: "t.mckay@swiftcurrent.ca", emailStatus: "verified", apolloVerifiedAt: "2026-08-21" },
 ];
 const outreachTemplateVersion = "personalized-v3";
 const outreachBody = (record) => `${record.firstName?.trim() ? `Hi ${record.firstName.trim()},` : "Hi there,"}
