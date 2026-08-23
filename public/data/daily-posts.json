@@ -1,13 +1,13 @@
 [
   {
-    "id": "2026-08-22-1",
-    "date": "2026-08-22",
+    "id": "2026-08-23-1",
+    "date": "2026-08-23",
     "time": "07:30",
     "pillar": "Educational",
-    "title": "Why Checking Your Battery Before Winter Matters",
-    "caption": "As Saskatoon temperatures drop, a weak battery can leave you stranded. Mobile mechanic tip: test your battery’s cold cranking amps before the freeze. No tow needed—just a quick check at your driveway. #SaskatoonMechanic #WinterReady",
-    "image_prompt": "A mechanic in a Saskatoon driveway using a digital battery tester on a car, early morning frost on the ground, warm shop light.",
-    "image": "/generated/daily/2026-08-22/2026-08-22-1-educational.png",
+    "title": "Why Tire Pressure Matters for Saskatoon Drivers",
+    "caption": "With our Saskatchewan winters and warm summer days, tire pressure can swing more than you think. Check yours monthly with a reliable gauge – it improves fuel economy, extends tire life, and keeps handling safe on icy or rainy streets. A quick look at your tires today can prevent a surprise flat tomorrow.",
+    "image_prompt": "A hand holding a digital tire pressure gauge, with the Saskatoon skyline and a light snow dusting in the background.",
+    "image": "/generated/daily/2026-08-23/2026-08-23-1-educational.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -16,14 +16,14 @@
     ]
   },
   {
-    "id": "2026-08-22-2",
-    "date": "2026-08-22",
+    "id": "2026-08-23-2",
+    "date": "2026-08-23",
     "time": "10:15",
     "pillar": "Meme",
-    "title": "When Your Car Says 'I'm Fine' But...",
-    "caption": "That dashboard light might be trying to tell you something. Don't wait for a breakdown on the bridge—call Fixaur and get it checked on the spot. #SaskatoonLife #CarMeme",
-    "image_prompt": "A funny meme image of a car with a worried face, dashboard glowing with a check engine light, set against a snowy Saskatoon skyline.",
-    "image": "/generated/daily/2026-08-22/2026-08-22-2-meme.png",
+    "title": "When you forget to check your oil…",
+    "caption": "You hit the drive‑thru, order a double‑shot latte, and your car whispers, “I’m thirsty.” 🚗☕️ Good thing the shop can come to you before the coffee gets cold. #MobileMechanicLife",
+    "image_prompt": "A cartoon car with a steaming coffee mug perched on its roof, set in a snowy Saskatoon park, with a playful ‘Oops!’ caption.",
+    "image": "/generated/daily/2026-08-23/2026-08-23-2-meme.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -32,14 +32,14 @@
     ]
   },
   {
-    "id": "2026-08-22-3",
-    "date": "2026-08-22",
+    "id": "2026-08-23-3",
+    "date": "2026-08-23",
     "time": "12:45",
     "pillar": "Entertaining",
-    "title": "Fixaur's Roadside Road Trip Game",
-    "caption": "Think you know Saskatoon streets? Guess the next stop on our mobile mechanic route and win a free coffee coupon. Comment your guess below! #Saskatoon #MobileMechanic #RoadTrip",
-    "image_prompt": "A colorful illustration of a mobile mechanic van driving past iconic Saskatoon landmarks, with a road map and coffee cup.",
-    "image": "/generated/daily/2026-08-22/2026-08-22-3-entertaining.png",
+    "title": "From Breakdown to Barbecue: A Saskatoon Story",
+    "caption": "When Jake’s truck stalled on a quiet street in Sutherland, our mobile mechanic rolled up, diagnosed a loose battery cable, and got the engine purring again. While we worked, the neighbors fired up the grill, and the whole block ended up sharing stories over burgers. Sometimes a mechanical hiccup becomes a community moment.",
+    "image_prompt": "A mechanic van parked in a residential driveway, a car on a portable lift, and a backyard barbecue with neighbors laughing in the background.",
+    "image": "/generated/daily/2026-08-23/2026-08-23-3-entertaining.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -48,14 +48,14 @@
     ]
   },
   {
-    "id": "2026-08-22-4",
-    "date": "2026-08-22",
+    "id": "2026-08-23-4",
+    "date": "2026-08-23",
     "time": "16:30",
     "pillar": "Serious",
-    "title": "Safety First: Recognize Early Signs of Brake Wear",
-    "caption": "If you hear a squeal or feel a vibration when braking, don’t ignore it. In Saskatoon’s icy conditions, effective brakes are crucial. Our mobile service can inspect and address brake issues at your home or workplace—before they become hazardous.",
-    "image_prompt": "A close-up of a brake rotor showing wear, with a hand pointing at it, set in a garage with a Saskatoon winter backdrop.",
-    "image": "/generated/daily/2026-08-22/2026-08-22-4-serious.png",
+    "title": "Don’t Wait Until It’s Too Late: Brake Inspection Tips",
+    "caption": "If you hear a squeak, feel a pulsation, or notice longer stopping distances, it’s time to have your brakes checked. In Saskatoon’s winter, reliable brakes are essential for safety on icy roads. Book a quick inspection before the season turns – your family’s peace of mind is worth a few minutes of your day.",
+    "image_prompt": "Close‑up of brake rotors with a warning triangle, a snowy Saskatoon street visible through a frost‑covered window.",
+    "image": "/generated/daily/2026-08-23/2026-08-23-4-serious.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -64,14 +64,14 @@
     ]
   },
   {
-    "id": "2026-08-22-5",
-    "date": "2026-08-22",
+    "id": "2026-08-23-5",
+    "date": "2026-08-23",
     "time": "19:00",
     "pillar": "Competitive",
-    "title": "Skip the Shop Wait, Save the Drive",
-    "caption": "Why spend an afternoon at a repair shop when we can come to you? Fixaur Mobile Mechanic serves Saskatoon residents with on‑site diagnostics and repairs, so you can keep your day moving. #MobileMechanic #Saskatoon",
-    "image_prompt": "A side‑by‑side comparison illustration: a car waiting in a long shop line versus a Fixaur van arriving at a home driveway, with a clock showing time saved.",
-    "image": "/generated/daily/2026-08-22/2026-08-22-5-competitive.png",
+    "title": "Skip the Tow, Save the Day: Mobile Mechanic Convenience",
+    "caption": "No need to arrange a tow truck or wait at a shop for hours. We bring the garage to your driveway in Saskatoon, whether you’re at home, work, or the soccer field. Just schedule online, and we’ll arrive ready to get you back on the road quickly.",
+    "image_prompt": "A bright orange mobile mechanic van pulling into a Saskatoon residential driveway, a car on a compact lift, with a clock showing a short wait time.",
+    "image": "/generated/daily/2026-08-23/2026-08-23-5-competitive.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
