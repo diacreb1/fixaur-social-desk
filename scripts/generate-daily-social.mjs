@@ -4,6 +4,7 @@ import path from "node:path";
 
 const ROOT = path.resolve(process.cwd());
 const API_KEY = process.env.MINIMAX_API_KEY;
+const IMAGE_NO_TEXT = "Photograph only: absolutely no words, letters, numbers, captions, signs, labels, logos, watermarks, license plates, branded clothing, or readable markings anywhere in the image. Use clean unmarked surfaces and blank backgrounds.";
 const DATE = new Date(process.env.POST_DATE || Date.now()).toISOString().slice(0, 10);
 const OUT = path.join(ROOT, "public", "data", "daily-posts.json");
 const IMAGE_DIR = path.join(ROOT, "public", "generated", "daily", DATE);
@@ -97,8 +98,10 @@ for (let i = 0; i < pillars.length; i++) {
   if (!p) throw new Error(`Missing ${pillars[i]} post`);
   const imageFile = `${DATE}-${i + 1}-${pillars[i].toLowerCase()}.png`;
   try {
-    const imageData = await generateImage(`${p.image_prompt}. Brand-safe automotive editorial image for Fixaur, realistic Saskatoon setting, no readable text, no logos, no identifiable people.`);
-    await fs.writeFile(path.join(IMAGE_DIR, imageFile), Buffer.from(imageData.data?.image_base64?.[0] || "", "base64"));
+    const imageData = await generateImage(`${p.image_prompt}. Brand-safe automotive editorial image for Fixaur, realistic Saskatoon setting, no identifiable people. ${IMAGE_NO_TEXT}`);
+    const bytes = Buffer.from(imageData.data?.image_base64?.[0] || "", "base64");
+    if (bytes.length < 1000) throw new Error("Image response was empty");
+    await fs.writeFile(path.join(IMAGE_DIR, imageFile), bytes);
   } catch {
     const existingRoot = path.join(ROOT, "public", "generated", "daily");
     const folders = (await fs.readdir(existingRoot, { withFileTypes: true })).filter((entry) => entry.isDirectory() && entry.name !== DATE).sort().reverse();
