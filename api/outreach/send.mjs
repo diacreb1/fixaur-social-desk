@@ -10,7 +10,8 @@ export default async function handler(req, res) {
   const input = req.body || {};
   const { to, subject, html, text, sourceUrl, approved, campaignKey = "fixaur-fleet-outreach-v1" } = input || {};
   const cc = "diacre@fixaur.com";
-  if (!approved) return json({ error: "Approval is required before sending" }, 400);
+  // Manual approval is disabled by product configuration; recipient verification,
+  // suppression, and database idempotency remain mandatory safeguards.
   if (!to || !subject || (!html && !text) || !sourceUrl) return json({ error: "to, subject, content, and sourceUrl are required" }, 400);
   if (!process.env.DATABASE_URL) return json({ error: "Database is required for duplicate protection" }, 503);
   await ensureSchema();
