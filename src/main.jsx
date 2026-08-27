@@ -555,7 +555,6 @@ function BlogWorkspace() {
   const [items, setItems] = useState(() => { try { return JSON.parse(localStorage.getItem("fixaur-blog-drafts")) || defaults; } catch { return defaults; } });
   const [selected, setSelected] = useState(items[0]?.id);
   const [notice, setNotice] = useState("");
-  const [analytics, setAnalytics] = useState(null);
   useEffect(() => { fetch("/data/daily-blogs.json", { cache: "no-store" }).then((r) => r.ok ? r.json() : null).then((data) => { if (Array.isArray(data) && data.length) { setItems(data); setSelected(data[0]?.id); } }).catch(() => {}); }, []);
   useEffect(() => { fetch("/api/state?key=blog").then((r) => r.ok ? r.json() : null).then((data) => { if (Array.isArray(data?.value) && data.value.length) { setItems(data.value.map((item, i) => ({ ...defaults[i % defaults.length], ...item }))); setSelected(data.value[0]?.id); } }).catch(() => {}); }, []);
   const current = items.find((x) => x.id === selected) || items[0];
@@ -568,6 +567,7 @@ function OutreachWorkspace() {
   const [items, setItems] = useState(() => { try { const saved = JSON.parse(localStorage.getItem("fixaur-outreach")); if (saved && localStorage.getItem("fixaur-outreach-template") === outreachTemplateVersion) return saved; const next = (saved || outreachRecords).map((x) => ({ ...x, firstName: x.firstName || "", email: x.email || "", body: outreachBody(x) })); localStorage.setItem("fixaur-outreach", JSON.stringify(next)); localStorage.setItem("fixaur-outreach-template", outreachTemplateVersion); return next; } catch { return outreachRecords.map((x) => ({ ...x, firstName: "", email: "", body: outreachBody(x) })); } });
   const [selected, setSelected] = useState(items[0]?.id);
   const [notice, setNotice] = useState("");
+  const [analytics, setAnalytics] = useState(null);
   useEffect(() => { fetch("/api/state?key=outreach").then((r) => r.ok ? r.json() : null).then((data) => { if (Array.isArray(data?.value)) { const byId = new Map(outreachRecords.map((x) => [x.id, x])); const merged = data.value.map((x) => ({ ...byId.get(x.id), ...x, email: x.email || byId.get(x.id)?.email || "", firstName: x.firstName || byId.get(x.id)?.firstName || "", emailStatus: x.emailStatus || byId.get(x.id)?.emailStatus })); setItems(merged); setSelected(merged[0]?.id); } }).catch(() => {}); }, []);
   useEffect(() => { fetch("/data/daily-outreach.json", { cache: "no-store" }).then((r) => r.ok ? r.json() : null).then((daily) => { if (Array.isArray(daily) && daily.length === 10) setItems((currentItems) => daily.map((draft) => ({ ...draft, ...(currentItems.find((x) => x.email?.toLowerCase() === draft.email.toLowerCase()) || {}), subject: draft.subject, body: draft.body, firstName: draft.firstName, company: draft.company, email: draft.email, emailStatus: draft.emailStatus, campaignKey: draft.campaignKey }))); }).catch(() => {}); }, []);
   useEffect(() => { setItems((all) => all.map((x) => x.emailStatus === "verified" && x.status !== "Sent" ? { ...x, status: "Approved" } : x)); }, []);
