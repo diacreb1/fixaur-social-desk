@@ -256,7 +256,7 @@ function App() {
       const data = await res.json().catch(() => ({}));
       setGhlState((x) => ({
         ...x,
-        [p.id]: res.ok ? "Sent to GHL" : data.error || "GHL failed",
+        [p.id]: res.ok ? (scheduleDate ? "Scheduled in GHL" : "Sent to GHL") : data.error || "GHL failed",
       }));
     } catch {
       setGhlState((x) => ({ ...x, [p.id]: "GHL unavailable" }));

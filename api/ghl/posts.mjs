@@ -28,7 +28,7 @@ export default async function handler(req,res){
   }));
   const failed=results.filter((x)=>!x.ok);
   if (failed.length) return res.status(failed.length===results.length?422:207).json({error:`GHL rejected ${failed.length} of ${results.length} connected accounts`,results});
-  return res.status(201).json({success:true,message:'Created draft for all connected accounts',results});
+  return res.status(201).json({success:true,message:scheduleDate?'Scheduled post for all connected accounts':'Created draft for all connected accounts',results});
  } catch {
   return res.status(502).json({error:'Unable to reach GHL'});
  }
