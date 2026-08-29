@@ -1,13 +1,13 @@
 [
   {
-    "id": "2026-08-28-1",
-    "date": "2026-08-28",
+    "id": "2026-08-29-1",
+    "date": "2026-08-29",
     "time": "07:30",
     "pillar": "Educational",
-    "title": "Know Your Battery’s Health",
-    "caption": "As Saskatoon temperatures dip, a quick battery voltage check can save you from a cold‑start surprise. Stop by our mobile service and we’ll test it on the spot—no tow or shop wait needed. #SaskatoonAutoTips",
-    "image_prompt": "A hand holding a digital multimeter probes a car battery terminal, with a light snow‑covered Saskatoon street in the background.",
-    "image": "/generated/daily/2026-08-28/2026-08-28-1-educational.png",
+    "title": "Keep Your Tires Ready for Saskatoon's Fall Roads",
+    "caption": "With cooler temps approaching, check your tire pressure monthly. Under‑inflated tires can reduce fuel economy and handling. Also, inspect tread depth—Saskatoon’s mix of rain and occasional early snow makes good traction essential. A quick pressure check takes 5 minutes and can save you a surprise on the road.",
+    "image_prompt": "A mechanic checking tire pressure on a vehicle with the Saskatoon skyline visible in the background, autumn leaves on the ground.",
+    "image": "/generated/daily/2026-08-29/2026-08-29-1-educational.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -16,14 +16,14 @@
     ]
   },
   {
-    "id": "2026-08-28-2",
-    "date": "2026-08-28",
+    "id": "2026-08-29-2",
+    "date": "2026-08-29",
     "time": "10:15",
     "pillar": "Meme",
-    "title": "When the Car Says ‘Nope’",
-    "caption": "YouTuber vibes? Nah, but we get it—when your ride throws a tantrum, we bring the fix to you. No shop line, just mobile magic. #SaskatoonMeme",
-    "image_prompt": "A cartoon car with a speech bubble saying ‘I’m not starting today!’ standing in front of the Saskatoon skyline.",
-    "image": "/generated/daily/2026-08-28/2026-08-28-2-meme.png",
+    "title": "When Your Car Acts Like It Needs a Coffee",
+    "caption": "We’ve all been there: the engine’s sluggish, the dash lights are blinking, and you swear the car is begging for caffeine. Share this with a friend who’s ever been stuck waiting for a tow. 🚗☕ #SaskatoonLife #CarProblems",
+    "image_prompt": "A funny meme of a sleepy car with a coffee cup emoji and a speech bubble saying 'Need caffeine to start', set against a backdrop of Saskatoon streets.",
+    "image": "/generated/daily/2026-08-29/2026-08-29-2-meme.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -32,14 +32,14 @@
     ]
   },
   {
-    "id": "2026-08-28-3",
-    "date": "2026-08-28",
+    "id": "2026-08-29-3",
+    "date": "2026-08-29",
     "time": "12:45",
     "pillar": "Entertaining",
-    "title": "Road‑Trip Ready in 30 Min",
-    "caption": "Got a quick brake check before the weekend roadie? Our mobile crew can swing by your place in Saskatoon, get you sorted, and you’re off to the lake or the beach. #MobileMechanicLife",
-    "image_prompt": "A friendly mechanic in a blue uniform holding a wrench, standing next to a parked car with a scenic Saskatchewan lake visible in the background.",
-    "image": "/generated/daily/2026-08-28/2026-08-28-3-entertaining.png",
+    "title": "A Quick Pit Stop at the Riverfront",
+    "caption": "Yesterday we rolled up to the South Saskatchewan Riverfront to fix a flat for a local cyclist turned driver. It was a sunny afternoon, and the owner treated us to a coffee from the nearby kiosk. Nothing beats a little community vibe while your car gets the care it needs.",
+    "image_prompt": "A Fixaur Mobile Mechanic van parked near the river in Saskatoon, a barista handing a coffee through the window, and a cyclist smiling in the background.",
+    "image": "/generated/daily/2026-08-29/2026-08-29-3-entertaining.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -48,14 +48,14 @@
     ]
   },
   {
-    "id": "2026-08-28-4",
-    "date": "2026-08-28",
+    "id": "2026-08-29-4",
+    "date": "2026-08-29",
     "time": "16:30",
     "pillar": "Serious",
-    "title": "Brake Safety Check",
-    "caption": "Your brakes are the most important safety system. If you notice any squeal or softer feel, don’t wait. Our mobile team can inspect and service them at your location, avoiding a potentially risky tow. #SaskatoonSafety",
-    "image_prompt": "Close‑up of a brake disc with a mechanic’s gloved hand holding a caliper, under a bright Saskatoon sky.",
-    "image": "/generated/daily/2026-08-28/2026-08-28-4-serious.png",
+    "title": "Brake Safety: Don't Wait Until It's Too Late",
+    "caption": "If you hear squealing, feel a pulsation, or notice your stopping distance increasing, have your brakes inspected right away. In Saskatoon’s stop‑and‑go traffic and icy winters, reliable brakes are a must. Ignoring warning signs can turn a simple pad replacement into a costly repair. Book a mobile inspection today—your safety matters.",
+    "image_prompt": "A close‑up of brake pads and rotors with a safety alert icon, set against a snowy Saskatoon street scene.",
+    "image": "/generated/daily/2026-08-29/2026-08-29-4-serious.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -64,14 +64,14 @@
     ]
   },
   {
-    "id": "2026-08-28-5",
-    "date": "2026-08-28",
+    "id": "2026-08-29-5",
+    "date": "2026-08-29",
     "time": "19:00",
     "pillar": "Competitive",
-    "title": "We Come to You",
-    "caption": "In Saskatoon, waiting at a shop can eat your whole day. Fixaur Mobile Mechanic brings the garage to your driveway, so you can keep your schedule on track—no tow needed. Book today!",
-    "image_prompt": "A sleek mobile service van parked in a residential Saskatoon driveway, with a sign on the side reading ‘Fixaur Mobile Mechanic – We Come to You’.",
-    "image": "/generated/daily/2026-08-28/2026-08-28-5-competitive.png",
+    "title": "Skip the Tow, We Come to You",
+    "caption": "No need to arrange a tow truck or wait at a shop for hours. Fixaur Mobile Mechanic brings expert service to your driveway, office parking lot, or even the local hockey arena. Save time, avoid the hassle, and get back on the road quickly. Book online or call us—Saskatoon’s convenience is just around the corner.",
+    "image_prompt": "A graphic of a car being serviced in a residential driveway with a map of Saskatoon showing nearby service areas, and a tagline 'We come to you, no tow needed'.",
+    "image": "/generated/daily/2026-08-29/2026-08-29-5-competitive.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
