@@ -238,6 +238,10 @@ function App() {
       const scheduleDate = p.date && p.time
         ? new Date(`${p.date}T${p.time}:00-06:00`).toISOString()
         : undefined;
+      if (scheduleDate && new Date(scheduleDate).getTime() <= Date.now()) {
+        setGhlState((x) => ({ ...x, [p.id]: "Queue is stale; wait for today’s daily refresh" }));
+        return;
+      }
       const res = await fetch("/api/ghl/posts", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
