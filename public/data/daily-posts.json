@@ -1,13 +1,13 @@
 [
   {
-    "id": "2026-08-30-1",
-    "date": "2026-08-30",
+    "id": "2026-08-31-1",
+    "date": "2026-08-31",
     "time": "07:30",
     "pillar": "Educational",
-    "title": "Why Brake Checks Matter Before Saskatoon’s Winter Roads",
-    "caption": "With icy streets and sudden stops, your brakes are your first line of defense. A quick mobile inspection can spot worn pads or fluid issues before the snow hits, saving you the hassle of a sudden breakdown.",
-    "image_prompt": "A mechanic inspecting brake pads on a car parked in a Saskatoon driveway under a clear sky, tools laid out on a portable work mat.",
-    "image": "/generated/daily/2026-08-30/2026-08-30-1-educational.png",
+    "title": "5 Simple Checks Before the First Frost",
+    "caption": "As summer fades and Saskatoon’s cooler days approach, a few quick vehicle checks can save you from surprises on the road. Inspect your battery terminals for corrosion, top off antifreeze, check tire pressure, replace worn wiper blades, and make sure all lights are working. These steps help keep your car reliable when the temperature drops.",
+    "image_prompt": "A mechanic in a Saskatoon garage inspecting a car battery, with autumn leaves and a crisp sky in the background.",
+    "image": "/generated/daily/2026-08-31/2026-08-31-1-educational.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -16,14 +16,14 @@
     ]
   },
   {
-    "id": "2026-08-30-2",
-    "date": "2026-08-30",
+    "id": "2026-08-31-2",
+    "date": "2026-08-31",
     "time": "10:15",
     "pillar": "Meme",
-    "title": "When Your Car Says ‘I’m Not a Morning Person’",
-    "caption": "Cold Saskatoon mornings can drain a battery fast. Our mobile mechanic team brings the jump‑start right to your driveway, so you can get moving without waiting in line at a shop.",
-    "image_prompt": "A cartoon illustration of a grumpy car with frost on its windshield, looking sleepy, set against a snowy Saskatoon skyline.",
-    "image": "/generated/daily/2026-08-30/2026-08-30-2-meme.png",
+    "title": "When You Forget to Start Your Car in -20°C",
+    "caption": "It’s that classic Saskatoon moment: you step outside, realize you never started the car, and now you’re dealing with a frozen windshield. At least we can get you moving again quickly—no meme-worthy waiting required!",
+    "image_prompt": "A cartoon car shivering on a snowy Saskatoon street, with frost on its windshield and a humorous caption bubble.",
+    "image": "/generated/daily/2026-08-31/2026-08-31-2-meme.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -32,14 +32,14 @@
     ]
   },
   {
-    "id": "2026-08-30-3",
-    "date": "2026-08-30",
+    "id": "2026-08-31-3",
+    "date": "2026-08-31",
     "time": "12:45",
     "pillar": "Entertaining",
-    "title": "The Mystery of the Squeaky Steering Wheel",
-    "caption": "While fixing a squeaky steering wheel at a downtown coffee shop parking lot, our mechanic shared a laugh with the barista—plus a free coffee for the driver. Get your car’s quirky noises sorted while you enjoy your favourite brew.",
-    "image_prompt": "A mechanic leaning under the hood of a car in a cozy Saskatoon coffee shop parking lot, with a coffee cup nearby.",
-    "image": "/generated/daily/2026-08-30/2026-08-30-3-entertaining.png",
+    "title": "From Pothole to Happy: A Saskatoon Story",
+    "caption": "Last Tuesday a driver hit a notorious downtown pothole and heard an ominous clunk. He called us, and within an hour our mobile mechanic arrived at his office parking lot, replaced the damaged suspension part, and had him back on the road before his coffee break. He even got a free safety inspection!",
+    "image_prompt": "A friendly mechanic fixing a car wheel in front of a cozy Saskatoon coffee shop, with a smiling driver looking on.",
+    "image": "/generated/daily/2026-08-31/2026-08-31-3-entertaining.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -48,14 +48,14 @@
     ]
   },
   {
-    "id": "2026-08-30-4",
-    "date": "2026-08-30",
+    "id": "2026-08-31-4",
+    "date": "2026-08-31",
     "time": "16:30",
     "pillar": "Serious",
-    "title": "Stay Safe on Saskatoon Roads: Check Your Tire Pressure",
-    "caption": "Proper tire pressure improves handling and braking on icy streets. Schedule a mobile check‑up and keep your family safe—no need to spend time at a shop waiting for an appointment.",
-    "image_prompt": "A close‑up of a tire pressure gauge reading, with a frosty Saskatoon street in the background.",
-    "image": "/generated/daily/2026-08-30/2026-08-30-4-serious.png",
+    "title": "Why Proper Tire Pressure Matters on Saskatoon Roads",
+    "caption": "Under‑inflated tires reduce traction on icy or snow‑covered streets, increase stopping distances, and can lead to uneven wear that shortens tire life. Check pressure monthly and before long trips, and remember that Saskatoon’s temperature swings can cause pressure to drop by a few PSI overnight.",
+    "image_prompt": "A close‑up of a tire pressure gauge with a snowy Saskatoon road stretching out behind it.",
+    "image": "/generated/daily/2026-08-31/2026-08-31-4-serious.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -64,14 +64,14 @@
     ]
   },
   {
-    "id": "2026-08-30-5",
-    "date": "2026-08-30",
+    "id": "2026-08-31-5",
+    "date": "2026-08-31",
     "time": "19:00",
     "pillar": "Competitive",
-    "title": "Skip the Shop Wait, Get Service at Your Door",
-    "caption": "In Saskatoon you can have your car serviced without leaving your driveway—no arranging a tow, no hours‑long shop wait. Our mobile mechanic comes to you, keeping your schedule intact.",
-    "image_prompt": "A mobile mechanic van parked in front of a Saskatoon home, mechanic waving, with the words ‘Mobile Service’ on the side.",
-    "image": "/generated/daily/2026-08-30/2026-08-30-5-competitive.png",
+    "title": "Avoid the Wait: Mobile Mechanic Convenience",
+    "caption": "No need to arrange a tow or sit in a shop waiting room. Our mobile mechanic comes to your home, office, or wherever you are in Saskatoon, so you can keep your schedule on track while we handle the repair right there.",
+    "image_prompt": "A fully equipped mobile mechanic van parked in a Saskatoon driveway, a technician waving from the open service door.",
+    "image": "/generated/daily/2026-08-31/2026-08-31-5-competitive.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
