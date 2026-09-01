@@ -1,7 +1,7 @@
 [
   {
-    "id": "2026-08-31-blog-1",
-    "date": "2026-08-31",
+    "id": "2026-09-01-blog-1",
+    "date": "2026-09-01",
     "type": "Blog",
     "status": "Draft ready",
     "title": "Fleet downtime checklist for Saskatoon businesses",
@@ -16,11 +16,11 @@
     "imagePrompt": "A mobile mechanic inspecting a work vehicle related to fleet downtime checklist for Saskatoon businesses",
     "imageAlt": "Mobile mechanic inspection for fleet downtime checklist for Saskatoon businesses in Saskatoon",
     "internalLink": "/fleet-service",
-    "image": "/generated/blogs/2026-08-31/2026-08-31-1.png"
+    "image": "/generated/blogs/2026-09-01/2026-09-01-1.png"
   },
   {
-    "id": "2026-08-31-blog-2",
-    "date": "2026-08-31",
+    "id": "2026-09-01-blog-2",
+    "date": "2026-09-01",
     "type": "Blog",
     "status": "Draft ready",
     "title": "What to check when a work van will not start on a cold morning",
@@ -35,11 +35,11 @@
     "imagePrompt": "A mobile mechanic inspecting a work vehicle related to what to check when a work van will not start on a cold morning",
     "imageAlt": "Mobile mechanic inspection for what to check when a work van will not start on a cold morning in Saskatoon",
     "internalLink": "/fleet-service",
-    "image": "/generated/blogs/2026-08-31/2026-08-31-2.png"
+    "image": "/generated/blogs/2026-09-01/2026-09-01-2.png"
   },
   {
-    "id": "2026-08-31-blog-3",
-    "date": "2026-08-31",
+    "id": "2026-09-01-blog-3",
+    "date": "2026-09-01",
     "type": "Blog",
     "status": "Draft ready",
     "title": "Mobile maintenance versus sending every vehicle to a shop",
@@ -54,11 +54,11 @@
     "imagePrompt": "A mobile mechanic inspecting a work vehicle related to mobile maintenance versus sending every vehicle to a shop",
     "imageAlt": "Mobile mechanic inspection for mobile maintenance versus sending every vehicle to a shop in Saskatoon",
     "internalLink": "/fleet-service",
-    "image": "/generated/blogs/2026-08-31/2026-08-31-3.png"
+    "image": "/generated/blogs/2026-09-01/2026-09-01-3.png"
   },
   {
-    "id": "2026-08-31-blog-4",
-    "date": "2026-08-31",
+    "id": "2026-09-01-blog-4",
+    "date": "2026-09-01",
     "type": "Blog",
     "status": "Draft ready",
     "title": "How to reduce repeat battery failures across a fleet",
@@ -73,11 +73,11 @@
     "imagePrompt": "A mobile mechanic inspecting a work vehicle related to how to reduce repeat battery failures across a fleet",
     "imageAlt": "Mobile mechanic inspection for how to reduce repeat battery failures across a fleet in Saskatoon",
     "internalLink": "/fleet-service",
-    "image": "/generated/blogs/2026-08-31/2026-08-31-4.png"
+    "image": "/generated/blogs/2026-09-01/2026-09-01-4.png"
   },
   {
-    "id": "2026-08-31-blog-5",
-    "date": "2026-08-31",
+    "id": "2026-09-01-blog-5",
+    "date": "2026-09-01",
     "type": "Blog",
     "status": "Draft ready",
     "title": "Pre-trip inspection for local delivery and landscaping fleets",
@@ -92,6 +92,6 @@
     "imagePrompt": "A mobile mechanic inspecting a work vehicle related to pre-trip inspection for local delivery and landscaping fleets",
     "imageAlt": "Mobile mechanic inspection for pre-trip inspection for local delivery and landscaping fleets in Saskatoon",
     "internalLink": "/fleet-service",
-    "image": "/generated/blogs/2026-08-31/2026-08-31-5.png"
+    "image": "/generated/blogs/2026-09-01/2026-09-01-5.png"
   }
 ]
