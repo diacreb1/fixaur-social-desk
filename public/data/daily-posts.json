@@ -1,13 +1,13 @@
 [
   {
-    "id": "2026-09-05-1",
-    "date": "2026-09-05",
+    "id": "2026-09-06-1",
+    "date": "2026-09-06",
     "time": "07:30",
     "pillar": "Educational",
-    "title": "Why Monthly Tire Pressure Checks Matter in Saskatoon",
-    "caption": "With our city’s shifting temperatures, keeping your tires properly inflated can improve fuel economy and safety. Here’s a quick guide: check pressure when tires are cold, use the recommended psi in your owner’s manual, and top off as needed. Regular checks help avoid uneven wear and keep your drive smooth.",
-    "image_prompt": "A hand holding a tire pressure gauge with the Saskatoon skyline in the background, early morning light.",
-    "image": "/generated/daily/2026-09-05/2026-09-05-1-educational.png",
+    "title": "September Prep: Getting Your Ride Ready for Saskatoon's Fall Roads 🍂",
+    "caption": "September in Saskatoon means cooler temps and changing leaves - and soon, frost! Now's the time to check your battery health, inspect your tires for fall conditions, and test your heater before the real cold hits. Small checks now can save you from being stranded on Circle Drive. We're mobile across Saskatoon, so if anything needs attention, we come to you. Stay ahead of the weather! What are you checking first? 👇",
+    "image_prompt": "A car hood open in a Saskatoon residential driveway during early fall, frost on nearby grass, mechanic's hands checking battery connections, golden autumn leaves on the ground, soft overcast prairie sky",
+    "image": "/generated/daily/2026-09-06/2026-09-06-1-educational.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -16,14 +16,14 @@
     ]
   },
   {
-    "id": "2026-09-05-2",
-    "date": "2026-09-05",
+    "id": "2026-09-06-2",
+    "date": "2026-09-06",
     "time": "10:15",
     "pillar": "Meme",
-    "title": "When Your Car Says ‘Nope’",
-    "caption": "We’ve all been there—lights left on, battery dead, and the car refuses to start. At least you can call a mobile mechanic for a quick jump and avoid the hassle of a tow. No drama, just get back on the road!",
-    "image_prompt": "A funny cartoon of a car with a flat expression and a jump‑start cable dangling, set against a snowy Saskatoon street.",
-    "image": "/generated/daily/2026-09-05/2026-09-05-2-meme.png",
+    "title": "When Your Car Catches What You're Having 🍁🚗",
+    "caption": "That feeling when your check engine light comes on the same week you got sick... Saskatoon drivers know we're in that in-between season where your car AND your immune system need some extra love. At least we make house calls. Rest up, hydrate, and if your ride needs attention - you know where to find us. 💚",
+    "image_prompt": "Humorous meme-style image of a car looking sick with a thermometer, wrapped in a blanket with a box of tissues nearby, set in a Saskatoon parking lot with fall scenery",
+    "image": "/generated/daily/2026-09-06/2026-09-06-2-meme.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -32,14 +32,14 @@
     ]
   },
   {
-    "id": "2026-09-05-3",
-    "date": "2026-09-05",
+    "id": "2026-09-06-3",
+    "date": "2026-09-06",
     "time": "12:45",
     "pillar": "Entertaining",
-    "title": "Top 5 Road‑Trip Tunes to Keep Your Engine Happy",
-    "caption": "A great playlist can make any drive around Saskatchewan feel like an adventure. What are your go‑to songs for cruising the open road? Drop a comment below and let’s build the ultimate Saskatoon road‑trip soundtrack!",
-    "image_prompt": "A colorful collage of music notes, a steering wheel, and a scenic shot of the South Saskatchewan River at sunset.",
-    "image": "/generated/daily/2026-09-05/2026-09-05-3-entertaining.png",
+    "title": "Saskatoon Showroom Tour (On Your Schedule) 🏠🔧",
+    "caption": "Who needs a waiting room with bad coffee and 5-year-old magazines when we bring the shop to YOU? Your driveway, your parking lot, your worksite in Saskatoon - we've got the tools, expertise, and genuine parts. Real mechanics, real repairs, zero waiting room vibes. 🎵 Imagine: We show up, fix your car, you never have to leave your couch. That's the kind of service Saskatoon deserves.",
+    "image_prompt": "Friendly uniformed mechanic smiling while working on a car in a residential Saskatoon driveway, fully equipped mobile service van parked nearby, homeowner watching from porch with coffee, suburban neighborhood setting with autumn trees",
+    "image": "/generated/daily/2026-09-06/2026-09-06-3-entertaining.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -48,14 +48,14 @@
     ]
   },
   {
-    "id": "2026-09-05-4",
-    "date": "2026-09-05",
+    "id": "2026-09-06-4",
+    "date": "2026-09-06",
     "time": "16:30",
     "pillar": "Serious",
-    "title": "How to Know When It’s Time for Brake Service",
-    "caption": "If you hear squeaking, feel vibrations, or notice longer stopping distances, your brakes need attention. Ignoring these signs can affect safety. A mobile mechanic can inspect and service your brakes at your home or workplace, so you don’t have to wait at a shop.",
-    "image_prompt": "A close‑up of a brake rotor with a mechanic’s gloved hand holding a caliper, under a Saskatoon overcast sky.",
-    "image": "/generated/daily/2026-09-05/2026-09-05-4-serious.png",
+    "title": "Your Safety Matters: Know Your Vehicle's Limits 🚨",
+    "caption": "We get it - breakdowns are inconvenient. But ignoring warning signs or pushing a failing part can turn a simple fix into a safety hazard on Saskatoon streets. Unusual sounds, pulling to one side, strange smells - these aren't things to hope will go away. Our mobile team responds quickly across Saskatoon to diagnose and repair before small issues become big problems. Don't wait until you're stuck on the side of Highway 16. Your safety and your family's safety comes first.",
+    "image_prompt": "Professional mechanic hands holding a diagnostic tablet showing engine warning symbols, serious and competent expression, clean organized mobile workshop interior, tool organization visible, professional lighting",
+    "image": "/generated/daily/2026-09-06/2026-09-06-4-serious.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -64,14 +64,14 @@
     ]
   },
   {
-    "id": "2026-09-05-5",
-    "date": "2026-09-05",
+    "id": "2026-09-06-5",
+    "date": "2026-09-06",
     "time": "19:00",
     "pillar": "Competitive",
-    "title": "Skip the Shop Wait—We Come to You",
-    "caption": "No need to arrange a tow or spend hours waiting at a repair shop. Our mobile mechanic service brings professional repairs right to your driveway in Saskatoon, saving you time and hassle so you can get back to your day sooner.",
-    "image_prompt": "A sleek mobile mechanic van parked in a residential Saskatoon driveway, mechanic waving, tool chest visible.",
-    "image": "/generated/daily/2026-09-05/2026-09-05-5-competitive.png",
+    "title": "Skip the Shop Wait - We Come to You Instead ⏰✅",
+    "caption": "Average shop wait time: hours. Our response time: you tell us when and where. Saskatoon drivers, when your car needs attention, you shouldn't have to arrange a tow, rent a loaner, or kill half your day sitting in a lobby. We show up where your car sits - at home, at work, anywhere in Saskatoon - and get the job done. That's avoiding the unnecessary shop wait. Book once, skip the hassle. 💪",
+    "image_prompt": "Service van arriving at a Saskatoon home, mechanic stepping out with tools, homeowner greeting them in driveway, smartphone showing booked appointment, modern residential neighborhood, Saskatoon skyline in distance",
+    "image": "/generated/daily/2026-09-06/2026-09-06-5-competitive.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
