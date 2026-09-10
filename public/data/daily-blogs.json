@@ -1,7 +1,7 @@
 [
   {
-    "id": "2026-09-09-blog-1",
-    "date": "2026-09-09",
+    "id": "2026-09-10-blog-1",
+    "date": "2026-09-10",
     "type": "Blog",
     "status": "Draft ready",
     "title": "Fleet downtime checklist for Saskatoon businesses",
@@ -16,30 +16,30 @@
     "imagePrompt": "A mobile mechanic inspecting a work vehicle related to fleet downtime checklist for Saskatoon businesses",
     "imageAlt": "Mobile mechanic inspection for fleet downtime checklist for Saskatoon businesses in Saskatoon",
     "internalLink": "/fleet-service",
-    "image": "/generated/blogs/2026-09-09/2026-09-09-1.png"
+    "image": "/generated/blogs/2026-09-10/2026-09-10-1.png"
   },
   {
-    "id": "2026-09-09-blog-2",
-    "date": "2026-09-09",
+    "id": "2026-09-10-blog-2",
+    "date": "2026-09-10",
     "type": "Blog",
     "status": "Draft ready",
-    "title": "What to check when a work van will not start on a cold morning",
-    "slug": "what-to-check-when-a-work-van-will-not-start-on-a-cold-morning",
-    "body": "What to check when a work van will not start on a cold morning is a practical concern for local operators who need dependable vehicles. Start with a simple written checklist and record what happened, when it happened and which vehicle was affected. That history helps a technician see patterns instead of treating every visit as an isolated problem.\n\nFor Saskatoon businesses, seasonal conditions and daily stop-and-go work can expose weak batteries, tire concerns, warning lights and maintenance gaps quickly. Before a vehicle leaves, check the items that affect safety and reliability. If something looks unsafe, park the vehicle and arrange an appropriate assessment.\n\nMobile service can be convenient when the vehicle is safely accessible and the work is appropriate for an on-site visit. More complex repairs may still belong in a shop. Fixaur helps local businesses understand the next practical step without making promises about a problem that has not been inspected.\n\nKeep the checklist consistent across the fleet, review repeat issues and ask for help when the symptoms are unclear. A small amount of documentation can make the next decision faster and give your team a clearer maintenance process.",
-    "seoTitle": "What to check when a work van will not start on a cold m | Fixaur",
-    "metaDescription": "A practical Saskatoon guide to what to check when a work van will not start on a cold morning, with safe checks, fleet context and when mobile mechanic support may help.",
-    "focusKeyword": "what to check when a work van will not start on a cold morning",
-    "geoAnswer": "Fixaur serves Saskatoon, Warman and Martensville with mobile mechanic support for eligible, safely accessible vehicle issues.",
-    "faqQuestion": "What should a Saskatoon business do about what to check when a work van will not start on a cold morning?",
-    "faqAnswer": "Use a consistent checklist, document the symptoms and arrange an assessment when the vehicle is not safe or reliable to operate.",
-    "imagePrompt": "A mobile mechanic inspecting a work vehicle related to what to check when a work van will not start on a cold morning",
-    "imageAlt": "Mobile mechanic inspection for what to check when a work van will not start on a cold morning in Saskatoon",
-    "internalLink": "/fleet-service",
-    "image": "/generated/blogs/2026-09-09/2026-09-09-2.png"
+    "title": "Work Van Won't Start on Cold Saskatoon Mornings? Here's What to Check",
+    "slug": "work-van-wont-start-cold-saskatoon-mornings",
+    "body": "When Saskatoon temperatures drop below -20°C, work vans often refuse to start. This is one of the most common call-outs we get as mobile mechanics in Saskatoon during winter. Understanding what to check can save you time, get your van running faster, and prevent being stranded in the cold.\n\nStart with the Battery\nCold weather dramatically reduces battery cranking power. A battery that struggles in summer temperatures may fail completely when it's -30°C outside. Check for corrosion on the battery terminals—white or green buildup prevents proper electrical connection. Clean terminals with a wire brush and tighten connections firmly. If your battery is more than four years old, consider testing it or replacing it before the coldest months arrive.\n\nExamine the Engine Oil\nThick, cold oil creates significant resistance for the starter motor. Check your owner's manual for the recommended oil viscosity rating. Using 5W-30 instead of 10W-30 or 0W-20 can make a noticeable difference in cold-start performance. If you've been putting off an oil change and winter is approaching, now is the time to swap it out.\n\nTest the Glow Plugs or Intake Air Heaters\nDiesel vans particularly rely on glow plugs to warm the combustion chamber before starting. Faulty glow plugs cause hard starting, rough idling, or white smoke even after the engine warms up. On gasoline engines, check the intake air temperature sensor and consider having a diagnostic scan to identify electrical issues.\n\nInspect Fuel Lines and the Fuel Filter\nDiesel fuel can gel in extreme cold, blocking fuel flow through the filter. If you run diesel, consider adding an anti-gel additive to the tank before cold snaps. Replace the fuel filter if it's been more than a year since the last change. For gasoline vans, a clogged fuel filter can prevent adequate fuel delivery during cold starts.\n\nCheck the Starter Motor\nA weak or failing starter motor may crank slowly or not engage at all when temperatures drop. Listen carefully when you turn the key—a grinding noise or single click suggests the starter or solenoid may need replacement. This is especially likely if the van has high mileage or has had previous starting issues.\n\nExamine the Alternator and Charging System\nEven a good battery will fail if the alternator isn't keeping it charged. A faulty voltage regulator or damaged alternator belt can leave you with a dead battery despite recent replacement. Test the charging system or have it inspected during regular maintenance.\n\nLook at the Coolant and Block Heater\nMany work vans have engine block heaters installed specifically for cold climates. Verify the block heater is functioning by touching the engine block after it's been plugged in for a few hours. If the engine isn't warm, check the outlet, extension cord, and heater element. A functioning block heater makes a significant difference in Saskatoon winters.\n\nWhen to Call a Mobile Mechanic\nIf you've checked these items and your van still won't start, it's time to contact a mobile mechanic. We can perform on-site diagnostics and often complete repairs at your job site or home, saving you the cost and hassle of a tow. Keep jumper cables, a flashlight, and an emergency blanket in your van during Saskatoon winters—just in case.\n\nRegular winter maintenance is the best defence against cold-start failures. Scheduling a pre-winter inspection with a local mechanic helps identify problems before temperatures plummet and keeps your work van reliable when you need it most.",
+    "seoTitle": "Work Van Won't Start on Cold Mornings: What to Check",
+    "metaDescription": "Work van won't start on cold Saskatoon mornings? Mobile mechanic explains battery, oil, glow plugs and more. Get your van running again.",
+    "focusKeyword": "work van won't start cold morning",
+    "geoAnswer": "When your work van won't start on a cold Saskatoon morning, a mobile mechanic can come directly to your location to diagnose and repair the issue without requiring a tow.",
+    "faqQuestion": "Why do work vans have trouble starting in Saskatoon winters?",
+    "faqAnswer": "Cold temperatures reduce battery power, thicken engine oil, and can cause diesel fuel to gel. These factors combined with normal wear on starter motors and charging systems often prevent engines from turning over. Regular maintenance and winter-ready components help prevent cold-start failures in Saskatoon conditions.",
+    "imagePrompt": "A mechanic in Saskatoon winter work gear checking under the hood of a white work van in a snowy industrial parking lot at dawn, professional mobile service vehicle visible in background",
+    "imageAlt": "Mobile mechanic checking a work van engine during a cold Saskatoon winter morning",
+    "internalLink": "/services",
+    "image": "/generated/blogs/2026-09-10/2026-09-10-2.png"
   },
   {
-    "id": "2026-09-09-blog-3",
-    "date": "2026-09-09",
+    "id": "2026-09-10-blog-3",
+    "date": "2026-09-10",
     "type": "Blog",
     "status": "Draft ready",
     "title": "Mobile maintenance versus sending every vehicle to a shop",
@@ -54,11 +54,11 @@
     "imagePrompt": "A mobile mechanic inspecting a work vehicle related to mobile maintenance versus sending every vehicle to a shop",
     "imageAlt": "Mobile mechanic inspection for mobile maintenance versus sending every vehicle to a shop in Saskatoon",
     "internalLink": "/fleet-service",
-    "image": "/generated/blogs/2026-09-09/2026-09-09-3.png"
+    "image": "/generated/blogs/2026-09-10/2026-09-10-3.png"
   },
   {
-    "id": "2026-09-09-blog-4",
-    "date": "2026-09-09",
+    "id": "2026-09-10-blog-4",
+    "date": "2026-09-10",
     "type": "Blog",
     "status": "Draft ready",
     "title": "How to reduce repeat battery failures across a fleet",
@@ -73,11 +73,11 @@
     "imagePrompt": "A mobile mechanic inspecting a work vehicle related to how to reduce repeat battery failures across a fleet",
     "imageAlt": "Mobile mechanic inspection for how to reduce repeat battery failures across a fleet in Saskatoon",
     "internalLink": "/fleet-service",
-    "image": "/generated/blogs/2026-09-09/2026-09-09-4.png"
+    "image": "/generated/blogs/2026-09-10/2026-09-10-4.png"
   },
   {
-    "id": "2026-09-09-blog-5",
-    "date": "2026-09-09",
+    "id": "2026-09-10-blog-5",
+    "date": "2026-09-10",
     "type": "Blog",
     "status": "Draft ready",
     "title": "Pre-trip inspection for local delivery and landscaping fleets",
@@ -92,6 +92,6 @@
     "imagePrompt": "A mobile mechanic inspecting a work vehicle related to pre-trip inspection for local delivery and landscaping fleets",
     "imageAlt": "Mobile mechanic inspection for pre-trip inspection for local delivery and landscaping fleets in Saskatoon",
     "internalLink": "/fleet-service",
-    "image": "/generated/blogs/2026-09-09/2026-09-09-5.png"
+    "image": "/generated/blogs/2026-09-10/2026-09-10-5.png"
   }
 ]
