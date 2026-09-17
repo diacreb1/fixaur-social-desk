@@ -1,13 +1,13 @@
 [
   {
-    "id": "2026-09-15-1",
-    "date": "2026-09-15",
+    "id": "2026-09-17-1",
+    "date": "2026-09-17",
     "time": "07:30",
     "pillar": "Educational",
-    "title": "5‑Minute Pre‑Fall Vehicle Checklist",
-    "caption": "Before the temperature drops, take a few minutes to check your oil, coolant, and tire pressure. A quick walk‑around can keep you on the road and out of the shop. #Saskatoon #MobileMechanic",
-    "image_prompt": "A hand holding a dipstick under a bright sky, the Saskatoon skyline faintly visible in the background, with a small checklist of vehicle fluids on a clipboard.",
-    "image": "/generated/daily/2026-09-15/2026-09-15-1-educational.png",
+    "title": "Fall Tire Pressure: Why It Matters in Saskatoon",
+    "caption": "As temperatures drop, your tires lose pressure faster. Keeping them inflated to the manufacturer’s spec helps with grip on icy streets and improves fuel economy. In Saskatoon, a quick stop at a local air pump or a mobile mechanic visit can keep you safe. Remember to check pressure monthly and before long trips.",
+    "image_prompt": "A close‑up of a tire pressure gauge on a car tire in a Saskatoon autumn setting, with falling leaves and a cool sky.",
+    "image": "/generated/daily/2026-09-17/2026-09-17-1-educational.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -16,14 +16,14 @@
     ]
   },
   {
-    "id": "2026-09-15-2",
-    "date": "2026-09-15",
+    "id": "2026-09-17-2",
+    "date": "2026-09-17",
     "time": "10:15",
     "pillar": "Meme",
-    "title": "When you forget to start your car in -30°C",
-    "caption": "That moment when your car is a frozen ice block. Stay warm, stay prepared—our mobile mechanic comes to you. 😎 #SaskatoonHumor",
-    "image_prompt": "A cartoon car covered in icicles parked on a snowy Saskatoon street, with a small humorous speech bubble showing a shivering driver.",
-    "image": "/generated/daily/2026-09-15/2026-09-15-2-meme.png",
+    "title": "When Your Car Decides to Play Hide‑and‑Seek",
+    "caption": "That moment you pop the hood and the engine acts like it’s on vacation. 😅🚗 #SaskatoonDriver #CarLife",
+    "image_prompt": "A funny meme image of a car with a ‘gone fishing’ sign under the hood, set in a Saskatoon alley, stylized for social media.",
+    "image": "/generated/daily/2026-09-17/2026-09-17-2-meme.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -32,14 +32,14 @@
     ]
   },
   {
-    "id": "2026-09-15-3",
-    "date": "2026-09-15",
+    "id": "2026-09-17-3",
+    "date": "2026-09-17",
     "time": "12:45",
     "pillar": "Entertaining",
-    "title": "Coffee, Wrenches, and Saskatoon Roads",
-    "caption": "From early‑morning oil changes to emergency battery boosts, our crew handles it all with a smile. Tag a friend who always needs a quick fix! #MobileMechanic #SaskatoonLife",
-    "image_prompt": "A mechanic in a bright orange jacket holding a steaming coffee mug, standing next to a fully equipped van on a crisp Saskatoon morning, the city’s downtown visible behind.",
-    "image": "/generated/daily/2026-09-15/2026-09-15-3-entertaining.png",
+    "title": "Road Trip to the Saskatoon Farmers Market: Car Edition",
+    "caption": "Nothing beats a Saturday morning drive to the market, windows down, coffee in hand. Share your favorite route or car playlist in the comments! #SaskatoonVibes",
+    "image_prompt": "A vibrant photo of a vintage car parked near the Saskatoon Farmers Market, with colorful stalls and a sunrise.",
+    "image": "/generated/daily/2026-09-17/2026-09-17-3-entertaining.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -48,14 +48,14 @@
     ]
   },
   {
-    "id": "2026-09-15-4",
-    "date": "2026-09-15",
+    "id": "2026-09-17-4",
+    "date": "2026-09-17",
     "time": "16:30",
     "pillar": "Serious",
-    "title": "Don’t Let Brake Issues Catch You Off Guard",
-    "caption": "With icy streets, proper brake function is essential. If you hear squeaks or feel softness, get it checked before you head out. Our mobile service can be at your home or workplace. #Saskatoon #StaySafe",
-    "image_prompt": "A close‑up of a mechanic’s gloved hand inspecting brake rotors, icy road glistening in the background, emphasizing the importance of brake safety.",
-    "image": "/generated/daily/2026-09-15/2026-09-15-4-serious.png",
+    "title": "Winter‑Ready Wheels: A Saskatoon Checklist",
+    "caption": "With Saskatoon’s cold snaps, ensure your brakes, battery, and lights are up to par. A mobile mechanic can come to your driveway, saving you a trip to the shop and keeping you off the icy roads safely. Stay prepared, stay safe.",
+    "image_prompt": "A mechanic inspecting a car’s undercarriage in a snowy Saskatoon driveway, with a checklist visible.",
+    "image": "/generated/daily/2026-09-17/2026-09-17-4-serious.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -64,14 +64,14 @@
     ]
   },
   {
-    "id": "2026-09-15-5",
-    "date": "2026-09-15",
+    "id": "2026-09-17-5",
+    "date": "2026-09-17",
     "time": "19:00",
     "pillar": "Competitive",
     "title": "Skip the Tow, Keep Moving",
-    "caption": "Stuck on the side of the road? Our mobile mechanic can come to you, so you avoid an unnecessary tow and get back on the road faster. Convenient, fast, and right here in Saskatoon. #MobileMechanic #NoTow",
-    "image_prompt": "A mechanic’s van parked beside a car on a snowy street, a distant tow truck visible but idle, the mechanic waving a wrench with a confident smile.",
-    "image": "/generated/daily/2026-09-15/2026-09-15-5-competitive.png",
+    "caption": "When a quick roadside fix is all you need, a mobile mechanic can be at your location in Saskatoon faster than waiting for a tow. Avoid the hassle, stay on schedule, and get back to your day.",
+    "image_prompt": "A mechanic holding a toolbox beside a car on a Saskatoon street, with a clock showing a short wait time.",
+    "image": "/generated/daily/2026-09-17/2026-09-17-5-competitive.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
