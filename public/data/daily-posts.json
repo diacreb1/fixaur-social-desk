@@ -1,13 +1,13 @@
 [
   {
-    "id": "2026-09-17-1",
-    "date": "2026-09-17",
+    "id": "2026-09-20-1",
+    "date": "2026-09-20",
     "time": "07:30",
     "pillar": "Educational",
-    "title": "Fall Tire Pressure: Why It Matters in Saskatoon",
-    "caption": "As temperatures drop, your tires lose pressure faster. Keeping them inflated to the manufacturer’s spec helps with grip on icy streets and improves fuel economy. In Saskatoon, a quick stop at a local air pump or a mobile mechanic visit can keep you safe. Remember to check pressure monthly and before long trips.",
-    "image_prompt": "A close‑up of a tire pressure gauge on a car tire in a Saskatoon autumn setting, with falling leaves and a cool sky.",
-    "image": "/generated/daily/2026-09-17/2026-09-17-1-educational.png",
+    "title": "Winter Battery Check 101",
+    "caption": "Saskatoon’s cold mornings can drain a weak battery fast. Test yours before the temperature drops, and replace if it’s more than four years old. If you’re not sure, our mobile team can swing by your home or workplace and run a quick load test—no need to drive to a shop.",
+    "image_prompt": "A mechanic in a blue uniform testing a car battery in a frosty Saskatoon driveway, with the city’s iconic Broadway Bridge in the background.",
+    "image": "/generated/daily/2026-09-20/2026-09-20-1-educational.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -16,14 +16,14 @@
     ]
   },
   {
-    "id": "2026-09-17-2",
-    "date": "2026-09-17",
+    "id": "2026-09-20-2",
+    "date": "2026-09-20",
     "time": "10:15",
     "pillar": "Meme",
-    "title": "When Your Car Decides to Play Hide‑and‑Seek",
-    "caption": "That moment you pop the hood and the engine acts like it’s on vacation. 😅🚗 #SaskatoonDriver #CarLife",
-    "image_prompt": "A funny meme image of a car with a ‘gone fishing’ sign under the hood, set in a Saskatoon alley, stylized for social media.",
-    "image": "/generated/daily/2026-09-17/2026-09-17-2-meme.png",
+    "title": "Monday Morning Car Feelings",
+    "caption": "When your car says ‘I need an oil change’ but you’re already late for coffee—*whoops*—don’t worry, we’ll come to you and get you back on the road before your latte goes cold.",
+    "image_prompt": "A cartoon illustration of a sleepy car with coffee cups floating around, set in a Saskatoon morning scene.",
+    "image": "/generated/daily/2026-09-20/2026-09-20-2-meme.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -32,14 +32,14 @@
     ]
   },
   {
-    "id": "2026-09-17-3",
-    "date": "2026-09-17",
+    "id": "2026-09-20-3",
+    "date": "2026-09-20",
     "time": "12:45",
     "pillar": "Entertaining",
-    "title": "Road Trip to the Saskatoon Farmers Market: Car Edition",
-    "caption": "Nothing beats a Saturday morning drive to the market, windows down, coffee in hand. Share your favorite route or car playlist in the comments! #SaskatoonVibes",
-    "image_prompt": "A vibrant photo of a vintage car parked near the Saskatoon Farmers Market, with colorful stalls and a sunrise.",
-    "image": "/generated/daily/2026-09-17/2026-09-17-3-entertaining.png",
+    "title": "The Pothole Survivor",
+    "caption": "Meet Bella, a trusty Saskatoon sedan that just survived a massive pothole on 8th Street. She’s still running smooth, thanks to a quick undercarriage inspection. Stories like this remind us why a mobile check‑up can catch hidden damage early.",
+    "image_prompt": "A photo of a sleek sedan parked on a Saskatoon street, with a giant pothole visible nearby and a mechanic inspecting the undercarriage.",
+    "image": "/generated/daily/2026-09-20/2026-09-20-3-entertaining.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -48,14 +48,14 @@
     ]
   },
   {
-    "id": "2026-09-17-4",
-    "date": "2026-09-17",
+    "id": "2026-09-20-4",
+    "date": "2026-09-20",
     "time": "16:30",
     "pillar": "Serious",
-    "title": "Winter‑Ready Wheels: A Saskatoon Checklist",
-    "caption": "With Saskatoon’s cold snaps, ensure your brakes, battery, and lights are up to par. A mobile mechanic can come to your driveway, saving you a trip to the shop and keeping you off the icy roads safely. Stay prepared, stay safe.",
-    "image_prompt": "A mechanic inspecting a car’s undercarriage in a snowy Saskatoon driveway, with a checklist visible.",
-    "image": "/generated/daily/2026-09-17/2026-09-17-4-serious.png",
+    "title": "Check Engine Light: Why Acting Early Matters",
+    "caption": "A glowing check engine light isn’t just a nuisance—it can signal issues that get worse if ignored. Book a mobile diagnostic with us and we’ll pinpoint the problem right at your location, saving you a potential tow and bigger repair bills later.",
+    "image_prompt": "A close‑up of a dashboard with a illuminated check engine light, set against a Saskatoon street at dusk.",
+    "image": "/generated/daily/2026-09-20/2026-09-20-4-serious.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -64,14 +64,14 @@
     ]
   },
   {
-    "id": "2026-09-17-5",
-    "date": "2026-09-17",
+    "id": "2026-09-20-5",
+    "date": "2026-09-20",
     "time": "19:00",
     "pillar": "Competitive",
     "title": "Skip the Tow, Keep Moving",
-    "caption": "When a quick roadside fix is all you need, a mobile mechanic can be at your location in Saskatoon faster than waiting for a tow. Avoid the hassle, stay on schedule, and get back to your day.",
-    "image_prompt": "A mechanic holding a toolbox beside a car on a Saskatoon street, with a clock showing a short wait time.",
-    "image": "/generated/daily/2026-09-17/2026-09-17-5-competitive.png",
+    "caption": "No need to arrange a tow and wait at a shop for hours. Our mobile mechanic arrives at your Saskatoon home, office, or driveway, diagnoses the issue, and gets you back on the road quickly—because your schedule matters.",
+    "image_prompt": "A mobile mechanic van parked in front of a Saskatoon residence, with the mechanic waving and a car ready to go.",
+    "image": "/generated/daily/2026-09-20/2026-09-20-5-competitive.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
