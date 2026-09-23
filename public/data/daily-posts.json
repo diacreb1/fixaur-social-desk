@@ -1,13 +1,13 @@
 [
   {
-    "id": "2026-09-22-1",
-    "date": "2026-09-22",
+    "id": "2026-09-23-1",
+    "date": "2026-09-23",
     "time": "07:30",
     "pillar": "Educational",
-    "title": "Why Checking Your Battery Before Winter Matters",
-    "caption": "Saskatoon’s cold mornings can be tough on your car’s battery. A quick voltage check can save you from being stranded on the way to work. Our mobile mechanic can test and replace your battery at home, so you’re ready for those icy starts.",
-    "image_prompt": "A mechanic testing a car battery in a frosty Saskatoon driveway, with a digital multimeter and snow‑covered pine trees in the background.",
-    "image": "/generated/daily/2026-09-22/2026-09-22-1-educational.png",
+    "title": "Why 'Just a Little Smell' Can Mean Big Problems",
+    "caption": "That sweet smell from your engine bay might be coolant mixing with oil - a potential head gasket issue. Or burning smells could signal your transmission is overdue for service. Mobile mechanics in Saskatoon can diagnose these sounds and smells at your location before they become tow truck situations. What strange car smell has made you pull over? 👀🔧",
+    "image_prompt": "A mechanic's hand lifting the hood of a car with an illustrated question mark above it, showing engine components, warm orange and blue tones, professional automotive diagram style",
+    "image": "/generated/daily/2026-09-23/2026-09-23-1-educational.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -16,14 +16,14 @@
     ]
   },
   {
-    "id": "2026-09-22-2",
-    "date": "2026-09-22",
+    "id": "2026-09-23-2",
+    "date": "2026-09-23",
     "time": "10:15",
     "pillar": "Meme",
-    "title": "When Your Car Says 'Nope'",
-    "caption": "YouTuber: *tries to fix engine* Car: *refuses to start*\n\nSometimes the best fix is a professional at your door. 😎🚗\n#SaskatoonLife #MobileMechanic",
-    "image_prompt": "A funny meme image of a confused dog looking at a broken car engine, captioned 'When your car says nope', set in a snowy Saskatoon neighbourhood.",
-    "image": "/generated/daily/2026-09-22/2026-09-22-2-meme.png",
+    "title": "When Your Car Breaks Down in Saskatoon Winter",
+    "caption": "You, calling a mobile mechanic instead of waiting 3 hours in a -35°C tow lot: 😎\n\n#SaskatoonMechanic #MobileService #YYXE life",
+    "image_prompt": "Meme format showing a person wrapped in blankets giving a thumbs up from inside a warm house while their car sits in a snowy Saskatoon driveway, comic style with winter scene",
+    "image": "/generated/daily/2026-09-23/2026-09-23-2-meme.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -32,14 +32,14 @@
     ]
   },
   {
-    "id": "2026-09-22-3",
-    "date": "2026-09-22",
+    "id": "2026-09-23-3",
+    "date": "2026-09-23",
     "time": "12:45",
     "pillar": "Entertaining",
-    "title": "A Day in the Life of Fixaur Mobile Mechanic",
-    "caption": "From early‑morning coffee at the South Saskatchewan Riverfront to late‑night brake checks at a downtown parking garage, our mobile mechanic rolls through Saskatoon neighborhoods with a smile. Watch us zip from Riverdale to Sutherland, keeping cars happy and drivers stress‑free.",
-    "image_prompt": "A playful illustration of a friendly mechanic in a bright orange jumpsuit driving a van through a stylized Saskatoon skyline, with iconic bridges and autumn leaves.",
-    "image": "/generated/daily/2026-09-22/2026-09-22-3-entertaining.png",
+    "title": "Saskatoon Pothole Season Survival Guide",
+    "caption": "Between spring thaw and construction season, Saskatoon roads have seen better days. Hit a nasty pothole? Get your alignment checked before you burn through tires. We're already seeing cars with bent rims and shaking steering. What's the worst pothole you've encountered in the Bridge City? 👇🏙️",
+    "image_prompt": "Split image showing a smooth Saskatchewan highway transitioning to a bumpy road with potholes, playful illustration style with a small Saskatoon cityscape in the background",
+    "image": "/generated/daily/2026-09-23/2026-09-23-3-entertaining.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -48,14 +48,14 @@
     ]
   },
   {
-    "id": "2026-09-22-4",
-    "date": "2026-09-22",
+    "id": "2026-09-23-4",
+    "date": "2026-09-23",
     "time": "16:30",
     "pillar": "Serious",
-    "title": "Safety First: Brake Inspection Before the Snow",
-    "caption": "With winter road conditions approaching Saskatoon, ensuring your brakes are in top shape is essential for your family’s safety. Our mobile service includes a thorough brake inspection, so you can drive with confidence when the roads get slippery.",
-    "image_prompt": "A close‑up of a mechanic’s hands checking brake pads on a snowy Saskatoon street, wearing a clear safety vest and gloves.",
-    "image": "/generated/daily/2026-09-22/2026-09-22-4-serious.png",
+    "title": "Pre-Winter Vehicle Inspections Available Across Saskatoon",
+    "caption": "Saskatchewan's extreme temperature swings put serious stress on your vehicle's battery, cooling system, and fluids. Don't get caught with a dead battery at -30°C. Our mobile mechanics service homes, businesses, and worksites throughout Saskatoon and surrounding areas. Book your winter readiness check before the cold hits. ❄️🔧\n\n#SaskatoonAutoCare #MobileMechanic",
+    "image_prompt": "Professional photo of a mechanic in workwear checking under the hood of a vehicle, winter Saskatoon street scene with frost visible, clean and trustworthy service imagery",
+    "image": "/generated/daily/2026-09-23/2026-09-23-4-serious.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -64,14 +64,14 @@
     ]
   },
   {
-    "id": "2026-09-22-5",
-    "date": "2026-09-22",
+    "id": "2026-09-23-5",
+    "date": "2026-09-23",
     "time": "19:00",
     "pillar": "Competitive",
-    "title": "Skip the Tow, We Come to You",
-    "caption": "No need to wait in line at a shop or arrange a tow – our mobile mechanic arrives at your home or workplace in Saskatoon, ready to get your vehicle back on the road quickly. Save time and avoid the hassle of a shop visit.",
-    "image_prompt": "A sleek mobile mechanic van parked in front of a Saskatoon home, a driver smiling while handing over keys, with a ‘We come to you’ banner on the van.",
-    "image": "/generated/daily/2026-09-22/2026-09-22-5-competitive.png",
+    "title": "Skip the Wait. We Come to You.",
+    "caption": "Traditional shops can mean hours of waiting, arranging rides, or expensive towing. Our mobile mechanic service brings the repair bay to your driveway, workplace, or job site anywhere in Saskatoon. Professional repairs without upending your day. Because waiting at a shop shouldn't be part of the plan. 📍🚗\n\n#MobileMechanic #Saskatoon #ConvenientCarCare",
+    "image_prompt": "Illustration showing a friendly mechanic van parked at a Saskatoon home driveway, arriving at a customer's location, clean modern style with a welcoming and efficient feel",
+    "image": "/generated/daily/2026-09-23/2026-09-23-5-competitive.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
