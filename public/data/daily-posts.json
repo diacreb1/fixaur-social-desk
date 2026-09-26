@@ -1,13 +1,13 @@
 [
   {
-    "id": "2026-09-25-1",
-    "date": "2026-09-25",
+    "id": "2026-09-26-1",
+    "date": "2026-09-26",
     "time": "07:30",
     "pillar": "Educational",
-    "title": "Quick Tire Pressure Check",
-    "caption": "Keeping your tires at the right pressure improves fuel economy and safety. Use a gauge when the tires are cold and aim for the recommended PSI found on the driver door jamb. Check monthly to stay safe on Saskatoon roads.",
-    "image_prompt": "A hand holding a tire pressure gauge next to a car tire, early morning light in Saskatoon.",
-    "image": "/generated/daily/2026-09-25/2026-09-25-1-educational.png",
+    "title": "Check Your Tire Pressure Before Fall",
+    "caption": "Cooler temps mean tire pressure drops. In Saskatoon, a quick pressure check at your driveway keeps you safe and saves fuel. Stop by our van for a free check this week! #Saskatoon #CarTips",
+    "image_prompt": "A mechanic checking tire pressure on a car parked in front of a Saskatoon neighborhood with fall leaves on the ground.",
+    "image": "/generated/daily/2026-09-26/2026-09-26-1-educational.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -16,14 +16,14 @@
     ]
   },
   {
-    "id": "2026-09-25-2",
-    "date": "2026-09-25",
+    "id": "2026-09-26-2",
+    "date": "2026-09-26",
     "time": "10:15",
     "pillar": "Meme",
-    "title": "When Your Car Says 'I Need a Break'",
-    "caption": "That moment when your engine light flickers and your car starts acting like it's auditioning for a drama series. 🙃 #CarLife #Saskatoon",
-    "image_prompt": "A comedic illustration of a car with exaggerated sad eyes and a cup of coffee, captioned with a road sign.",
-    "image": "/generated/daily/2026-09-25/2026-09-25-2-meme.png",
+    "title": "When the Car Says 'I'm Not a Morning Person'",
+    "caption": "That moment your engine clicks but won’t turn over. Sound familiar? At Fixaur, we bring the coffee and the jump‑start to get you moving in Saskatoon! ☕️🔧 #SaskatoonMornings",
+    "image_prompt": "A cartoon car yawning with a coffee cup beside it, set in a snowy Saskatoon street.",
+    "image": "/generated/daily/2026-09-26/2026-09-26-2-meme.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -32,14 +32,14 @@
     ]
   },
   {
-    "id": "2026-09-25-3",
-    "date": "2026-09-25",
+    "id": "2026-09-26-3",
+    "date": "2026-09-26",
     "time": "12:45",
     "pillar": "Entertaining",
-    "title": "A Sunny Saturday on the Road",
-    "caption": "Exploring the Riverbank trails in Saskatoon with a trusty set of wheels. Remember, a quick check‑up before the trip keeps the adventure smooth! #RoadTrip #Saskatoon",
-    "image_prompt": "A scenic photo of a car parked near a riverbank in Saskatoon, golden sunshine, autumn leaves.",
-    "image": "/generated/daily/2026-09-25/2026-09-25-3-entertaining.png",
+    "title": "A Saskatoon Winter Rescue Story",
+    "caption": "Last week we rescued a driver whose heater gave out in the middle of a -20°C night on 8th Street. Our mobile mechanic arrived, fixed the fuse, and the driver was back to hot cocoa in minutes! #SaskatoonStories",
+    "image_prompt": "A mobile mechanic van with its lights on, parked on a snow‑covered Saskatoon street at night, a driver waving from a lit doorway.",
+    "image": "/generated/daily/2026-09-26/2026-09-26-3-entertaining.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -48,14 +48,14 @@
     ]
   },
   {
-    "id": "2026-09-25-4",
-    "date": "2026-09-25",
+    "id": "2026-09-26-4",
+    "date": "2026-09-26",
     "time": "16:30",
     "pillar": "Serious",
-    "title": "Winter Brake Safety",
-    "caption": "Before the cold sets in, test your brakes and replace worn pads. If you hear squealing or feel vibrations, get it checked now to avoid hazardous stops on icy streets. Your safety matters.",
-    "image_prompt": "A close‑up of a brake disc with frost, a mechanic's gloved hand inspecting it, winter Saskatoon backdrop.",
-    "image": "/generated/daily/2026-09-25/2026-09-25-4-serious.png",
+    "title": "Don’t Ignore a Weak Battery",
+    "caption": "A flickering dash or slow crank can signal a failing battery. Ignoring it could leave you stranded in the cold. If you’re in Saskatoon and notice these signs, call us for a quick battery check before the freeze sets in.",
+    "image_prompt": "A close‑up of a car dashboard with a warning light on, set in a dimly lit Saskatoon garage.",
+    "image": "/generated/daily/2026-09-26/2026-09-26-4-serious.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -64,14 +64,14 @@
     ]
   },
   {
-    "id": "2026-09-25-5",
-    "date": "2026-09-25",
+    "id": "2026-09-26-5",
+    "date": "2026-09-26",
     "time": "19:00",
     "pillar": "Competitive",
-    "title": "Skip the Tow, We Come to You",
-    "caption": "When your vehicle won’t start in a Saskatoon neighbourhood, avoid the hassle of a tow and waiting at a shop. Our mobile mechanic arrives at your location, diagnoses, and fixes on the spot—saving you time and trouble.",
-    "image_prompt": "A mobile mechanic van parked in a residential Saskatoon driveway, a friendly technician waving, car in background.",
-    "image": "/generated/daily/2026-09-25/2026-09-25-5-competitive.png",
+    "title": "Skip the Tow, Keep Your Day",
+    "caption": "Waiting for a tow can eat up hours. Our mobile mechanic comes to you in Saskatoon, so you can stay on schedule. Book a same‑day service and keep your plans intact! #MobileMechanic #Saskatoon",
+    "image_prompt": "A happy driver holding a coffee mug while a mechanic works under the hood in a residential driveway, with a Saskatoon skyline in the background.",
+    "image": "/generated/daily/2026-09-26/2026-09-26-5-competitive.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
