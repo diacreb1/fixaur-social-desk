@@ -1,13 +1,13 @@
 [
   {
-    "id": "2026-09-28-1",
-    "date": "2026-09-28",
+    "id": "2026-09-29-1",
+    "date": "2026-09-29",
     "time": "07:30",
     "pillar": "Educational",
-    "title": "Why Your Saskatoon Winter Starts with Battery Check",
-    "caption": "Saskatoon winters don't mess around. One of the most common callouts we get is a dead battery on a -30°C morning. Your battery works hardest when it's cold, and most batteries over 3 years old are candidates for trouble. A quick battery test takes minutes and could save you from a freezing morning waiting for a tow. We come to you for these checks – no need to drive to a shop if your battery's already weak. Prevention beats roadside rescue every time.",
-    "image_prompt": "A mechanic testing a car battery with a digital multimeter in a Saskatoon winter setting, frosty garage bay visible, professional photo",
-    "image": "/generated/daily/2026-09-28/2026-09-28-1-educational.png",
+    "title": "Fall Prep: 5 Quick Checks for Saskatoon Drivers",
+    "caption": "With cooler temperatures settling in, a few minutes under the hood can keep your car running smoothly through the season. Check tire pressure, fluid levels, battery, lights, and wiper blades—simple steps that can help you avoid surprises on Saskatoon roads.",
+    "image_prompt": "A car in a Saskatoon driveway, frost on the ground, owner checking tire pressure with a gauge, autumn leaves in the background.",
+    "image": "/generated/daily/2026-09-29/2026-09-29-1-educational.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -16,14 +16,14 @@
     ]
   },
   {
-    "id": "2026-09-28-2",
-    "date": "2026-09-28",
+    "id": "2026-09-29-2",
+    "date": "2026-09-29",
     "time": "10:15",
     "pillar": "Meme",
-    "title": "When Your Check Engine Light Comes On",
-    "caption": "POV: It's -25°C, you're late for work, and your check engine light just turned on 💡😅 Nobody's got time for that nonsense. That's exactly why we exist – we come to your driveway, office parking lot, or wherever your Saskatoon life has you stuck. Your car gets diagnosed while you drink your coffee. No shop wait, no tow truck drama.",
-    "image_prompt": "Relatable cartoon or photo showing a stressed driver looking at dashboard warning light in cold Saskatoon winter, humorous expression, shareable meme format",
-    "image": "/generated/daily/2026-09-28/2026-09-28-2-meme.png",
+    "title": "Monday Mood: Car Edition",
+    "caption": "When your car thinks it’s a Saskatoon hockey star—pucks not included, but the drive stays epic. 🚗❄️ #SaskatoonLife",
+    "image_prompt": "A cartoon car wearing a hockey jersey, with a snowy Saskatoon skyline and falling leaves, comedic expression.",
+    "image": "/generated/daily/2026-09-29/2026-09-29-2-meme.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -32,14 +32,14 @@
     ]
   },
   {
-    "id": "2026-09-28-3",
-    "date": "2026-09-28",
+    "id": "2026-09-29-3",
+    "date": "2026-09-29",
     "time": "12:45",
     "pillar": "Entertaining",
-    "title": "We Come to You – Even to莓Hill",
-    "caption": "Here's a fun one: we actually serviced a vehicle at a local Saskatoon dog park last month while the owner walked their golden retriever. Car needed an oil change, dog needed exercise, everyone won 🤷♂️. Whether you're at work, home, or anywhere in between – if you've got a flat spot to park, we've got the tools. Saskatoon life is busy enough without adding shop trips to your todo list.",
-    "image_prompt": "A friendly mechanic working on a car in an unexpected but convenient Saskatoon location like a parking lot, warm and approachable scene",
-    "image": "/generated/daily/2026-09-28/2026-09-28-3-entertaining.png",
+    "title": "Coffee, Commute, and a Little Saskatoon Sunshine",
+    "caption": "Nothing beats a quiet early morning cruise past the South Saskatchewan River, coffee in hand, while the city wakes up. Grab your favorite brew and enjoy the drive—your car’s just as ready for the adventure as you are.",
+    "image_prompt": "Inside a cozy car, steam rising from a coffee cup, sunrise reflecting off the South Saskatchewan River, Saskatoon skyline in the distance.",
+    "image": "/generated/daily/2026-09-29/2026-09-29-3-entertaining.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -48,14 +48,14 @@
     ]
   },
   {
-    "id": "2026-09-28-4",
-    "date": "2026-09-28",
+    "id": "2026-09-29-4",
+    "date": "2026-09-29",
     "time": "16:30",
     "pillar": "Serious",
-    "title": "Licensed, Insured, and Here When You Need Us",
-    "caption": "When something goes wrong with your vehicle, you want someone trustworthy showing up. Fixaur Mobile Mechanic is fully licensed in Saskatchewan and carries proper insurance – because your car and your safety deserve proper credentials, not a gamble. We're transparent about what we find, we explain things clearly, and we don't push unnecessary work. Our reputation in Saskatoon is built on doing things right the first time. That's how we sleep at night.",
-    "image_prompt": "Professional mechanic in uniform with company branding, clean organized service vehicle, Saskatoon skyline in background, trustworthy and competent appearance",
-    "image": "/generated/daily/2026-09-28/2026-09-28-4-serious.png",
+    "title": "Why Brake Inspections Matter Before Winter",
+    "caption": "With slippery roads ahead, ensuring your brakes are in top shape is essential for safety. Schedule a brake inspection before the cold sets in—your peace of mind and the safety of your passengers depend on it.",
+    "image_prompt": "Close-up of a mechanic’s gloved hands examining brake rotors, Saskatoon street visible through a garage door, winter clouds in the sky.",
+    "image": "/generated/daily/2026-09-29/2026-09-29-4-serious.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -64,14 +64,14 @@
     ]
   },
   {
-    "id": "2026-09-28-5",
-    "date": "2026-09-28",
+    "id": "2026-09-29-5",
+    "date": "2026-09-29",
     "time": "19:00",
     "pillar": "Competitive",
-    "title": "Skip the Wait, Not the Quality",
-    "caption": "Traditional shops can mean half a day – or longer – just sitting there waiting. With mobile service, we bring the shop to your Saskatoon location on your schedule. You skip the drive, the wait room, and the logistics of getting there and back. Same professional diagnostics, same quality parts, but fitted around your actual life. It's the convenience of not rearranging your day just to get your car serviced.",
-    "image_prompt": "Split image concept showing stressed shop waiting vs relaxed mobile service at home, clean modern design, Saskatoon themed background element",
-    "image": "/generated/daily/2026-09-28/2026-09-28-5-competitive.png",
+    "title": "Skip the Tow, Save Time",
+    "caption": "If your vehicle needs service, our mobile mechanic team comes to you—no need to arrange a tow or wait at a shop. Get back on the road quickly and keep your day moving in Saskatoon.",
+    "image_prompt": "A mobile mechanic van parked in front of a Saskatoon home, a car with its hood open, a satisfied driver giving a thumbs up, city street in background.",
+    "image": "/generated/daily/2026-09-29/2026-09-29-5-competitive.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
