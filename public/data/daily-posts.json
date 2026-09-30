@@ -1,13 +1,13 @@
 [
   {
-    "id": "2026-09-29-1",
-    "date": "2026-09-29",
+    "id": "2026-09-30-1",
+    "date": "2026-09-30",
     "time": "07:30",
     "pillar": "Educational",
-    "title": "Fall Prep: 5 Quick Checks for Saskatoon Drivers",
-    "caption": "With cooler temperatures settling in, a few minutes under the hood can keep your car running smoothly through the season. Check tire pressure, fluid levels, battery, lights, and wiper blades—simple steps that can help you avoid surprises on Saskatoon roads.",
-    "image_prompt": "A car in a Saskatoon driveway, frost on the ground, owner checking tire pressure with a gauge, autumn leaves in the background.",
-    "image": "/generated/daily/2026-09-29/2026-09-29-1-educational.png",
+    "title": "Fall Vehicle Prep for Saskatoon Roads",
+    "caption": "Saskatoon autumn brings frosty mornings and slippery roads. Check your battery health, inspect brake pads, and ensure your heater works before temperatures drop. As a mobile mechanic serving neighborhoods across Saskatoon—from Forest Grove to Nutana—I come to you wherever your vehicle sits. A quick pre-season check now can save you from a cold morning surprise later.",
+    "image_prompt": "Mechanic inspecting a car battery in an autumn Saskatoon residential setting, morning frost on parked vehicles nearby, fallen leaves on the ground, professional service van with Fixaur branding in driveway, friendly and informative atmosphere",
+    "image": "/generated/daily/2026-09-30/2026-09-30-1-educational.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -16,14 +16,14 @@
     ]
   },
   {
-    "id": "2026-09-29-2",
-    "date": "2026-09-29",
+    "id": "2026-09-30-2",
+    "date": "2026-09-30",
     "time": "10:15",
     "pillar": "Meme",
-    "title": "Monday Mood: Car Edition",
-    "caption": "When your car thinks it’s a Saskatoon hockey star—pucks not included, but the drive stays epic. 🚗❄️ #SaskatoonLife",
-    "image_prompt": "A cartoon car wearing a hockey jersey, with a snowy Saskatoon skyline and falling leaves, comedic expression.",
-    "image": "/generated/daily/2026-09-29/2026-09-29-2-meme.png",
+    "title": "Modern Problems Require Modern Solutions",
+    "caption": "When your car breaks down and your options are:\n\n1. Wait 2 hours for a tow truck\n2. Sit in a shop waiting room with questionable coffee\n3. Call a mobile mechanic who shows up and fixes it right there\n\n🤷 *shrugs in convenience* \n\nSaskatoon, your time is valuable. I come to your driveway, your workplace parking lot, or wherever your car decided today wasn't its day.",
+    "image_prompt": "Relatable illustration showing three panels: a broken down car, a tow truck, and a mechanic van arriving, meme-style format with Saskatoon cityscape silhouette, humorous and engaging social media graphic",
+    "image": "/generated/daily/2026-09-30/2026-09-30-2-meme.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -32,14 +32,14 @@
     ]
   },
   {
-    "id": "2026-09-29-3",
-    "date": "2026-09-29",
+    "id": "2026-09-30-3",
+    "date": "2026-09-30",
     "time": "12:45",
     "pillar": "Entertaining",
-    "title": "Coffee, Commute, and a Little Saskatoon Sunshine",
-    "caption": "Nothing beats a quiet early morning cruise past the South Saskatchewan River, coffee in hand, while the city wakes up. Grab your favorite brew and enjoy the drive—your car’s just as ready for the adventure as you are.",
-    "image_prompt": "Inside a cozy car, steam rising from a coffee cup, sunrise reflecting off the South Saskatchewan River, Saskatoon skyline in the distance.",
-    "image": "/generated/daily/2026-09-29/2026-09-29-3-entertaining.png",
+    "title": "A Day in the Life: Saskatoon Mobile Mechanic Edition",
+    "caption": "Today's commute: Lawson Heights → Greystone → Airport Marriott parking lot → back to Silverwood. \n\nMy office has the best views in Saskatoon, changes every few hours, and sometimes includes a golden retriever named Biscuit supervising the work. 🐕\n\nThanks for letting me be part of your day, Saskatoon! Every driveway tells a story.",
+    "image_prompt": "Split scene showing mobile mechanic working on different vehicles throughout Saskatoon landmarks including residential neighborhoods, downtown backdrops, and commercial parking lots, cheerful and dynamic composition",
+    "image": "/generated/daily/2026-09-30/2026-09-30-3-entertaining.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -48,14 +48,14 @@
     ]
   },
   {
-    "id": "2026-09-29-4",
-    "date": "2026-09-29",
+    "id": "2026-09-30-4",
+    "date": "2026-09-30",
     "time": "16:30",
     "pillar": "Serious",
-    "title": "Why Brake Inspections Matter Before Winter",
-    "caption": "With slippery roads ahead, ensuring your brakes are in top shape is essential for safety. Schedule a brake inspection before the cold sets in—your peace of mind and the safety of your passengers depend on it.",
-    "image_prompt": "Close-up of a mechanic’s gloved hands examining brake rotors, Saskatoon street visible through a garage door, winter clouds in the sky.",
-    "image": "/generated/daily/2026-09-29/2026-09-29-4-serious.png",
+    "title": "When That Noise Can't Wait",
+    "caption": "Strange sounds. Warning lights. Steering that feels off.\n\nIn Saskatoon winters, a minor issue becomes a major safety concern fast. Brake problems, suspension concerns, or unexpected breakdowns aren't just inconvenient—they're dangerous when roads are icy.\n\nI respond quickly, diagnose properly, and explain clearly. No upselling, no scare tactics—just honest automotive work from someone who cares about you getting home safe.",
+    "image_prompt": "Professional mechanic using diagnostic equipment to examine a car engine, serious focused expression, clean organized service van interior visible, winter Saskatoon setting with icy road conditions through window, trustworthy and competent atmosphere",
+    "image": "/generated/daily/2026-09-30/2026-09-30-4-serious.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -64,14 +64,14 @@
     ]
   },
   {
-    "id": "2026-09-29-5",
-    "date": "2026-09-29",
+    "id": "2026-09-30-5",
+    "date": "2026-09-30",
     "time": "19:00",
     "pillar": "Competitive",
-    "title": "Skip the Tow, Save Time",
-    "caption": "If your vehicle needs service, our mobile mechanic team comes to you—no need to arrange a tow or wait at a shop. Get back on the road quickly and keep your day moving in Saskatoon.",
-    "image_prompt": "A mobile mechanic van parked in front of a Saskatoon home, a car with its hood open, a satisfied driver giving a thumbs up, city street in background.",
-    "image": "/generated/daily/2026-09-29/2026-09-29-5-competitive.png",
+    "title": "Your Car, Your Driveway, Your Schedule",
+    "caption": "Traditional auto repair means: scheduling a drop-off, arranging alternate transportation, waiting hours or days, then arranging pickup.\n\nMobile mechanic service means: one call or message, I'm there. Work continues on your lunch break at the office, or while you're home with the family in the evening.\n\nNo tow truck needed. No waiting room required. Just convenient, quality repairs in places that work for your life.",
+    "image_prompt": "Side-by-side comparison showing stressed customer at traditional auto shop versus relaxed customer at home with repaired car, Saskatoon suburban setting, professional service van arriving at convenient residential location, clean modern aesthetic",
+    "image": "/generated/daily/2026-09-30/2026-09-30-5-competitive.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
