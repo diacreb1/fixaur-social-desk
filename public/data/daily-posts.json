@@ -1,13 +1,13 @@
 [
   {
-    "id": "2026-10-01-1",
-    "date": "2026-10-01",
+    "id": "2026-10-03-1",
+    "date": "2026-10-03",
     "time": "07:30",
     "pillar": "Educational",
-    "title": "Why Regular Brake Checks Matter",
-    "caption": "In Saskatoon, cold winters and icy roads put extra strain on your brakes. A quick mobile inspection can spot worn pads or fluid issues before they become costly problems. Keep your family safe—schedule a brake check before the temperature drops.",
-    "image_prompt": "A mechanic examining brake pads on a sedan parked in a Saskatoon driveway, bright daylight, tools laid out on a mat.",
-    "image": "/generated/daily/2026-10-01/2026-10-01-1-educational.png",
+    "title": "Winter-Ready: Why Checking Your Coolant Now Saves You Later",
+    "caption": "As temps drop in Saskatoon, your coolant system works overtime. Our mobile mechanic can test coolant freeze point and flush if needed—no appointment needed. A quick check now can prevent a frozen engine later. #SaskatoonMechanic #WinterPrep",
+    "image_prompt": "A mechanic in a winter coat testing coolant in a car parked on a snowy Saskatoon street, with a thermometer and antifreeze container, warm light from the garage.",
+    "image": "/generated/daily/2026-10-03/2026-10-03-1-educational.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -16,14 +16,14 @@
     ]
   },
   {
-    "id": "2026-10-01-2",
-    "date": "2026-10-01",
+    "id": "2026-10-03-2",
+    "date": "2026-10-03",
     "time": "10:15",
     "pillar": "Meme",
-    "title": "When You Realize Your Car Needs a Mechanic",
-    "caption": "You’re halfway to the grocery store and the check engine light blinks on. Suddenly, you’re stuck in a sitcom moment, but there’s no punchline—just a friendly mobile mechanic ready to roll to you. #SaskatoonLife #MobileMechanic",
-    "image_prompt": "A funny cartoon car with googly eyes staring at a Fixaur Mobile Mechanic van parked on a snowy street, exaggerated snow piles around.",
-    "image": "/generated/daily/2026-10-01/2026-10-01-2-meme.png",
+    "title": "When You Call a Tow Truck… And Then a Mechanic Shows Up Instead",
+    "caption": "You’re waiting for a tow truck, and the mobile mechanic pulls up in a friendly blue van. The look on your face: priceless. #MobileMechanic #SaskatoonLife",
+    "image_prompt": "Meme format showing a cartoon of a car stuck on the side of the road with a tow truck icon and a mechanic van icon, speech bubble 'Surprise!'",
+    "image": "/generated/daily/2026-10-03/2026-10-03-2-meme.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -32,14 +32,14 @@
     ]
   },
   {
-    "id": "2026-10-01-3",
-    "date": "2026-10-01",
+    "id": "2026-10-03-3",
+    "date": "2026-10-03",
     "time": "12:45",
     "pillar": "Entertaining",
-    "title": "Road Trip Prep: Quick Tips from the Road",
-    "caption": "Planning a weekend getaway around Saskatoon? Before you hit the highway, check tire pressure, top off fluids, and keep a small toolkit handy. Our mobile team can swing by your place the night before and make sure you’re road‑ready—no shop wait required.",
-    "image_prompt": "A colorful SUV loaded with camping gear parked in front of a Saskatoon sunrise, a mechanic waving from the driver’s side window.",
-    "image": "/generated/daily/2026-10-01/2026-10-01-3-entertaining.png",
+    "title": "Quick Quiz: Do You Know Your Car’s Secret Language?",
+    "caption": "Is that weird noise a ‘knock knock’ or a ‘squeal’? Test your ear and see if you can guess the issue before we arrive. Comment below! #CarQuiz #SaskatoonDrivers",
+    "image_prompt": "A fun illustrated car dashboard with sound wave icons, speech bubbles of different noises, bright colors, friendly vibe.",
+    "image": "/generated/daily/2026-10-03/2026-10-03-3-entertaining.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -48,14 +48,14 @@
     ]
   },
   {
-    "id": "2026-10-01-4",
-    "date": "2026-10-01",
+    "id": "2026-10-03-4",
+    "date": "2026-10-03",
     "time": "16:30",
     "pillar": "Serious",
-    "title": "Stay Safe: Recognizing Transmission Trouble Early",
-    "caption": "A slipping transmission, delayed shifts, or strange noises can signal serious issues. Ignoring them may lead to expensive repairs or breakdowns on busy Saskatoon streets. If you notice any of these signs, let us come to you quickly to diagnose the problem.",
-    "image_prompt": "Close‑up of a transmission component with a warning symbol, blurred background of a Saskatoon highway at dusk.",
-    "image": "/generated/daily/2026-10-01/2026-10-01-4-serious.png",
+    "title": "Check Engine Light: Why Ignoring It Could Cost You More",
+    "caption": "That little amber icon could signal anything from a loose gas cap to a misfiring engine. Our mobile team can run a full diagnostic right at your Saskatoon home or workplace. Don’t wait—early detection keeps you safe and saves time. #AutoSafety #MobileMechanic",
+    "image_prompt": "Close-up of an illuminated check engine light on a car dashboard, with a mechanic’s hand holding a diagnostic scanner, serious mood, cool lighting.",
+    "image": "/generated/daily/2026-10-03/2026-10-03-4-serious.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -64,14 +64,14 @@
     ]
   },
   {
-    "id": "2026-10-01-5",
-    "date": "2026-10-01",
+    "id": "2026-10-03-5",
+    "date": "2026-10-03",
     "time": "19:00",
     "pillar": "Competitive",
-    "title": "Skip the Tow, Save Time",
-    "caption": "When your vehicle stalls, the last thing you want is a long wait for a tow or a crowded repair shop. Fixaur Mobile Mechanic arrives at your location in Saskatoon, gets you back on the road faster—no extra fees for coming to you.",
-    "image_prompt": "A sleek mobile mechanic van parked beside a stalled car on a quiet Saskatoon side street, no tow truck in sight, evening light.",
-    "image": "/generated/daily/2026-10-01/2026-10-01-5-competitive.png",
+    "title": "No Tow, No Shop Wait – We Come to You in Saskatoon",
+    "caption": "Why waste a morning at a repair shop when we can be at your driveway in under an hour? Our mobile service means you stay on your schedule, avoid a tow, and get back to driving faster. Book now and keep your day moving. #ConvenientCarCare #Saskatoon",
+    "image_prompt": "A mobile mechanic van parked in a driveway, a driver waving from the house, bright sunny day in Saskatoon, time clock showing quick arrival.",
+    "image": "/generated/daily/2026-10-03/2026-10-03-5-competitive.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
