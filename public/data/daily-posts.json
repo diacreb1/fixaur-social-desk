@@ -1,13 +1,13 @@
 [
   {
-    "id": "2026-10-07-1",
-    "date": "2026-10-07",
+    "id": "2026-10-09-1",
+    "date": "2026-10-09",
     "time": "07:30",
     "pillar": "Educational",
-    "title": "5 Early Signs Your Battery May Be Struggling This Winter",
-    "caption": "Cold mornings can be tough on your car battery. Watch for slow cranking, dim headlights, a swollen case, corrosion, and the check engine light. If you notice any of these, let our Saskatoon mobile mechanic drop by and test your battery before you get stuck. Book online or text us!",
-    "image_prompt": "A close-up of a car battery with frost on it, with a digital multimeter testing the voltage, set in a snowy Saskatoon neighbourhood, early morning light.",
-    "image": "/generated/daily/2026-10-07/2026-10-07-1-educational.png",
+    "title": "5 Early Warning Signs Your Brakes Need Attention",
+    "caption": "Saskatoon drivers, before the snow hits, keep an eye out for squealing, grinding, or a soft brake pedal. Catching these signs early can help you avoid a surprise stop on icy roads. If any of these symptoms sound familiar, reach out to Fixaur Mobile Mechanic for a quick on‑site check.",
+    "image_prompt": "Close‑up of a brake disc with light frost, small rust spots, and a subtle squeal symbol",
+    "image": "/generated/daily/2026-10-09/2026-10-09-1-educational.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -16,14 +16,14 @@
     ]
   },
   {
-    "id": "2026-10-07-2",
-    "date": "2026-10-07",
+    "id": "2026-10-09-2",
+    "date": "2026-10-09",
     "time": "10:15",
     "pillar": "Meme",
-    "title": "When Your Car Says 'I'm Fine' But the Engine Light Says 'Nope'",
-    "caption": "We've all been there – your ride feels okay, but that dashboard glow says otherwise. Rather than guessing, get a professional check at your location. Our Saskatoon mobile mechanic can diagnose it before you’re stuck in a ditch.",
-    "image_prompt": "A funny meme image of a cartoon car with a surprised face and a glowing check engine light, set in a snowy Saskatoon street, comedic style.",
-    "image": "/generated/daily/2026-10-07/2026-10-07-2-meme.png",
+    "title": "When Your Car Says 'I'm Not Ready for Winter'",
+    "caption": "We’ve all been there—your vehicle seems to protest the first cold snap. Good thing Fixaur Mobile Mechanic can get you winter‑ready without a trip to the shop. A fast mobile service means you spend less time waiting and more time cruising.",
+    "image_prompt": "A cartoon car wrapped in a cozy blanket, looking shivering, with snow falling outside a Saskatoon street",
+    "image": "/generated/daily/2026-10-09/2026-10-09-2-meme.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -32,14 +32,14 @@
     ]
   },
   {
-    "id": "2026-10-07-3",
-    "date": "2026-10-07",
+    "id": "2026-10-09-3",
+    "date": "2026-10-09",
     "time": "12:45",
     "pillar": "Entertaining",
-    "title": "The Great Saskatoon Snowmobile Rescue (True Story)",
-    "caption": "Last week we helped a local hockey team get back on the road after a surprise snowstorm left their SUV stuck in a parking lot. With a quick jump start and a few friendly jokes, we had them heading to the game in minutes. That's what a mobile mechanic in Saskatoon is all about!",
-    "image_prompt": "A photo of a friendly mechanic in a reflective vest helping a group of people in hockey gear load a car, with snow falling on a Saskatoon street, cheerful and dynamic composition.",
-    "image": "/generated/daily/2026-10-07/2026-10-07-3-entertaining.png",
+    "title": "From Flat to Fast: A Saskatoon Driver's Story",
+    "caption": "Imagine a rainy morning, a flat tire, and no nearby garage. One quick call later, a Fixaur mechanic pulls up, swaps the tire on‑site, and you’re back on your way—no waiting in a shop lobby. That’s the kind of story Saskatoon drivers love sharing.",
+    "image_prompt": "A smartphone screen showing a mechanic fixing a tire at the roadside, with a Saskatoon neighbourhood in the background",
+    "image": "/generated/daily/2026-10-09/2026-10-09-3-entertaining.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -48,14 +48,14 @@
     ]
   },
   {
-    "id": "2026-10-07-4",
-    "date": "2026-10-07",
+    "id": "2026-10-09-4",
+    "date": "2026-10-09",
     "time": "16:30",
     "pillar": "Serious",
-    "title": "Stay Safe: Check Your Brakes Before the Winter Roads",
-    "caption": "Icy streets demand reliable brakes. If you hear squealing, feel a spongy pedal, or notice longer stopping distances, it’s time for a brake inspection. Our mobile service can come to your home or workplace in Saskatoon to check, so you don’t have to risk a tow. Safety first—schedule a quick check today.",
-    "image_prompt": "A close-up of a car brake disc with frost, a mechanic's gloved hand holding a caliper, set against a winter Saskatoon skyline, serious mood.",
-    "image": "/generated/daily/2026-10-07/2026-10-07-4-serious.png",
+    "title": "The Real Cost of Skipping Oil Changes",
+    "caption": "Regular oil changes keep your engine clean and running smoothly, especially on Saskatoon’s cold mornings. Neglecting them can lead to reduced fuel efficiency and costly repairs down the line. Book a mobile oil change to stay on top of maintenance without disrupting your day.",
+    "image_prompt": "Engine oil being drained into a container with a Saskatoon skyline visible through a garage door",
+    "image": "/generated/daily/2026-10-09/2026-10-09-4-serious.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -64,14 +64,14 @@
     ]
   },
   {
-    "id": "2026-10-07-5",
-    "date": "2026-10-07",
+    "id": "2026-10-09-5",
+    "date": "2026-10-09",
     "time": "19:00",
     "pillar": "Competitive",
-    "title": "Why Wait at a Shop? We Bring the Mechanic to You",
-    "caption": "No need to arrange a tow or spend hours in a waiting room. Our Saskatoon mobile mechanic arrives at your driveway, checks your vehicle, and gets you moving faster. Save time and avoid the hassle—book with us and keep your day on track.",
-    "image_prompt": "A side‑by‑side image of a traditional auto shop with a long queue on the left and a sleek mobile mechanic van pulling up to a home driveway on the right, Saskatoon neighbourhood in the background, highlighting convenience.",
-    "image": "/generated/daily/2026-10-07/2026-10-07-5-competitive.png",
+    "title": "Avoid the Tow, Not the Repair",
+    "caption": "Why arrange a tow and sit in a shop waiting room when Fixaur Mobile Mechanic can come directly to your Saskatoon driveway? Our mobile service means you skip the hassle of transporting your vehicle, saving you time and keeping your schedule on track.",
+    "image_prompt": "A white service van parked in a residential driveway, a mechanic greeting a car owner with a friendly wave",
+    "image": "/generated/daily/2026-10-09/2026-10-09-5-competitive.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
