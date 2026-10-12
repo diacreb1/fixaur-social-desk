@@ -1,13 +1,13 @@
 [
   {
-    "id": "2026-10-11-1",
-    "date": "2026-10-11",
+    "id": "2026-10-12-1",
+    "date": "2026-10-12",
     "time": "07:30",
     "pillar": "Educational",
-    "title": "Brake Fluid Basics: Stay Safe on Saskatoon Roads",
-    "caption": "As temperatures drop, brake fluid can absorb moisture and reduce stopping power. A quick inspection at Fixaur Mobile Mechanic helps keep you safe on icy Saskatoon streets. #SaskatoonCarCare",
-    "image_prompt": "Mobile mechanic checking brake fluid under the hood of a car, with a frosty Saskatoon skyline in the background.",
-    "image": "/generated/daily/2026-10-11/2026-10-11-1-educational.png",
+    "title": "Winter Readiness: Quick Battery Check",
+    "caption": "As the temperature drops in Saskatoon, a healthy battery is key. Test your battery's charge or let us swing by your driveway to do a quick inspection—no need to wait at a shop. #Saskatoon #MobileMechanic",
+    "image_prompt": "A hand holding a digital multimeter testing a car battery in a snowy Saskatoon driveway, early morning light, frost on the ground.",
+    "image": "/generated/daily/2026-10-12/2026-10-12-1-educational.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -16,14 +16,14 @@
     ]
   },
   {
-    "id": "2026-10-11-2",
-    "date": "2026-10-11",
+    "id": "2026-10-12-2",
+    "date": "2026-10-12",
     "time": "10:15",
     "pillar": "Meme",
-    "title": "When Your Car Says 'I Need Coffee Too'",
-    "caption": "Just like us, vehicles can get sluggish on cold mornings. Need a mobile mechanic to perk them up? We’re just a call away in Saskatoon! #SaskatoonHumor",
-    "image_prompt": "Cartoon car yawning and holding a coffee cup, with a Saskatoon coffee shop visible behind it.",
-    "image": "/generated/daily/2026-10-11/2026-10-11-2-meme.png",
+    "title": "When you realize your oil is overdue",
+    "caption": "That moment when the oil light flickers and you’re still stuck in the office parking lot. Good thing we can be there before you even finish your coffee. 🍵🚗 #MobileMechanic #SaskatoonLife",
+    "image_prompt": "A cartoon-style image of a stressed driver with a coffee cup looking at a glowing oil warning light on a car dashboard, with a mobile mechanic van in the background.",
+    "image": "/generated/daily/2026-10-12/2026-10-12-2-meme.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -32,14 +32,14 @@
     ]
   },
   {
-    "id": "2026-10-11-3",
-    "date": "2026-10-11",
+    "id": "2026-10-12-3",
+    "date": "2026-10-12",
     "time": "12:45",
     "pillar": "Entertaining",
-    "title": "Saskatoon Road Trip Bingo",
-    "caption": "Heading out for a long weekend? Print our Saskatoon Road Trip Bingo and spot landmarks like the University Bridge, River Landing, and the Saskatoon skyline. Tag us for a chance to be featured! #SaskatoonExplore",
-    "image_prompt": "A bingo card featuring Saskatoon landmarks such as the University Bridge, the River Landing, and the city skyline, with a playful design.",
-    "image": "/generated/daily/2026-10-11/2026-10-11-3-entertaining.png",
+    "title": "A Day in the Life of Fixaur in Saskatoon",
+    "caption": "From a morning flat tire on 8th Street to a quick brake check at the university campus, we love turning car troubles into smooth rides. Here’s a behind‑the‑scenes peek at our day. #Saskatoon #Fixaur",
+    "image_prompt": "A collage of a mobile mechanic van parked at various Saskatoon locations—residential driveway, downtown street, university lot—under a bright sky, with a friendly mechanic waving.",
+    "image": "/generated/daily/2026-10-12/2026-10-12-3-entertaining.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -48,14 +48,14 @@
     ]
   },
   {
-    "id": "2026-10-11-4",
-    "date": "2026-10-11",
+    "id": "2026-10-12-4",
+    "date": "2026-10-12",
     "time": "16:30",
     "pillar": "Serious",
-    "title": "Tire Pressure: Small Change, Big Safety",
-    "caption": "Under‑inflated tires reduce traction on icy Saskatoon streets. Our mobile service can check and top off your tires at your home or workplace, helping you drive safely this winter. #DriveSafe",
-    "image_prompt": "Close‑up of a tire pressure gauge with a snow‑covered Saskatoon street in the background.",
-    "image": "/generated/daily/2026-10-11/2026-10-11-4-serious.png",
+    "title": "Don’t Let a Small Leak Turn into a Big Problem",
+    "caption": "A tiny coolant leak can lead to overheating on a cold Saskatoon night. If you spot a puddle under your car, get it checked right away. Our mobile team can come to you, saving you a tow. #CarCare #Saskatoon",
+    "image_prompt": "A close‑up photo of a small green puddle under a car in a Saskatoon garage, with a mechanic’s gloved hand pointing at the leak, warning symbols around.",
+    "image": "/generated/daily/2026-10-12/2026-10-12-4-serious.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -64,14 +64,14 @@
     ]
   },
   {
-    "id": "2026-10-11-5",
-    "date": "2026-10-11",
+    "id": "2026-10-12-5",
+    "date": "2026-10-12",
     "time": "19:00",
     "pillar": "Competitive",
-    "title": "Mobile Mechanic Convenience: We Come to You",
-    "caption": "Skip the hassle of arranging a tow or waiting in line at a shop. Fixaur Mobile Mechanic brings expert service to your driveway in Saskatoon. Book today and get back on the road faster. #MobileMechanic",
-    "image_prompt": "A fully‑equipped mobile mechanic van pulling up to a residential driveway in Saskatoon, mechanic waving.",
-    "image": "/generated/daily/2026-10-11/2026-10-11-5-competitive.png",
+    "title": "Skip the Shop Wait—We Come to You",
+    "caption": "No more sitting in a waiting room while your car sits at the shop. Our mobile mechanic service in Saskatoon gets you back on the road faster, right from your home or office. #Convenience #MobileMechanic",
+    "image_prompt": "A sleek mobile mechanic van parked in front of a cozy Saskatoon home, a smiling driver holding a tablet, with a clear blue sky.",
+    "image": "/generated/daily/2026-10-12/2026-10-12-5-competitive.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
