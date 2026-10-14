@@ -1,13 +1,13 @@
 [
   {
-    "id": "2026-10-13-1",
-    "date": "2026-10-13",
+    "id": "2026-10-14-1",
+    "date": "2026-10-14",
     "time": "07:30",
     "pillar": "Educational",
-    "title": "Why Checking Tire Pressure Matters in Saskatoon",
-    "caption": "As temperatures drop, your tires lose pressure faster. Proper inflation improves grip on icy roads and saves fuel. In Saskatoon, a quick check before heading out can prevent a surprise stop on a frosty morning.",
-    "image_prompt": "A mechanic using a tire pressure gauge on a car parked on a snow‑covered street in Saskatoon, city skyline in the background.",
-    "image": "/generated/daily/2026-10-13/2026-10-13-1-educational.png",
+    "title": "Why Your Car Battery Matters in a Saskatoon Winter",
+    "caption": "Cold mornings can drain a weak battery. Get yours tested before the freeze. A quick check can save you a tow and a long wait.",
+    "image_prompt": "A mechanic testing a car battery under a Saskatoon streetlight as frost clings to the car",
+    "image": "/generated/daily/2026-10-14/2026-10-14-1-educational.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -16,14 +16,14 @@
     ]
   },
   {
-    "id": "2026-10-13-2",
-    "date": "2026-10-13",
+    "id": "2026-10-14-2",
+    "date": "2026-10-14",
     "time": "10:15",
     "pillar": "Meme",
-    "title": "When Your Car Hears 'Snow'",
-    "caption": "That moment when your engine decides it’s too cold to start and your Saskatoon commute gets a surprise twist. 🚗❄️ #SaskatoonWinter #CarLife",
-    "image_prompt": "A funny meme showing a cartoon car shivering under a blanket while snow piles up around it, with a Saskatoon street sign in the background.",
-    "image": "/generated/daily/2026-10-13/2026-10-13-2-meme.png",
+    "title": "Check Engine Light – The Universal Mystery",
+    "caption": "We've all been there. 😬",
+    "image_prompt": "A meme image of a confused driver with a car dashboard showing a glowing check engine light",
+    "image": "/generated/daily/2026-10-14/2026-10-14-2-meme.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -32,14 +32,14 @@
     ]
   },
   {
-    "id": "2026-10-13-3",
-    "date": "2026-10-13",
+    "id": "2026-10-14-3",
+    "date": "2026-10-14",
     "time": "12:45",
     "pillar": "Entertaining",
-    "title": "The Coffee Run Rescue",
-    "caption": "We showed up at 7 a.m. with coffee in hand and a wrench ready, rescuing a driver stuck with a dead battery in the middle of the University of Saskatchewan campus. The look on his face? Priceless.",
-    "image_prompt": "A mobile mechanic in a bright orange uniform holding a steaming coffee cup while fixing a car under a bright sunrise, with university buildings in the background.",
-    "image": "/generated/daily/2026-10-13/2026-10-13-3-entertaining.png",
+    "title": "Road Trip Ready: Top 3 Scenic Drives Around Saskatoon",
+    "caption": "Looking for a weekend escape? Here are three gorgeous routes that start right in our city.",
+    "image_prompt": "A car traveling along a winding road near a golden wheat field in Saskatchewan, with a blue sky",
+    "image": "/generated/daily/2026-10-14/2026-10-14-3-entertaining.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -48,14 +48,14 @@
     ]
   },
   {
-    "id": "2026-10-13-4",
-    "date": "2026-10-13",
+    "id": "2026-10-14-4",
+    "date": "2026-10-14",
     "time": "16:30",
     "pillar": "Serious",
-    "title": "Stay Safe on Saskatoon Roads: Winter Vehicle Checklist",
-    "caption": "Before the frost sets in, make sure brakes, lights, battery, and fluid levels are ready. A quick mobile inspection can catch hidden issues before they become roadside emergencies. Schedule yours today.",
-    "image_prompt": "A mechanic inspecting a car’s brake pads and under‑hood fluids on a cold morning, with a frosty Saskatoon street visible.",
-    "image": "/generated/daily/2026-10-13/2026-10-13-4-serious.png",
+    "title": "Stay Safe on Saskatoon Roads This Winter",
+    "caption": "Snow, ice, and low visibility make driving tricky. Maintain your brakes, check your lights, and keep an emergency kit.",
+    "image_prompt": "A car on a snow-covered Saskatoon street with a winter emergency kit and a safety cone",
+    "image": "/generated/daily/2026-10-14/2026-10-14-4-serious.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -64,14 +64,14 @@
     ]
   },
   {
-    "id": "2026-10-13-5",
-    "date": "2026-10-13",
+    "id": "2026-10-14-5",
+    "date": "2026-10-14",
     "time": "19:00",
     "pillar": "Competitive",
-    "title": "Skip the Shop Wait – We Come to You",
-    "caption": "No need to tow your car to a garage or sit in a waiting room. Our mobile mechanic arrives at your home, office, or even the grocery store, getting you back on the road faster.",
-    "image_prompt": "A mechanic pulling up in a fully equipped van labeled ‘Fixaur Mobile Mechanic’ at a residential driveway in Saskatoon, with a clock showing a short wait time.",
-    "image": "/generated/daily/2026-10-13/2026-10-13-5-competitive.png",
+    "title": "Mobile Mechanic Convenience: We Come to You",
+    "caption": "No need to arrange a tow or wait at a shop. Our mobile mechanic service arrives at your home or workplace in Saskatoon.",
+    "image_prompt": "A mobile mechanic van parked in front of a Saskatoon home, the mechanic waving to the homeowner",
+    "image": "/generated/daily/2026-10-14/2026-10-14-5-competitive.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
