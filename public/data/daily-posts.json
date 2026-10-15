@@ -1,13 +1,13 @@
 [
   {
-    "id": "2026-10-14-1",
-    "date": "2026-10-14",
+    "id": "2026-10-15-1",
+    "date": "2026-10-15",
     "time": "07:30",
     "pillar": "Educational",
-    "title": "Why Your Car Battery Matters in a Saskatoon Winter",
-    "caption": "Cold mornings can drain a weak battery. Get yours tested before the freeze. A quick check can save you a tow and a long wait.",
-    "image_prompt": "A mechanic testing a car battery under a Saskatoon streetlight as frost clings to the car",
-    "image": "/generated/daily/2026-10-14/2026-10-14-1-educational.png",
+    "title": "Fall Car Prep: 5 Quick Checks for Saskatoon Drivers",
+    "caption": "As temperatures dip in Saskatoon, a few minutes of preventive care can keep you moving safely. Check tire pressure, test the battery, inspect brakes, top off fluids, and replace windshield wipers before the first frost.",
+    "image_prompt": "A mechanic checking tire pressure on a sedan parked in a Saskatoon driveway, autumn leaves scattered on the ground, crisp blue sky.",
+    "image": "/generated/daily/2026-10-15/2026-10-15-1-educational.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -16,14 +16,14 @@
     ]
   },
   {
-    "id": "2026-10-14-2",
-    "date": "2026-10-14",
+    "id": "2026-10-15-2",
+    "date": "2026-10-15",
     "time": "10:15",
     "pillar": "Meme",
-    "title": "Check Engine Light – The Universal Mystery",
-    "caption": "We've all been there. 😬",
-    "image_prompt": "A meme image of a confused driver with a car dashboard showing a glowing check engine light",
-    "image": "/generated/daily/2026-10-14/2026-10-14-2-meme.png",
+    "title": "When Your Car Says 'I'm Not Ready for Winter Either'",
+    "caption": "Just like us, our cars love a cozy blanket and a little extra love before the cold hits. Share this with a friend who might need a laugh while prepping their ride.",
+    "image_prompt": "A cartoon car wrapped in a fuzzy blanket, wearing a winter scarf, with snowflakes falling outside, captioned with a speech bubble: 'I need a warm-up too!'",
+    "image": "/generated/daily/2026-10-15/2026-10-15-2-meme.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -32,14 +32,14 @@
     ]
   },
   {
-    "id": "2026-10-14-3",
-    "date": "2026-10-14",
+    "id": "2026-10-15-3",
+    "date": "2026-10-15",
     "time": "12:45",
     "pillar": "Entertaining",
-    "title": "Road Trip Ready: Top 3 Scenic Drives Around Saskatoon",
-    "caption": "Looking for a weekend escape? Here are three gorgeous routes that start right in our city.",
-    "image_prompt": "A car traveling along a winding road near a golden wheat field in Saskatchewan, with a blue sky",
-    "image": "/generated/daily/2026-10-14/2026-10-14-3-entertaining.png",
+    "title": "Road‑Trip Tunes: Saskatoon to Prince Albert Playlist",
+    "caption": "We asked local drivers for their favorite driving songs and compiled the ultimate playlist for a smooth ride from Saskatoon to Prince Albert. Hit play and enjoy the Saskatchewan scenery!",
+    "image_prompt": "Car interior with a smartphone displaying a music playlist, the open road stretching through prairie fields and a clear sky.",
+    "image": "/generated/daily/2026-10-15/2026-10-15-3-entertaining.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -48,14 +48,14 @@
     ]
   },
   {
-    "id": "2026-10-14-4",
-    "date": "2026-10-14",
+    "id": "2026-10-15-4",
+    "date": "2026-10-15",
     "time": "16:30",
     "pillar": "Serious",
-    "title": "Stay Safe on Saskatoon Roads This Winter",
-    "caption": "Snow, ice, and low visibility make driving tricky. Maintain your brakes, check your lights, and keep an emergency kit.",
-    "image_prompt": "A car on a snow-covered Saskatoon street with a winter emergency kit and a safety cone",
-    "image": "/generated/daily/2026-10-14/2026-10-14-4-serious.png",
+    "title": "Don’t Ignore the Check Engine Light",
+    "caption": "A lit check engine light can signal anything from a loose gas cap to more serious engine or emissions issues. If you see it, schedule a diagnostic check as soon as possible to stay safe on Saskatoon roads.",
+    "image_prompt": "Close‑up of a car dashboard with the check engine warning light glowing amber, the steering wheel slightly visible.",
+    "image": "/generated/daily/2026-10-15/2026-10-15-4-serious.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -64,14 +64,14 @@
     ]
   },
   {
-    "id": "2026-10-14-5",
-    "date": "2026-10-14",
+    "id": "2026-10-15-5",
+    "date": "2026-10-15",
     "time": "19:00",
     "pillar": "Competitive",
-    "title": "Mobile Mechanic Convenience: We Come to You",
-    "caption": "No need to arrange a tow or wait at a shop. Our mobile mechanic service arrives at your home or workplace in Saskatoon.",
-    "image_prompt": "A mobile mechanic van parked in front of a Saskatoon home, the mechanic waving to the homeowner",
-    "image": "/generated/daily/2026-10-14/2026-10-14-5-competitive.png",
+    "title": "We Come to You: Mobile Mechanic Convenience in Saskatoon",
+    "caption": "Skip the wait at a traditional shop—our mobile mechanic arrives at your home, office, or wherever you’re parked in Saskatoon, saving you time and the hassle of arranging a tow.",
+    "image_prompt": "A branded mobile mechanic van pulling into a residential driveway in Saskatoon, a technician stepping out with tools in hand, neighborhood houses in the background.",
+    "image": "/generated/daily/2026-10-15/2026-10-15-5-competitive.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
