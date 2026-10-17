@@ -1,13 +1,13 @@
 [
   {
-    "id": "2026-10-16-1",
-    "date": "2026-10-16",
+    "id": "2026-10-17-1",
+    "date": "2026-10-17",
     "time": "07:30",
     "pillar": "Educational",
-    "title": "Why Tire Pressure Matters",
-    "caption": "Keeping your tires inflated to the correct pressure improves fuel efficiency, extends tire life, and enhances safety—especially on Saskatoon’s icy streets. Check your pressure monthly and before any long winter drive.",
-    "image_prompt": "A close‑up of a tire pressure gauge being placed on a tire in a snowy Saskatoon driveway, with a light frost on the ground.",
-    "image": "/generated/daily/2026-10-16/2026-10-16-1-educational.png",
+    "title": "Why Checking Your Tire Pressure Matters in Saskatoon",
+    "caption": "Fall temperatures in Saskatoon can drop quickly, causing tire pressure to fall and affect handling. A quick check keeps you safe and saves fuel. Let us swing by your driveway and handle it for you—no need to drive to a shop.",
+    "image_prompt": "A close-up of a tire pressure gauge being placed on a car tire in a snowy Saskatoon driveway, with a faint city skyline in the background.",
+    "image": "/generated/daily/2026-10-17/2026-10-17-1-educational.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -16,14 +16,14 @@
     ]
   },
   {
-    "id": "2026-10-16-2",
-    "date": "2026-10-16",
+    "id": "2026-10-17-2",
+    "date": "2026-10-17",
     "time": "10:15",
     "pillar": "Meme",
-    "title": "When Your Car Says ‘Nope’",
-    "caption": "That moment when your car decides to take a break right before you need to head out. Good thing we bring the mechanic to you—no shop waiting required.",
-    "image_prompt": "A meme‑style image of a car with a speech bubble saying ‘I need a mechanic!’ while stuck in a light snowdrift on a quiet Saskatoon side street.",
-    "image": "/generated/daily/2026-10-16/2026-10-16-2-meme.png",
+    "title": "When Your Car Says ‘I Need a Vacation’",
+    "caption": "That strange noise? It might be your ride asking for a break. Good thing our mobile mechanic can give it a tune‑up without you ever leaving the couch.",
+    "image_prompt": "A cartoon car with sunglasses leaning back on a beach chair, with a wrench floating in the air like a cocktail.",
+    "image": "/generated/daily/2026-10-17/2026-10-17-2-meme.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -32,14 +32,14 @@
     ]
   },
   {
-    "id": "2026-10-16-3",
-    "date": "2026-10-16",
+    "id": "2026-10-17-3",
+    "date": "2026-10-17",
     "time": "12:45",
     "pillar": "Entertaining",
-    "title": "Coffee and Car Care, Saskatoon Style",
-    "caption": "We roll up with a warm smile and a fresh coffee for you while we get your vehicle back on the road. Car troubles never tasted this good.",
-    "image_prompt": "A mobile mechanic in a friendly pose, handing a steaming coffee mug to a driver standing beside a serviced car on a residential Saskatoon street.",
-    "image": "/generated/daily/2026-10-16/2026-10-16-3-entertaining.png",
+    "title": "A Day in the Life of a Saskatoon Mobile Mechanic",
+    "caption": "I once found a flat tire on a winter morning near the South Saskatchewan River, fixed it with a coffee in hand, and the driver was back on the road in 15 minutes. Every day brings a new story in Saskatoon!",
+    "image_prompt": "A friendly mechanic in a winter coat holding a coffee cup, standing beside a car with a freshly replaced tire on a frosty street.",
+    "image": "/generated/daily/2026-10-17/2026-10-17-3-entertaining.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -48,14 +48,14 @@
     ]
   },
   {
-    "id": "2026-10-16-4",
-    "date": "2026-10-16",
+    "id": "2026-10-17-4",
+    "date": "2026-10-17",
     "time": "16:30",
     "pillar": "Serious",
-    "title": "Listen to Your Brakes: Safety First",
-    "caption": "Squeaking, grinding, or a soft pedal can signal brake issues. In Saskatoon’s winter conditions, a quick brake check can prevent more serious problems. Don’t wait—get it inspected before the roads get slippery.",
-    "image_prompt": "Close‑up of a brake rotor covered in frost, a gloved hand pointing at the surface to highlight wear, set against a cold Saskatoon morning backdrop.",
-    "image": "/generated/daily/2026-10-16/2026-10-16-4-serious.png",
+    "title": "Don’t Skip These Brake Safety Checks",
+    "caption": "Brake performance is critical, especially when frost makes roads slick. Look for a soft pedal, squealing sounds, or a vibrating steering wheel. If any of those appear, we can inspect and service your brakes at your home or workplace.",
+    "image_prompt": "A detailed shot of a brake disc with a mechanic’s gloved hand using a caliper, set against a clean garage background.",
+    "image": "/generated/daily/2026-10-17/2026-10-17-4-serious.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -64,14 +64,14 @@
     ]
   },
   {
-    "id": "2026-10-16-5",
-    "date": "2026-10-16",
+    "id": "2026-10-17-5",
+    "date": "2026-10-17",
     "time": "19:00",
     "pillar": "Competitive",
-    "title": "Skip the Tow, Keep Moving",
-    "caption": "No need to wait for a tow or a shop opening. Our mobile service comes directly to you in Saskatoon, so you can avoid the hassle and keep your day on track.",
-    "image_prompt": "A car being serviced on a quiet Saskatoon neighborhood street, with a distant tow truck visible but unused, emphasizing convenience.",
-    "image": "/generated/daily/2026-10-16/2026-10-16-5-competitive.png",
+    "title": "Skip the Shop Wait, We Come to You",
+    "caption": "No need to arrange a tow or sit in a waiting room. Our mobile mechanic arrives at your Saskatoon location, diagnose issues on the spot, and get you moving faster than a traditional shop visit.",
+    "image_prompt": "A branded mobile mechanic van parked in a residential driveway in Saskatoon, a mechanic waving a friendly hello.",
+    "image": "/generated/daily/2026-10-17/2026-10-17-5-competitive.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
