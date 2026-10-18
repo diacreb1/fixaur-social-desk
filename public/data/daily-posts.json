@@ -1,13 +1,13 @@
 [
   {
-    "id": "2026-10-17-1",
-    "date": "2026-10-17",
+    "id": "2026-10-18-1",
+    "date": "2026-10-18",
     "time": "07:30",
     "pillar": "Educational",
-    "title": "Why Checking Your Tire Pressure Matters in Saskatoon",
-    "caption": "Fall temperatures in Saskatoon can drop quickly, causing tire pressure to fall and affect handling. A quick check keeps you safe and saves fuel. Let us swing by your driveway and handle it for you—no need to drive to a shop.",
-    "image_prompt": "A close-up of a tire pressure gauge being placed on a car tire in a snowy Saskatoon driveway, with a faint city skyline in the background.",
-    "image": "/generated/daily/2026-10-17/2026-10-17-1-educational.png",
+    "title": "5 Warning Signs Your Battery Is Failing",
+    "caption": "As the temperature drops in Saskatoon, your car battery works harder. Watch for these five signs that it may be time for a replacement before you get stranded.",
+    "image_prompt": "A mechanic inspecting a car battery under the hood, with frosty air and a Saskatoon neighborhood visible in the background.",
+    "image": "/generated/daily/2026-10-18/2026-10-18-1-educational.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -16,14 +16,14 @@
     ]
   },
   {
-    "id": "2026-10-17-2",
-    "date": "2026-10-17",
+    "id": "2026-10-18-2",
+    "date": "2026-10-18",
     "time": "10:15",
     "pillar": "Meme",
-    "title": "When Your Car Says ‘I Need a Vacation’",
-    "caption": "That strange noise? It might be your ride asking for a break. Good thing our mobile mechanic can give it a tune‑up without you ever leaving the couch.",
-    "image_prompt": "A cartoon car with sunglasses leaning back on a beach chair, with a wrench floating in the air like a cocktail.",
-    "image": "/generated/daily/2026-10-17/2026-10-17-2-meme.png",
+    "title": "Tow? No, Thanks!",
+    "caption": "Imagine skipping the tow truck and getting back on the road in minutes. That's the kind of day you get when you call Fixaur Mobile Mechanic.",
+    "image_prompt": "A cartoon car with a wrench perched on its head, grinning, next to a tow truck looking dejected.",
+    "image": "/generated/daily/2026-10-18/2026-10-18-2-meme.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -32,14 +32,14 @@
     ]
   },
   {
-    "id": "2026-10-17-3",
-    "date": "2026-10-17",
+    "id": "2026-10-18-3",
+    "date": "2026-10-18",
     "time": "12:45",
     "pillar": "Entertaining",
-    "title": "A Day in the Life of a Saskatoon Mobile Mechanic",
-    "caption": "I once found a flat tire on a winter morning near the South Saskatchewan River, fixed it with a coffee in hand, and the driver was back on the road in 15 minutes. Every day brings a new story in Saskatoon!",
-    "image_prompt": "A friendly mechanic in a winter coat holding a coffee cup, standing beside a car with a freshly replaced tire on a frosty street.",
-    "image": "/generated/daily/2026-10-17/2026-10-17-3-entertaining.png",
+    "title": "A Day in the Life of Fixaur Mobile Mechanic",
+    "caption": "From early-morning oil changes in Silverwood to emergency brake checks on College Avenue, we keep Saskatoon drivers moving no matter the weather.",
+    "image_prompt": "A mechanic in a Fixaur uniform changing a tire on a quiet Saskatoon street at sunrise, with a friendly dog watching.",
+    "image": "/generated/daily/2026-10-18/2026-10-18-3-entertaining.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -48,14 +48,14 @@
     ]
   },
   {
-    "id": "2026-10-17-4",
-    "date": "2026-10-17",
+    "id": "2026-10-18-4",
+    "date": "2026-10-18",
     "time": "16:30",
     "pillar": "Serious",
-    "title": "Don’t Skip These Brake Safety Checks",
-    "caption": "Brake performance is critical, especially when frost makes roads slick. Look for a soft pedal, squealing sounds, or a vibrating steering wheel. If any of those appear, we can inspect and service your brakes at your home or workplace.",
-    "image_prompt": "A detailed shot of a brake disc with a mechanic’s gloved hand using a caliper, set against a clean garage background.",
-    "image": "/generated/daily/2026-10-17/2026-10-17-4-serious.png",
+    "title": "Why Regular Brake Checks Matter",
+    "caption": "Your safety depends on properly functioning brakes. Schedule a quick brake inspection with our mobile team and drive with confidence through every Saskatoon winter.",
+    "image_prompt": "Close-up of a brake disc being measured by a mechanic's caliper, with a snowy Saskatoon skyline in the background.",
+    "image": "/generated/daily/2026-10-18/2026-10-18-4-serious.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -64,14 +64,14 @@
     ]
   },
   {
-    "id": "2026-10-17-5",
-    "date": "2026-10-17",
+    "id": "2026-10-18-5",
+    "date": "2026-10-18",
     "time": "19:00",
     "pillar": "Competitive",
-    "title": "Skip the Shop Wait, We Come to You",
-    "caption": "No need to arrange a tow or sit in a waiting room. Our mobile mechanic arrives at your Saskatoon location, diagnose issues on the spot, and get you moving faster than a traditional shop visit.",
-    "image_prompt": "A branded mobile mechanic van parked in a residential driveway in Saskatoon, a mechanic waving a friendly hello.",
-    "image": "/generated/daily/2026-10-17/2026-10-17-5-competitive.png",
+    "title": "Skip the Shop, Keep Moving",
+    "caption": "No need to wait for a tow or spend hours at a repair shop. Our mobile mechanic comes to your driveway, so you can avoid the hassle and get back on the road quickly.",
+    "image_prompt": "A Fixaur mobile mechanic van parked in a Saskatoon driveway, a driver smiling while holding a phone with a booking confirmation screen.",
+    "image": "/generated/daily/2026-10-18/2026-10-18-5-competitive.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
