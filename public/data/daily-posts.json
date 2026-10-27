@@ -1,13 +1,13 @@
 [
   {
-    "id": "2026-10-26-1",
-    "date": "2026-10-26",
+    "id": "2026-10-27-1",
+    "date": "2026-10-27",
     "time": "07:30",
     "pillar": "Educational",
-    "title": "Cold Weather Starts With the Battery",
-    "caption": "Saskatoon temperatures can drop quickly in late October. If your car hesitates when starting, have the battery and charging system checked before the first freezing morning. Also review your tire tread and winter tire needs against the manufacturer’s recommendations.",
-    "image_prompt": "A friendly mobile mechanic in a clean navy work uniform checking a vehicle battery beside a car in a residential Saskatoon driveway, crisp autumn trees, light frost, overcast prairie sky, natural documentary photography, clear subject separation, no embedded text.",
-    "image": "/generated/daily/2026-10-26/2026-10-26-1-educational.png",
+    "title": "Cold Snap Checklist for Your Car Battery",
+    "caption": "Saskatoon mornings can turn cold quickly. When your car starts slower than usual, it may be time to have the battery and charging system checked before the first frost. A quick test can help you avoid a surprise roadside jump-start.",
+    "image_prompt": "A friendly mobile mechanic in a warm mechanic's van checking a car battery in a chilly Saskatoon driveway, autumn leaves nearby, clean documentary photography, no logos or text",
+    "image": "/generated/daily/2026-10-27/2026-10-27-1-educational.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -16,14 +16,14 @@
     ]
   },
   {
-    "id": "2026-10-26-2",
-    "date": "2026-10-26",
+    "id": "2026-10-27-2",
+    "date": "2026-10-27",
     "time": "10:15",
     "pillar": "Meme",
-    "title": "When the Dashboard Says ‘Good Morning’ and the Battery Says ‘Who?’",
-    "caption": "That little starter sound can turn into a very long conversation with your alarm clock. If your vehicle struggles to start, it may be time for a battery check.",
-    "image_prompt": "Humorous automotive scene showing a car with a cartoon-style weak battery icon glowing through the windshield while an early-morning clock reads 7:00, subtle autumn leaves on a Saskatoon residential street, playful realism, no embedded text.",
-    "image": "/generated/daily/2026-10-26/2026-10-26-2-meme.png",
+    "title": "When the Car Says ‘Please Turn Me On’",
+    "caption": "That little starter sound is either a greeting or a highly technical request for help. If your car hesitates on a cold morning, a mobile mechanic can come to you instead of making you brave a frozen parking lot.",
+    "image_prompt": "Humorous close-up of a car's dashboard light glowing in a cold, frosty windshield at sunrise in Saskatoon, playful and relatable, no visible brand logo or text",
+    "image": "/generated/daily/2026-10-27/2026-10-27-2-meme.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -32,14 +32,14 @@
     ]
   },
   {
-    "id": "2026-10-26-3",
-    "date": "2026-10-26",
+    "id": "2026-10-27-3",
+    "date": "2026-10-27",
     "time": "12:45",
     "pillar": "Entertaining",
-    "title": "A Quick Autumn Roadside Playlist",
-    "caption": "Packing for October: lighter jacket, phone charger, and a playlist for the drive home. Also worth a quick check of your tires, lights, and battery before the weather gets colder.",
-    "image_prompt": "Warm cinematic view from inside a parked car on an autumn Saskatchewan road, phone playing music beside the gear shift, windshield showing golden leaves and open prairie sky, cozy inviting atmosphere, no embedded text.",
-    "image": "/generated/daily/2026-10-26/2026-10-26-3-entertaining.png",
+    "title": "Your Mechanic Comes to the Parking Lot",
+    "caption": "No waiting room, no wandering across town, and no awkward shuffle through an unfamiliar shop. Fixaur Mobile Mechanic brings vehicle diagnostics and repairs to you in Saskatoon, so you can get back to your day.",
+    "image_prompt": "Mobile mechanic working beside a parked car in a busy Saskatoon shopping area, convenience-focused scene, approachable natural light, no logos or text",
+    "image": "/generated/daily/2026-10-27/2026-10-27-3-entertaining.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -48,14 +48,14 @@
     ]
   },
   {
-    "id": "2026-10-26-4",
-    "date": "2026-10-26",
+    "id": "2026-10-27-4",
+    "date": "2026-10-27",
     "time": "16:30",
     "pillar": "Serious",
-    "title": "Prepare the Car Before Winter Finds You",
-    "caption": "Late October is a practical time to review winter readiness. Have worn tires inspected, confirm the battery holds a charge, check that lights and wipers work, and make sure your emergency kit includes a charged phone, warm clothing, and basic tools. Follow your vehicle manufacturer’s guidance for winter operation.",
-    "image_prompt": "Professional mobile mechanic kneeling beside a vehicle in a Saskatoon driveway to inspect tire tread, battery visible nearby, organized winter emergency kit with phone and warm clothing, calm serious mood, natural autumn light, no embedded text.",
-    "image": "/generated/daily/2026-10-26/2026-10-26-4-serious.png",
+    "title": "Before Winter Roads Arrive, Give Your Car a Once-Over",
+    "caption": "Fall is a practical time to check the battery, tires, brakes, belts, hoses, and fluids before freezing temperatures and snow add stress to your vehicle. If something needs attention, schedule mobile service wherever your car is parked.",
+    "image_prompt": "Professional mobile mechanic inspecting tires and checking fluids on a car in a residential Saskatoon neighbourhood, light autumn snowfall, trustworthy documentary style, no logos or text",
+    "image": "/generated/daily/2026-10-27/2026-10-27-4-serious.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -64,14 +64,14 @@
     ]
   },
   {
-    "id": "2026-10-26-5",
-    "date": "2026-10-26",
+    "id": "2026-10-27-5",
+    "date": "2026-10-27",
     "time": "19:00",
     "pillar": "Competitive",
-    "title": "Car Trouble Without the Tow Queue",
-    "caption": "If your vehicle breaks down at home or at work, calling a mobile mechanic may help you avoid an unnecessary tow and the wait at a repair shop. Bring the issue to you while the problem is assessed at your location.",
-    "image_prompt": "Fixaur Mobile Mechanic service van parked beside a disabled vehicle in a convenient urban Saskatoon workplace parking area, uniformed mechanic preparing diagnostic equipment, tidy professional atmosphere, no other repair shops, no logos except a subtle generic service van mark, no embedded text.",
-    "image": "/generated/daily/2026-10-26/2026-10-26-5-competitive.png",
+    "title": "Vehicle Trouble? Skip the Trip Across Town.",
+    "caption": "Car trouble does not always need a tow or a long wait at a repair shop. Fixaur Mobile Mechanic comes to your location in Saskatoon for convenient vehicle diagnostics and repairs, helping you handle the issue without unnecessary travel.",
+    "image_prompt": "A mobile mechanic van parked beside a car in a convenient Saskatoon workplace parking lot, mechanic ready to inspect the vehicle, clean realistic advertising photography, no logos, no tow truck, no text",
+    "image": "/generated/daily/2026-10-27/2026-10-27-5-competitive.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
