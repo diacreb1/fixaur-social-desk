@@ -1,13 +1,13 @@
 [
   {
-    "id": "2026-10-29-1",
-    "date": "2026-10-29",
+    "id": "2026-10-30-1",
+    "date": "2026-10-30",
     "time": "07:30",
     "pillar": "Educational",
-    "title": "Cold Weather Changes What Your Car Needs",
-    "caption": "Cold mornings in Saskatoon can expose worn battery connections, low tire pressure, and aging wipers. Before the first freeze, check your battery, inflate tires to the numbers on the driver-door label, and confirm your wiper blades clear properly. If a warning light appears, address it early rather than driving farther than needed.",
-    "image_prompt": "Saskatoon residential street on a crisp October morning, mechanic safely checking a car battery, tire pressure gauge, and windshield wipers, natural overcast light, realistic automotive photography, no logos, no text",
-    "image": "/generated/daily/2026-10-29/2026-10-29-1-educational.png",
+    "title": "What Does a Check Engine Light Actually Mean?",
+    "caption": "A check engine light can point to several different issues, from a loose gas cap to more involved electrical or exhaust-system concerns. If it appears in Saskatoon, note when it comes on, how the vehicle is driving, and any messages shown on the dashboard. Fixaur Mobile Mechanic can help identify the next sensible diagnostic step without sending you straight to a shop wait.",
+    "image_prompt": "Saskatoon street scene at dusk with a friendly mobile mechanic beside a modern vehicle, subtle illuminated dashboard check-engine symbol, practical diagnostic atmosphere, cool autumn colours, realistic documentary photography, no text or logos",
+    "image": "/generated/daily/2026-10-30/2026-10-30-1-educational.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -16,14 +16,14 @@
     ]
   },
   {
-    "id": "2026-10-29-2",
-    "date": "2026-10-29",
+    "id": "2026-10-30-2",
+    "date": "2026-10-30",
     "time": "10:15",
     "pillar": "Meme",
-    "title": "The Check Engine Light Has Entered the Chat",
-    "caption": "One glowing light. Three stages of optimism: “It’s probably nothing,” “I can clear it myself,” and “I should probably call someone who sees cars every day.” Save the last stage for when it’s actually useful.",
-    "image_prompt": "Humorous close-up of a glowing generic check engine warning light inside a clean modern car dashboard, subtle Saskatoon autumn scenery through the windshield, playful but realistic photography, no logos, no readable text",
-    "image": "/generated/daily/2026-10-29/2026-10-29-2-meme.png",
+    "title": "When the Dashboard Chooses Drama",
+    "caption": "One warning light: “What does it mean?” Then the battery light, tire pressure alert, and a mysterious noise all show up at once. Modern vehicles have opinions. Fixaur Mobile Mechanic helps Saskatoon drivers bring calm to the chaos, one check at a time.",
+    "image_prompt": "Humorous scene of a vehicle dashboard displaying several colourful warning lights while an overwhelmed but smiling driver sits inside, parked safely on a residential Saskatoon street, playful exaggerated lighting, realistic photography, no readable text or logos",
+    "image": "/generated/daily/2026-10-30/2026-10-30-2-meme.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -32,14 +32,14 @@
     ]
   },
   {
-    "id": "2026-10-29-3",
-    "date": "2026-10-29",
+    "id": "2026-10-30-3",
+    "date": "2026-10-30",
     "time": "12:45",
     "pillar": "Entertaining",
-    "title": "When the Garage Meets the Family Group Chat",
-    "caption": "You say, “I’m just going to ask about the noise.” Twenty minutes later, everyone has an opinion, three theories are circulating, and the car is still parked outside wondering what it did.",
-    "image_prompt": "Lighthearted scene of a parked family car on a leafy Saskatoon street while several relatives point toward its hood from a sidewalk, playful expressions, warm autumn colours, realistic social media photo, no brands, no text",
-    "image": "/generated/daily/2026-10-29/2026-10-29-3-entertaining.png",
+    "title": "A Mechanic and a Very Supportive Headlight",
+    "caption": "Today’s meeting: you, the vehicle, and one headlight dramatically insisting it is the main character. Brightness may be uneven, but brightness alone does not always reveal the whole story. When something feels off, Fixaur Mobile Mechanic brings the diagnostic conversation to you in Saskatoon.",
+    "image_prompt": "Playful close-up of one bright car headlight and one dimmer headlight in a clean mobile mechanic setting, autumn leaves nearby, warm humorous lighting, realistic automotive photography, no text or logos",
+    "image": "/generated/daily/2026-10-30/2026-10-30-3-entertaining.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -48,14 +48,14 @@
     ]
   },
   {
-    "id": "2026-10-29-4",
-    "date": "2026-10-29",
+    "id": "2026-10-30-4",
+    "date": "2026-10-30",
     "time": "16:30",
     "pillar": "Serious",
-    "title": "If a Breakdown Happens, Make Safety the First Step",
-    "caption": "If your vehicle stalls or becomes unsafe, move to a legal location where possible, turn on hazard lights, and stay clear of traffic when it is safe to leave the vehicle. Call roadside assistance or a local tow service, and describe your exact location and vehicle situation clearly. Never stand behind traffic or attempt repairs in an unsafe spot.",
-    "image_prompt": "Safety-first roadside scene in Saskatoon with a disabled car safely positioned away from moving traffic, hazards illuminated, a person standing well off the roadway while contacting assistance, realistic and calm documentary style, no logos, no text",
-    "image": "/generated/daily/2026-10-29/2026-10-29-4-serious.png",
+    "title": "Preparing a Vehicle for Saskatoon’s Colder Months",
+    "caption": "Cold weather can expose battery weakness, worn belts, tire concerns, and fluid issues. Before the temperature drops, it is sensible to address dashboard warnings, check tire condition and pressure, confirm lighting works, and review fluid levels. Fixaur Mobile Mechanic provides convenient vehicle assistance in Saskatoon so you can prepare without an unnecessary trip to the shop.",
+    "image_prompt": "Professional mobile mechanic inspecting battery, tires, belts, and fluid levels on a vehicle parked safely in a quiet Saskatoon neighbourhood, light autumn frost in the background, clear overcast daylight, realistic documentary photography, no text or logos",
+    "image": "/generated/daily/2026-10-30/2026-10-30-4-serious.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -64,14 +64,14 @@
     ]
   },
   {
-    "id": "2026-10-29-5",
-    "date": "2026-10-29",
+    "id": "2026-10-30-5",
+    "date": "2026-10-30",
     "time": "19:00",
     "pillar": "Competitive",
-    "title": "Help That Gets You Moving Again",
-    "caption": "A strange noise, warning light, or failed start can turn one problem into a missed day. Fixaur Mobile Mechanic brings convenient vehicle help to your location across Saskatoon, helping reduce the need for an unnecessary tow or a long wait at a shop. Book the visit, explain the symptoms, and let the mechanic assess the issue safely.",
-    "image_prompt": "Friendly mobile mechanic working beside a customer’s vehicle in a safe Saskatoon driveway, organized service van nearby, autumn neighbourhood, approachable professional atmosphere, realistic commercial photography, no logos, no text",
-    "image": "/generated/daily/2026-10-29/2026-10-29-5-competitive.png",
+    "title": "Vehicle Trouble Should Not Mean an Unnecessary Shop Wait",
+    "caption": "If a warning appears or a sound starts while you are parked at home, the vehicle does not need to become a road trip on its own. Fixaur Mobile Mechanic comes to you in Saskatoon, offering the convenience of on-site diagnostics and helping you avoid an unnecessary tow or shop wait.",
+    "image_prompt": "Mobile mechanic service van parked beside a customer's vehicle on a safe residential street in Saskatoon, technician already inspecting the vehicle with a compact diagnostic kit, convenient calm atmosphere, realistic commercial photography, no text or logos",
+    "image": "/generated/daily/2026-10-30/2026-10-30-5-competitive.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
