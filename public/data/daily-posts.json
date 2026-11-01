@@ -1,13 +1,13 @@
 [
   {
-    "id": "2026-10-31-1",
-    "date": "2026-10-31",
+    "id": "2026-11-01-1",
+    "date": "2026-11-01",
     "time": "07:30",
     "pillar": "Educational",
-    "title": "That dashboard light deserves attention",
-    "caption": "A battery warning light can point to an aging battery, a charging-system issue, or both. If it comes on in Saskatoon, arrange a prompt check rather than waiting for the car to strand you. Keep your phone charged, park safely, and tell us what the light is doing.",
-    "image_prompt": "Vertical 4:5 photo-realistic scene in Saskatoon on October 31, 2026: a worried driver sitting safely inside a parked car and viewing an illuminated battery warning symbol on the dashboard, cool overcast autumn light, neighbourhood street, natural and trustworthy mood, no brand logos, no readable text.",
-    "image": "/generated/daily/2026-10-31/2026-10-31-1-educational.png",
+    "title": "Cold Weather Can Make Battery Problems Obvious",
+    "caption": "Saskatoon temperatures can make a weak battery harder to start your vehicle. If turning the key feels slow, the lights dim, or the engine struggles to start, have the battery and charging system checked instead of repeatedly trying to start it. A mobile mechanic can assess the issue where your vehicle is parked, helping you decide whether a roadside visit is necessary.",
+    "image_prompt": "Vertical photo of a mobile mechanic safely inspecting a car battery and charging system outdoors in cold, clear Saskatoon weather, with the vehicle parked safely and no visible jump-starting.",
+    "image": "/generated/daily/2026-11-01/2026-11-01-1-educational.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -16,14 +16,14 @@
     ]
   },
   {
-    "id": "2026-10-31-2",
-    "date": "2026-10-31",
+    "id": "2026-11-01-2",
+    "date": "2026-11-01",
     "time": "10:15",
     "pillar": "Meme",
-    "title": "Halloween costume: the car that refuses to start",
-    "caption": "Costume ideas are sorted, but the driveway has other plans. If your vehicle is making that suspicious clicking sound again, a mobile mechanic can come to you in Saskatoon instead of turning dead batteries into tonight’s main event.",
-    "image_prompt": "Vertical 4:5 playful Halloween-themed photo-realistic scene in Saskatoon on October 31, 2026: a small jack-o’-lantern beside a car with its hood safely closed, a driver looking theatrically surprised, scattered autumn leaves, humorous but realistic automotive setting, no scary people, no brand logos, no readable text.",
-    "image": "/generated/daily/2026-10-31/2026-10-31-2-meme.png",
+    "title": "The Classic ‘It Started Yesterday’",
+    "caption": "One start: fine. Ten starts later: the dashboard lights are acting like they’ve joined a protest. If your vehicle is slow to start, a mobile battery check can help identify the next step without taking the car to the shop.",
+    "image_prompt": "Humorous vertical image of a car dashboard with battery warning lights comically disguised as a protest sign, parked safely on a snowy residential street in Saskatoon.",
+    "image": "/generated/daily/2026-11-01/2026-11-01-2-meme.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -32,14 +32,14 @@
     ]
   },
   {
-    "id": "2026-10-31-3",
-    "date": "2026-10-31",
+    "id": "2026-11-01-3",
+    "date": "2026-11-01",
     "time": "12:45",
     "pillar": "Entertaining",
-    "title": "The trunk battery has entered the chat",
-    "caption": "Somewhere in your trunk is a battery that has survived heat, freezing weather, grocery runs, and probably a suspicious collection of missing socks. A little care before winter can spare both you and the socks from an inconvenient morning.",
-    "image_prompt": "Vertical 4:5 cheerful photorealistic image in Saskatoon on October 31, 2026: an open car trunk with a clean battery area, a driver discovering a colourful sock, warm garage lighting, light comedic tone, crisp details, no brand logos, no readable text.",
-    "image": "/generated/daily/2026-10-31/2026-10-31-3-entertaining.png",
+    "title": "Saskatoon’s Four-Season Start-Up Ritual",
+    "caption": "First it’s the windshield. Then the mittens. Then the little pause while you ask the car to please start. When starting gets difficult, request a mobile mechanic visit and keep the morning moving without an unnecessary trip to a repair shop.",
+    "image_prompt": "Playful vertical winter scene in Saskatoon showing a driver bundling up beside a parked car, with a mobile mechanic approaching in the background to assist.",
+    "image": "/generated/daily/2026-11-01/2026-11-01-3-entertaining.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -48,14 +48,14 @@
     ]
   },
   {
-    "id": "2026-10-31-4",
-    "date": "2026-10-31",
+    "id": "2026-11-01-4",
+    "date": "2026-11-01",
     "time": "16:30",
     "pillar": "Serious",
-    "title": "Get Saskatoon’s cold-weather checklist done now",
-    "caption": "Cold weather can expose weak batteries, worn wiper blades, low fluid levels, and tired tires. Before the first freeze, check your tires, confirm the battery holds a charge, replace worn wipers, top up the appropriate fluids, and carry a small emergency kit. If you are unsure what needs attention, ask a qualified mobile mechanic to inspect it.",
-    "image_prompt": "Vertical 4:5 documentary-style image in Saskatoon on October 31, 2026: a mobile mechanic safely checking a parked vehicle’s tire pressure and battery with basic tools, light frost on the windshield, autumn trees and local residential street, calm and responsible mood, no brand logos, no readable text.",
-    "image": "/generated/daily/2026-10-31/2026-10-31-4-serious.png",
+    "title": "When a Warning Light Means Your Vehicle May Need Help",
+    "caption": "Some dashboard warning lights can signal an issue that should be checked promptly, while others relate to a system that may still operate. Because the meaning varies by vehicle, consult the owner’s manual and have the warning properly identified. Fixaur Mobile Mechanic can inspect the vehicle at a convenient location in Saskatoon and explain what needs attention.",
+    "image_prompt": "Professional vertical photo of a mobile mechanic using a diagnostic scan tool beside a parked vehicle in Saskatoon, with the instrument panel visible but no fabricated warning codes.",
+    "image": "/generated/daily/2026-11-01/2026-11-01-4-serious.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -64,14 +64,14 @@
     ]
   },
   {
-    "id": "2026-10-31-5",
-    "date": "2026-10-31",
+    "id": "2026-11-01-5",
+    "date": "2026-11-01",
     "time": "19:00",
     "pillar": "Competitive",
-    "title": "Car trouble? Let the mechanic come to you",
-    "caption": "When a vehicle stalls or won’t start, convenience matters. Fixaur Mobile Mechanic comes to you in Saskatoon, potentially helping you avoid an unnecessary tow and the wait around a repair shop. Describe what happened, share your location, and let’s see what the vehicle needs.",
-    "image_prompt": "Vertical 4:5 photorealistic scene in Saskatoon on October 31, 2026: a mobile mechanic service van parked safely on a residential street while the mechanic approaches a disabled but safely parked car with a compact tool kit, autumn setting, approachable and efficient mood, no towing truck, no shop queue, no competitor branding, no readable text.",
-    "image": "/generated/daily/2026-10-31/2026-10-31-5-competitive.png",
+    "title": "Mobile Service Without the Shop Trip",
+    "caption": "Not sure whether your vehicle can safely continue driving? Instead of arranging a tow before anyone has assessed the issue, call Fixaur Mobile Mechanic for a mobile inspection in Saskatoon. We can diagnose the concern where the vehicle is parked, helping you avoid an unnecessary tow and reducing the need to wait at a repair shop.",
+    "image_prompt": "Vertical promotional photo of a well-equipped mobile mechanic service van beside a car in a Saskatoon driveway, with the mechanic preparing to inspect the vehicle; natural winter daylight, no logos or text.",
+    "image": "/generated/daily/2026-11-01/2026-11-01-5-competitive.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
