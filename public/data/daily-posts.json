@@ -1,13 +1,13 @@
 [
   {
-    "id": "2026-11-06-1",
-    "date": "2026-11-06",
+    "id": "2026-11-07-1",
+    "date": "2026-11-07",
     "time": "07:30",
     "pillar": "Educational",
-    "title": "What Your Check Engine Light Doesn’t Tell You",
-    "caption": "A steady check-engine light often means a detected issue needs attention, but it doesn’t identify the cause by itself. Before driving farther, note whether the light is on continuously or flashing and arrange an inspection. A flashing light warrants stopping safely and switching off the engine. In Saskatoon’s cold weather, also ask the technician to check the battery and charging system.",
-    "image_prompt": "Realistic Saskatoon mechanic holding a diagnostic tablet beside a safely parked winter vehicle, cold prairie daylight, friendly educational atmosphere, no logos, no warning-light graphics implying diagnosis",
-    "image": "/generated/daily/2026-11-06/2026-11-06-1-educational.png",
+    "title": "Why Saskatoon Car Batteries Struggle in November",
+    "caption": "Cold temperatures slow a battery’s chemical reaction, and repeated short drives may not fully recharge it. If your car turns over slowly, lights dim, or the engine struggles to start, have the battery and charging system checked before the first major freeze.",
+    "image_prompt": "A Saskatoon mechanic checking a car battery in a cold November garage, frost on the windshield, practical and realistic automotive scene, no text or logos",
+    "image": "/generated/daily/2026-11-07/2026-11-07-1-educational.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -16,14 +16,14 @@
     ]
   },
   {
-    "id": "2026-11-06-2",
-    "date": "2026-11-06",
+    "id": "2026-11-07-2",
+    "date": "2026-11-07",
     "time": "10:15",
     "pillar": "Meme",
-    "title": "When the Car Makes a Noise You Can’t Explain",
-    "caption": "Me: It’s probably nothing.\nMy mechanic: Let’s take a look before it becomes something.\nTranslation: we’re both trying to avoid a bigger problem later.",
-    "image_prompt": "Humorous real-life scene of a puzzled driver opening a car door while listening for a mysterious noise, parked safely in a snowy Saskatoon neighbourhood, relatable expression, natural lighting, no text, no brand logos",
-    "image": "/generated/daily/2026-11-06/2026-11-06-2-meme.png",
+    "title": "When the Dashboard Says ‘Cold Start’ and You Say ‘Absolutely Not’",
+    "caption": "Saskatoon drivers know the morning routine: brave the cold, press the key, and negotiate with the starter. November has a way of making a simple start feel like a personal challenge. A quick check can spare you the dramatic stare at a dead battery.",
+    "image_prompt": "Humorous winter morning scene in Saskatoon with a car reluctant to start, light frost on the windshield and bundled-up driver reacting with exaggerated disbelief, realistic style, no text or logos",
+    "image": "/generated/daily/2026-11-07/2026-11-07-2-meme.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -32,14 +32,14 @@
     ]
   },
   {
-    "id": "2026-11-06-3",
-    "date": "2026-11-06",
+    "id": "2026-11-07-3",
+    "date": "2026-11-07",
     "time": "12:45",
     "pillar": "Entertaining",
-    "title": "A Tiny Victory on a Very Cold Morning",
-    "caption": "That satisfying moment when you turn the key, the dashboard lights up, and the car starts on the first try. Winter may have opinions about your plans, but the battery gets the final say. If your morning starts with hesitation, grinding, or a slow start, have it checked before the next cold snap.",
-    "image_prompt": "Cinematic close-up of a car starting confidently on a crisp November morning in Saskatoon, frost on the windshield, subtle exhaust vapour, driver smiling inside the vehicle, realistic automotive photography, no logos, no text",
-    "image": "/generated/daily/2026-11-06/2026-11-06-3-entertaining.png",
+    "title": "The Great Saskatchewan Morning Car Debate: Start It Now or Let It Warm Up",
+    "caption": "A little idle time can help a cold engine run smoothly, while a long warm-up can waste fuel. The key is to follow your vehicle’s guidance, allow for a gentle start, and give the car time to warm up while you’re getting ready for the day.",
+    "image_prompt": "A cozy Saskatoon winter driveway with a car idling gently as light steam rises from the hood, snowbanks nearby and warm house windows in the background, friendly lifestyle photography, no text or logos",
+    "image": "/generated/daily/2026-11-07/2026-11-07-3-entertaining.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -48,14 +48,14 @@
     ]
   },
   {
-    "id": "2026-11-06-4",
-    "date": "2026-11-06",
+    "id": "2026-11-07-4",
+    "date": "2026-11-07",
     "time": "16:30",
     "pillar": "Serious",
-    "title": "Roadside Problems Don’t Wait for Good Weather",
-    "caption": "Saskatoon winter conditions can turn a low battery, tire issue, or immobilization problem into a much bigger roadside headache. If your vehicle stalls, becomes difficult to start, or shows a warning light, get it inspected before relying on it for winter travel. When roadside help is needed, contact a service that can reduce the need for an unnecessary tow or a long shop wait.",
-    "image_prompt": "Professional mobile mechanic inspecting a vehicle in a safe residential area of Saskatoon during overcast winter weather, tool bag nearby, considerate and trustworthy mood, no tow truck, no brand logos, no text",
-    "image": "/generated/daily/2026-11-06/2026-11-06-4-serious.png",
+    "title": "Winter Driving Starts Before the Engine Does",
+    "caption": "November weather can change quickly in Saskatoon. Clear snow and ice from every window, check that winter tires are installed, keep lights and mirrors clean, and leave extra stopping distance. If a warning light appears or the vehicle handles differently than usual, have it inspected before continuing.",
+    "image_prompt": "Serious realistic image of a well-maintained car in a snowy Saskatoon neighbourhood, clean windows, visible winter tires, careful and calm winter driving atmosphere, no text or logos",
+    "image": "/generated/daily/2026-11-07/2026-11-07-4-serious.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -64,14 +64,14 @@
     ]
   },
   {
-    "id": "2026-11-06-5",
-    "date": "2026-11-06",
+    "id": "2026-11-07-5",
+    "date": "2026-11-07",
     "time": "19:00",
     "pillar": "Competitive",
-    "title": "Mobile Mechanic Convenience for Saskatoon Drivers",
-    "caption": "Car trouble shouldn’t mean rearranging your whole day. A mobile mechanic can come to your home or workplace, diagnose the concern, and handle many routine repairs on site—helping you avoid an unnecessary tow and the wait at a repair shop. Book a visit that fits your schedule, then get back to your day.",
-    "image_prompt": "Friendly mobile mechanic working under the open hood of a car in a Saskatoon driveway, organized service van nearby, practical and approachable winter setting, clear emphasis on convenient at-home service, no logos, no pricing, no text",
-    "image": "/generated/daily/2026-11-06/2026-11-06-5-competitive.png",
+    "title": "Car Trouble Today, Convenience Without the Shop Wait",
+    "caption": "If your vehicle won’t start or you’re dealing with a suspected battery or charging-system issue, a mobile mechanic can assess it where you are. That may help you avoid an unnecessary tow and the wait associated with visiting a shop. If the fault is outside the road, recovery is still the safer choice.",
+    "image_prompt": "Fixaur mobile mechanic service van parked safely on a snowy residential street in Saskatoon while the mechanic checks a non-running car, professional and approachable scene, no text, logos, or pricing",
+    "image": "/generated/daily/2026-11-07/2026-11-07-5-competitive.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
