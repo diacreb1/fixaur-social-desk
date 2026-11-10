@@ -1,13 +1,13 @@
 [
   {
-    "id": "2026-11-09-1",
-    "date": "2026-11-09",
+    "id": "2026-11-10-1",
+    "date": "2026-11-10",
     "time": "07:30",
     "pillar": "Educational",
-    "title": "The little symbol that can tell you what’s wrong",
-    "caption": "That check-engine light is a communication, not a suggestion to ignore it. If the light stays on, your vehicle is saying something needs attention. Book an inspection so a technician can read the code and check the affected system before a small warning becomes a bigger interruption.",
-    "image_prompt": "Close-up of a mechanic safely reading a diagnostic scan tool inside a clean modern garage in Saskatoon, dashboard warning light softly visible in the background, natural daylight, realistic photography, no text, no logos",
-    "image": "/generated/daily/2026-11-09/2026-11-09-1-educational.png",
+    "title": "What Warning Lights Actually Tell You",
+    "caption": "If your dashboard shows a check-engine light, battery warning, oil-pressure alert, or brake indicator, treat it as a request to check the vehicle promptly. Some issues can be inspected where the car is parked, while others may need a shop. In Saskatoon, cold weather can also make battery symptoms harder to ignore. If the warning is red, the vehicle is making unusual noises, or the message stays on, arrange an inspection rather than continuing to drive without a plan.",
+    "image_prompt": "A friendly mobile mechanic in a clean winter jacket explaining illuminated dashboard warning lights beside a parked car on a residential street in Saskatoon, clear natural daylight, realistic automotive photography, no visible brand logos, no dramatic red warning graphics",
+    "image": "/generated/daily/2026-11-10/2026-11-10-1-educational.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -16,14 +16,14 @@
     ]
   },
   {
-    "id": "2026-11-09-2",
-    "date": "2026-11-09",
+    "id": "2026-11-10-2",
+    "date": "2026-11-10",
     "time": "10:15",
     "pillar": "Meme",
-    "title": "When the check-engine light starts a group chat",
-    "caption": "You: “Nothing’s wrong, right?”\nThe warning light: 🔋🏁📱\nThe battery: “So… should I mention this?”\nBring the vehicle in before the dashboard starts posting updates about your day.",
-    "image_prompt": "Playful scene of a car dashboard with a glowing check-engine light, smartphone showing a fictional group chat filled with colorful emoji, parked on a residential street in Saskatoon, bright overcast daylight, realistic humorous photography, no readable text, no brand logos",
-    "image": "/generated/daily/2026-11-09/2026-11-09-2-meme.png",
+    "title": "When the Car Says “Just a Quick Fix”",
+    "caption": "“Quick fix” is often the vehicle equivalent of “I’ll only be five minutes.” Sometimes it really is straightforward; sometimes a closer look reveals more work. Either way, the useful move is to diagnose first, explain the findings, and decide what makes sense without pressure.",
+    "image_prompt": "Humorous realistic scene of a mobile mechanic looking thoughtfully at a dashboard warning light beside a car parked on a quiet Saskatoon street, slightly exaggerated confused expression, natural winter setting, no text overlay, no brand logos",
+    "image": "/generated/daily/2026-11-10/2026-11-10-2-meme.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -32,14 +32,14 @@
     ]
   },
   {
-    "id": "2026-11-09-3",
-    "date": "2026-11-09",
+    "id": "2026-11-10-3",
+    "date": "2026-11-10",
     "time": "12:45",
     "pillar": "Entertaining",
-    "title": "A winter car check should not be a guessing game",
-    "caption": "Saskatoon weather can turn a short drive into a test of patience. A proper seasonal check looks at the battery, tires, brakes, fluids, wipers, and visible leaks, so you know what needs attention before the next cold snap. Because “just give it a try” is not really a maintenance plan.",
-    "image_prompt": "Friendly mechanic inspecting winter tires, windshield wipers, battery, and fluid levels on a car in a bright independent garage in Saskatoon, light snow visible outside, warm practical atmosphere, realistic photography, no text, no logos",
-    "image": "/generated/daily/2026-11-09/2026-11-09-3-entertaining.png",
+    "title": "Saskatoon Sounds: Garage on a Cold Morning",
+    "caption": "The starter makes one determined noise, the windshield crackles, and the radio comes on just far enough to confirm the battery is alive. Winter mornings have their own soundtrack. If your car sounds different than it used to, get the starting system and battery checked before the cold turns a minor inconvenience into a bigger one.",
+    "image_prompt": "Cinematic winter morning in Saskatoon with frost on a parked car windshield, visible breath in the air, warm garage light nearby, mobile mechanic walking toward the vehicle with a flashlight, realistic photography, no text, no logos",
+    "image": "/generated/daily/2026-11-10/2026-11-10-3-entertaining.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -48,14 +48,14 @@
     ]
   },
   {
-    "id": "2026-11-09-4",
-    "date": "2026-11-09",
+    "id": "2026-11-10-4",
+    "date": "2026-11-10",
     "time": "16:30",
     "pillar": "Serious",
-    "title": "If your car starts making a grinding noise, don’t wait",
-    "caption": "Persistent grinding, squealing, or scraping can mean a safety issue needs prompt attention. Avoid driving if the sound is severe, comes with warning lights, or is paired with pulling or reduced braking. Call a qualified technician and describe the noise, when it happens, and whether the vehicle is safe to move.",
-    "image_prompt": "Serious but approachable scene of a qualified mechanic inspecting a brake component with proper workshop equipment in Saskatoon, vehicle safely raised in a clean professional bay, focused hands, realistic photography, no text, no logos",
-    "image": "/generated/daily/2026-11-09/2026-11-09-4-serious.png",
+    "title": "When a Vehicle Issue Should Not Wait",
+    "caption": "Leaking fluid, a burning smell, smoke, sudden loss of power, grinding brakes, or a warning message that changes quickly should be treated seriously. Stop driving if continuing could cause further damage, and arrange an inspection or tow as appropriate. A mobile mechanic can help assess some issues where the vehicle is safely parked, but not every problem should be handled on the roadside.",
+    "image_prompt": "Serious and calm automotive safety scene featuring a mobile mechanic inspecting a safely parked car in a Saskatoon driveway, fluid leak and smoke visible in the distance for context, professional lighting, realistic photography, no text overlay, no brand logos",
+    "image": "/generated/daily/2026-11-10/2026-11-10-4-serious.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -64,14 +64,14 @@
     ]
   },
   {
-    "id": "2026-11-09-5",
-    "date": "2026-11-09",
+    "id": "2026-11-10-5",
+    "date": "2026-11-10",
     "time": "19:00",
     "pillar": "Competitive",
-    "title": "Mobile mechanic convenience, without the garage wait",
-    "caption": "If your battery dies or you need a quick assessment, a mobile mechanic can come to you and handle the situation at your location. That can save you the trip across Saskatoon, the wait at a shop, and possibly an unnecessary tow. Tell the technician what’s happening so they can confirm whether the vehicle is safe to drive.",
-    "image_prompt": "Mobile mechanic service van parked beside a customer vehicle on a snowy residential street in Saskatoon, technician preparing tools at the vehicle, welcoming local winter setting, realistic documentary photography, no text, no logos",
-    "image": "/generated/daily/2026-11-09/2026-11-09-5-competitive.png",
+    "title": "A More Convenient Way to Start Automotive Troubleshooting",
+    "caption": "Car trouble does not always fit neatly into a workday. Instead of taking time off for a first look, a mobile mechanic can inspect many issues at your home or workplace across Saskatoon. If the repair can safely be completed there, you may avoid the disruption of an unnecessary tow or a wait at a shop. You still get the findings first and can choose the next step.",
+    "image_prompt": "Convenient automotive scene showing a mobile mechanic working on a car in a residential driveway in Saskatoon, service vehicle nearby, tidy equipment, relaxed customer watching from the doorway, natural daylight, realistic photography, no text overlay, no brand logos",
+    "image": "/generated/daily/2026-11-10/2026-11-10-5-competitive.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
