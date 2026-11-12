@@ -1,13 +1,13 @@
 [
   {
-    "id": "2026-11-11-1",
-    "date": "2026-11-11",
+    "id": "2026-11-12-1",
+    "date": "2026-11-12",
     "time": "07:30",
     "pillar": "Educational",
-    "title": "A Jump-Start Is Not Always a Battery Problem",
-    "caption": "If your lights dim, the engine cranks slowly, or electrical accessories behave strangely, the issue may involve the battery, alternator, or charging system. A jump-start may help temporarily, but repeated attempts can leave you stranded. Ask a mobile mechanic to check the system before relying on another boost.",
-    "image_prompt": "Close-up educational image of a qualified mobile mechanic using a diagnostic meter on a vehicle battery in a well-lit driveway, battery and alternator components subtly visible, practical and approachable, natural daylight, no logos, no text.",
-    "image": "/generated/daily/2026-11-11/2026-11-11-1-educational.png",
+    "title": "A Simple Saskatoon Winter Readiness Check",
+    "caption": "Before the cold settles in, take a few minutes to check your tires, battery, windshield wipers, winter fluids, and emergency kit. If your battery is more than a few years old or your car struggles to start on a cold morning, have it inspected before it leaves you stranded. A little preparation can prevent a much bigger inconvenience.",
+    "image_prompt": "A friendly mobile mechanic in a winter jacket inspecting a car's battery, tires, and windshield wipers on a residential street in Saskatoon, light snow, cold blue morning light, realistic automotive photography, no visible brand logos, no text overlays",
+    "image": "/generated/daily/2026-11-12/2026-11-12-1-educational.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -16,14 +16,14 @@
     ]
   },
   {
-    "id": "2026-11-11-2",
-    "date": "2026-11-11",
+    "id": "2026-11-12-2",
+    "date": "2026-11-12",
     "time": "10:15",
     "pillar": "Meme",
-    "title": "When the Battery Says, ‘Technically…’",
-    "caption": "Car battery: starts the car once, then files a dramatic complaint. If your morning dashboard lights are having a meeting, it may be time for a proper diagnostic check—not another round of heroics with jumper cables.",
-    "image_prompt": "Humorous visual of a person looking at a vehicle dashboard with a comically oversized glowing battery warning, expressive reaction, clean modern illustration, warm colours, no brand logos, no readable text.",
-    "image": "/generated/daily/2026-11-11/2026-11-11-2-meme.png",
+    "title": "My Car Before and After Its First Saskatoon Winter",
+    "caption": "Before winter: “I’m basically invincible.” After the first frost: “Have you tried turning me off and on again?” Saskatoon weather has a way of making every warning light feel personal.",
+    "image_prompt": "Humorous split-view image of the same compact car on a bright summer day and a snowy Saskatoon morning in winter, the winter version looking tired and covered in frost, playful visual storytelling, realistic photography, no text overlays",
+    "image": "/generated/daily/2026-11-12/2026-11-12-2-meme.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -32,14 +32,14 @@
     ]
   },
   {
-    "id": "2026-11-11-3",
-    "date": "2026-11-11",
+    "id": "2026-11-12-3",
+    "date": "2026-11-12",
     "time": "12:45",
     "pillar": "Entertaining",
-    "title": "Saskatoon’s Weather Can Change Its Mind",
-    "caption": "One minute you’re scraping frost; the next, the wind is finding every gap in your coat. Your vehicle deserves the same contingency plan. A quick pre-trip check can catch weak battery, tire, or fluid issues before they turn your commute into a mini-series.",
-    "image_prompt": "Entertaining Saskatchewan winter street scene with a car owner checking tires and looking at the dashboard, light snow, bundled-up friendly expression, cinematic realistic photography, no logos, no text.",
-    "image": "/generated/daily/2026-11-11/2026-11-11-3-entertaining.png",
+    "title": "The Highly Necessary Winter Car Playlist",
+    "caption": "Warm up the engine, clear the snow, and let your playlist handle the emotional support. From icy roads to that first frozen windshield, every Saskatoon driver needs a dependable soundtrack for the commute. What song gets you through the morning commute?",
+    "image_prompt": "Cozy winter car interior in Saskatoon with a smartphone playing music, frost on the windshield, snow-covered residential street outside, warm dashboard lighting, relatable everyday mood, realistic photography, no visible brand logos, no text overlays",
+    "image": "/generated/daily/2026-11-12/2026-11-12-3-entertaining.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -48,14 +48,14 @@
     ]
   },
   {
-    "id": "2026-11-11-4",
-    "date": "2026-11-11",
+    "id": "2026-11-12-4",
+    "date": "2026-11-12",
     "time": "16:30",
     "pillar": "Serious",
-    "title": "Roadside Safety Comes Before the Repair",
-    "caption": "If your vehicle stops in traffic, first secure the scene: turn on hazard lights, follow local traffic laws, and move to a safe location when possible. Stay clear of moving traffic, and contact emergency services if anyone is in danger. Once the vehicle is safe, a mobile mechanic can assess it without adding an unnecessary shop wait.",
-    "image_prompt": "Serious but calm roadside safety scene in Saskatoon, vehicle hazard lights on, a person in a reflective vest standing in a protected safe area away from traffic, mobile mechanic arriving with proper equipment, overcast winter daylight, no logos, no text.",
-    "image": "/generated/daily/2026-11-11/2026-11-11-4-serious.png",
+    "title": "Is It Safe to Drive, or Does It Need a Tow?",
+    "caption": "A warning light does not automatically mean the vehicle must be towed, but smoke, leaking fuel, strange noises, loss of steering, or fluid under the car can signal a serious issue. If the cause is unclear or continuing to drive feels unsafe, call roadside assistance or a tow service instead of taking the risk. When in doubt, get the vehicle checked where it is.",
+    "image_prompt": "Serious but calm scene of a mobile mechanic assessing a safely parked vehicle on a snowy Saskatoon roadside, hazard lights on, tow truck visible in the distance without branding, professional automotive photography, no text overlays",
+    "image": "/generated/daily/2026-11-12/2026-11-12-4-serious.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -64,14 +64,14 @@
     ]
   },
   {
-    "id": "2026-11-11-5",
-    "date": "2026-11-11",
+    "id": "2026-11-12-5",
+    "date": "2026-11-12",
     "time": "19:00",
     "pillar": "Competitive",
-    "title": "Your Car Is Broken. The Garage Is Across Town.",
-    "caption": "When a vehicle issue leaves you stranded, convenience matters. A mobile mechanic can diagnose or repair where your vehicle is parked, helping you avoid towing it somewhere it does not need to go and waiting around a repair shop. Same problem, fewer unnecessary steps.",
-    "image_prompt": "Confident mobile mechanic working beside a customer's parked vehicle in a safe residential Saskatoon driveway, organized service van nearby, clear and convenient composition, realistic photography, no logos, no pricing, no text.",
-    "image": "/generated/daily/2026-11-11/2026-11-11-5-competitive.png",
+    "title": "Skip the Waiting Room When a Shop Visit Is Unnecessary",
+    "caption": "If a non-urgent issue has you wondering whether you should wait in a repair-shop queue, a mobile mechanic can come to your driveway and assess the problem where the car already is. That may save you a trip and the shop wait while you’re still deciding what the vehicle needs.",
+    "image_prompt": "Mobile mechanic working on a car in a neat Saskatoon driveway, showing convenience and a relaxed at-home service setting, winter afternoon, suburban homes, clean realistic commercial photography, no visible brand logos, no text overlays",
+    "image": "/generated/daily/2026-11-12/2026-11-12-5-competitive.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
