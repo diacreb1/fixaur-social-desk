@@ -1,13 +1,13 @@
 [
   {
-    "id": "2026-11-15-1",
-    "date": "2026-11-15",
+    "id": "2026-11-16-1",
+    "date": "2026-11-16",
     "time": "07:30",
     "pillar": "Educational",
-    "title": "What That Warning Light Is Actually Telling You",
-    "caption": "A glowing dashboard warning means the car is asking for attention. Safely pull over, check the owner’s manual for the specific light, and arrange a diagnostic check if it stays on. In Saskatoon, cold snaps can make battery-related trouble more noticeable.",
-    "image_prompt": "Realistic close-up of a modern car dashboard with an amber engine-shaped warning light, frost on the windshield, and a snowy Saskatoon street softly visible outside; natural winter daylight, no logos, no added text.",
-    "image": "/generated/daily/2026-11-15/2026-11-15-1-educational.png",
+    "title": "Cold Weather Can Reveal Weak Batteries",
+    "caption": "Saskatoon temperatures can make a weak battery much harder to start your vehicle. If your engine turns slowly, lights dim, or the starter sounds sluggish, have the battery and charging system checked before the next cold snap. A mobile mechanic can test it where your vehicle is parked, helping you avoid a shop trip and long waiting room.",
+    "image_prompt": "Mobile mechanic testing a vehicle battery in a residential driveway in Saskatoon during cold weather, natural daylight, clear winter clothing, realistic documentary photography, no visible brand logos, no text",
+    "image": "/generated/daily/2026-11-16/2026-11-16-1-educational.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -16,14 +16,14 @@
     ]
   },
   {
-    "id": "2026-11-15-2",
-    "date": "2026-11-15",
+    "id": "2026-11-16-2",
+    "date": "2026-11-16",
     "time": "10:15",
     "pillar": "Meme",
-    "title": "Saskatoon Winter Driving Has a Loading Screen",
-    "caption": "Cold tires. Packed snow. A dashboard that lights up like a Christmas tree. Sometimes the biggest challenge is just getting the car warmed up without turning the drive into a roadside event.",
-    "image_prompt": "Humorous winter scene in Saskatoon: a car surrounded by shoveled snow banks, light snow falling, faint exhaust vapour in the cold air, subtle dashboard glow, playful cinematic composition, no people, no brand logos, no text.",
-    "image": "/generated/daily/2026-11-15/2026-11-15-2-meme.png",
+    "title": "When the Battery Says ‘Good Morning’ in November",
+    "caption": "Saskatoon mornings in November: the alarm goes off, the key turns, and the starter says it needs a five-minute nap. If your vehicle is starting slowly, a battery check may be the quickest first step before you book an indoor shop visit.",
+    "image_prompt": "Humorous winter morning scene in Saskatoon, car windshield covered in frost, dashboard clock showing early morning, subtle steam outside, realistic automotive photography, no visible brand logos, no text",
+    "image": "/generated/daily/2026-11-16/2026-11-16-2-meme.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -32,14 +32,14 @@
     ]
   },
   {
-    "id": "2026-11-15-3",
-    "date": "2026-11-15",
+    "id": "2026-11-16-3",
+    "date": "2026-11-16",
     "time": "12:45",
     "pillar": "Entertaining",
-    "title": "The Great Saskatoon Snow-Sidewalk Duel",
-    "caption": "One side shovels a neat path. The other side builds a high berm. By noon, both sides have contributed to the city’s most ambitious snow sculpture. Please park near cleared routes so crews and pedestrians can move safely.",
-    "image_prompt": "Playful street-level view of tall snowbanks lining a residential Saskatoon sidewalk, shovel marks and a narrow cleared path, footprints, wintry trees, bright crisp daylight, lighthearted documentary photography, no text or logos.",
-    "image": "/generated/daily/2026-11-15/2026-11-15-3-entertaining.png",
+    "title": "Your Mechanic, Minus the Waiting Room",
+    "caption": "Somewhere between your driveway and your destination is a coffee, a podcast, and the song you were looking for—while the car sits in a shop waiting room. A mobile mechanic can come to your driveway in Saskatoon, inspect the issue, and handle approved work on site, making car care fit around your day.",
+    "image_prompt": "Mobile mechanic working beside a parked vehicle in a Saskatoon driveway while the owner relaxes nearby with a coffee, friendly neighbourhood atmosphere, realistic lifestyle photography, no visible brand logos, no text",
+    "image": "/generated/daily/2026-11-16/2026-11-16-3-entertaining.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -48,14 +48,14 @@
     ]
   },
   {
-    "id": "2026-11-15-4",
-    "date": "2026-11-15",
+    "id": "2026-11-16-4",
+    "date": "2026-11-16",
     "time": "16:30",
     "pillar": "Serious",
-    "title": "Winter Readiness Before the First Freeze",
-    "caption": "Before winter weather arrives, check tire tread and pressure, confirm the battery is healthy, keep washer fluid and a winter emergency kit in the vehicle, and clear snow and ice from every window and light. If a warning appears or handling feels unusual, have the vehicle inspected rather than continuing to drive.",
-    "image_prompt": "Documentary-style image of a responsible winter vehicle check in Saskatoon: tire tread inspection, frost-free windshield, illuminated rear lights, winter emergency kit with blanket and scraper, snowbanks in the background, natural overcast light, no text.",
-    "image": "/generated/daily/2026-11-15/2026-11-15-4-serious.png",
+    "title": "Get a Clear Diagnosis Before You Book a Shop Visit",
+    "caption": "A warning light or unusual noise deserves attention, but not every issue requires a full day at a garage. A mobile mechanic can inspect the vehicle at your home or workplace in Saskatoon, explain what they find, and help you decide the next practical step. If the vehicle should not be driven, arrange safe transportation rather than risking the trip.",
+    "image_prompt": "Professional mobile mechanic carefully inspecting a vehicle engine bay in a Saskatoon parking area, organized tools, focused and respectful expression, overcast daylight, realistic photography, no visible brand logos, no text",
+    "image": "/generated/daily/2026-11-16/2026-11-16-4-serious.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
@@ -64,14 +64,14 @@
     ]
   },
   {
-    "id": "2026-11-15-5",
-    "date": "2026-11-15",
+    "id": "2026-11-16-5",
+    "date": "2026-11-16",
     "time": "19:00",
     "pillar": "Competitive",
-    "title": "A Quick Answer When the Car Won’t Start",
-    "caption": "Car trouble can throw off the whole day. Fixaur Mobile Mechanic brings the diagnostic process to your location in Saskatoon, helping you avoid an unnecessary tow and the wait at a shop while the issue gets checked.",
-    "image_prompt": "Realistic mobile mechanic van parked on a snowy residential street in Saskatoon, technician safely inspecting a parked car with a tablet, clear road and sidewalks, tidy professional equipment, natural winter daylight, no branding, no text.",
-    "image": "/generated/daily/2026-11-15/2026-11-15-5-competitive.png",
+    "title": "Car Care Without the Garage Queue",
+    "caption": "Need help with a vehicle issue but not another trip across Saskatoon and a wait at the shop? A mobile mechanic comes to your location, so you can stay with your vehicle while the inspection or approved repair is completed. That convenience may help you avoid an unnecessary tow or a lengthy shop wait—without leaving home or work.",
+    "image_prompt": "Mobile mechanic servicing a vehicle in a workplace parking lot in Saskatoon, owner conveniently standing nearby, clean service van parked behind, practical and approachable scene, realistic commercial photography, no visible brand logos, no text",
+    "image": "/generated/daily/2026-11-16/2026-11-16-5-competitive.png",
     "status": "Draft",
     "platforms": [
       "Facebook",
